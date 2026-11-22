@@ -1,0 +1,12 @@
+{
+  "about": "Set on the dev world before the held-out run. The desk passes only if every gate passes.",
+  "precision_min": 0.5,
+  "budget_found_share_min": 1.2,
+  "hours_per_story_share_max": 0.4,
+  "wrong_texts_per_1000_max": 1,
+  "wrong_notes_per_100_max": 2,
+  "broken_published_max": 0,
+  "false_quarantines_max": 0.5,
+  "wrong_calls_max": 0.25,
+  "call_minutes_saved_min": 10
+}

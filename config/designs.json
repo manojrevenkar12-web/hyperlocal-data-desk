@@ -1,0 +1,70 @@
+{
+  "designs": [
+    {
+      "name": "spreadsheet",
+      "label": "Spreadsheet routine",
+      "kind": "spreadsheet",
+      "about": "The status quo: a script takes column three as the value, reads withheld cells and signs as zero, ignores the unit line and the boundary changes, and ranks municipalities by percentage change on last quarter."
+    },
+    {
+      "name": "model_alone",
+      "label": "A model reads and writes alone",
+      "kind": "model_alone",
+      "about": "A model reads each file the way it is meant, names the municipalities with the largest percentage change (base of at least 5), and writes notes and texts. Nothing checks it."
+    },
+    {
+      "name": "desk",
+      "label": "The data desk",
+      "kind": "desk",
+      "settings": {},
+      "about": "Adapters that refuse what they do not understand, blocking checks with quarantine, boundary changes applied, leads by surprise against each municipality's own history with the false discovery rate controlled, model drafts with every number checked."
+    },
+    {
+      "name": "desk_no_checks",
+      "label": "Desk without the checks",
+      "kind": "desk",
+      "ablation": true,
+      "settings": {
+        "run_checks": false
+      }
+    },
+    {
+      "name": "desk_no_gebietsstand",
+      "label": "Desk ignoring boundary changes",
+      "kind": "desk",
+      "ablation": true,
+      "settings": {
+        "gebietsstand": false
+      }
+    },
+    {
+      "name": "desk_pct_ranking",
+      "label": "Desk ranking by percentage change",
+      "kind": "desk",
+      "ablation": true,
+      "settings": {
+        "ranking": "pct_change"
+      }
+    },
+    {
+      "name": "desk_poisson",
+      "label": "Desk with a plain Poisson test",
+      "kind": "desk",
+      "ablation": true,
+      "settings": {
+        "leads": {
+          "overdispersion": false
+        }
+      }
+    },
+    {
+      "name": "desk_no_number_check",
+      "label": "Desk without the number check",
+      "kind": "desk",
+      "ablation": true,
+      "settings": {
+        "number_check": false
+      }
+    }
+  ]
+}

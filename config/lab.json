@@ -1,0 +1,9 @@
+{
+  "about": "What a lead, a quarantine and a wrong number cost. Settings of the lab, not of the desk.",
+  "hours_per_lead": 0.75,
+  "hours_per_quarantine": 1.5,
+  "reissue_days": 7,
+  "story_value_hours": 6,
+  "wrong_number_hours": 3,
+  "per_release": 8
+}

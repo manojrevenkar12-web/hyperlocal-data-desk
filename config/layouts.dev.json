@@ -1,0 +1,97 @@
+{
+  "csv": {
+    "publisher": "Statistisches Landesamt (simuliert)",
+    "unit": "Anzahl",
+    "unknown_unit": "in Tsd.",
+    "thousands_unit": "1.000",
+    "extra_column": "Vorquartal",
+    "footnote": "– = nichts vorhanden; . = Zahlenwert geheim zu halten"
+  },
+  "json": {
+    "publisher": "Open-Data-Portal (simuliert)",
+    "unit": "Anzahl",
+    "unknown_unit": "Tsd.",
+    "thousands_unit": "1.000",
+    "renamed_field": "anzahl"
+  },
+  "html": {
+    "publisher": "Pressestelle der IHK (simuliert)",
+    "unit": "Anzahl",
+    "unknown_unit": "in Tausend Fällen",
+    "thousands_unit": "1.000",
+    "extra_column": "Abmeldungen",
+    "footnote": "Vorläufige Zahlen."
+  },
+  "drift_kinds": {
+    "csv": [
+      "stale",
+      "english_thousands",
+      "unknown_unit",
+      "known_unit_thousands",
+      "extra_column",
+      "truncated"
+    ],
+    "json": [
+      "stale",
+      "english_thousands",
+      "unknown_unit",
+      "known_unit_thousands",
+      "renamed_field",
+      "truncated"
+    ],
+    "html": [
+      "stale",
+      "english_thousands",
+      "unknown_unit",
+      "known_unit_thousands",
+      "extra_column",
+      "truncated"
+    ]
+  },
+  "kreis_names": {
+    "08111": "Stuttgart",
+    "08115": "Böblingen",
+    "08116": "Esslingen",
+    "08117": "Göppingen",
+    "08118": "Ludwigsburg",
+    "08119": "Rems-Murr-Kreis",
+    "08121": "Heilbronn",
+    "08125": "Landkreis Heilbronn",
+    "08126": "Hohenlohekreis",
+    "08127": "Schwäbisch Hall",
+    "08128": "Main-Tauber-Kreis",
+    "08135": "Heidenheim",
+    "08136": "Ostalbkreis",
+    "08211": "Baden-Baden",
+    "08212": "Karlsruhe",
+    "08215": "Landkreis Karlsruhe",
+    "08216": "Rastatt",
+    "08221": "Heidelberg",
+    "08222": "Mannheim",
+    "08225": "Neckar-Odenwald-Kreis",
+    "08226": "Rhein-Neckar-Kreis",
+    "08231": "Pforzheim",
+    "08235": "Calw",
+    "08236": "Enzkreis",
+    "08237": "Freudenstadt",
+    "08311": "Freiburg im Breisgau",
+    "08315": "Breisgau-Hochschwarzwald",
+    "08316": "Emmendingen",
+    "08317": "Ortenaukreis",
+    "08325": "Rottweil",
+    "08326": "Schwarzwald-Baar-Kreis",
+    "08327": "Tuttlingen",
+    "08335": "Konstanz",
+    "08336": "Lörrach",
+    "08337": "Waldshut",
+    "08415": "Reutlingen",
+    "08416": "Tübingen",
+    "08417": "Zollernalbkreis",
+    "08421": "Ulm",
+    "08425": "Alb-Donau-Kreis",
+    "08426": "Biberach",
+    "08435": "Bodenseekreis",
+    "08436": "Ravensburg",
+    "08437": "Sigmaringen"
+  }
+}

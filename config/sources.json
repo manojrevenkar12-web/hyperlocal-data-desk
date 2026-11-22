@@ -1,0 +1,103 @@
+{
+  "about": "How the desk expects each source to look. A file that does not look like this goes to quarantine.",
+  "sources": [
+    {
+      "id": "statla-bau",
+      "indicator": "baugenehmigungen",
+      "format": "csv",
+      "unit": "Anzahl",
+      "decimal": ",",
+      "columns": {
+        "ags": [
+          "Gemeindeschlüssel",
+          "AGS"
+        ],
+        "value": [
+          "Genehmigte Wohnungen"
+        ]
+      },
+      "units": {
+        "1.000": 1000,
+        "Tausend": 1000
+      }
+    },
+    {
+      "id": "geburten-api",
+      "indicator": "geburten",
+      "format": "json",
+      "unit": "Anzahl",
+      "decimal": ",",
+      "columns": {
+        "ags": [
+          "ags"
+        ],
+        "value": [
+          "wert"
+        ]
+      },
+      "units": {
+        "1.000": 1000,
+        "Tausend": 1000
+      }
+    },
+    {
+      "id": "gewerbe-presse",
+      "indicator": "gewerbe",
+      "format": "html",
+      "unit": "Anzahl",
+      "decimal": ",",
+      "columns": {
+        "ags": [
+          "Schlüssel",
+          "Gemeindeschlüssel"
+        ],
+        "value": [
+          "Anmeldungen"
+        ]
+      },
+      "units": {
+        "1.000": 1000,
+        "Tausend": 1000
+      }
+    },
+    {
+      "id": "kfz-elektro",
+      "indicator": "elektro",
+      "format": "csv",
+      "unit": "Anzahl",
+      "decimal": ",",
+      "columns": {
+        "ags": [
+          "Gemeindeschlüssel",
+          "AGS"
+        ],
+        "value": [
+          "Elektro-Pkw"
+        ]
+      },
+      "units": {
+        "1.000": 1000,
+        "Tausend": 1000
+      }
+    }
+  ],
+  "indicators": {
+    "baugenehmigungen": {
+      "label": "genehmigte Wohnungen",
+      "unit": "genehmigte Wohnungen",
+      "suppress_below": 3
+    },
+    "geburten": {
+      "label": "Geburten",
+      "unit": "Geburten"
+    },
+    "gewerbe": {
+      "label": "Gewerbeanmeldungen",
+      "unit": "Gewerbeanmeldungen"
+    },
+    "elektro": {
+      "label": "neu zugelassene Elektroautos",
+      "unit": "neue Elektroautos"
+    }
+  }
+}
