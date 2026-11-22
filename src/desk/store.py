@@ -110,6 +110,7 @@ class SqlStore:
         self.dialect = dialect
         for stmt in SCHEMA:
             self._exec(stmt)
+        self._commit()  # the tables stand even if the spatial extension below is missing
         self.spatial = False
         if dialect == "postgres":
             try:

@@ -19,6 +19,7 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--workers", type=int, default=6)
     sub.add_parser("readme")
     sub.add_parser("web-data")
+    sub.add_parser("r-check", help="write reports/r-check.csv: leads of dev seed 1 for r/check_leads.R")
     i = sub.add_parser("ingest", help="run one published file through the desk, as n8n does")
     i.add_argument("--source", required=True)
     i.add_argument("--file", required=True)
@@ -59,6 +60,11 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if a.cmd in ("ingest", "changes"):
         return _ingest(a)
+    if a.cmd == "r-check":
+        from .rcheck import r_check
+
+        print(r_check(ROOT))
+        return 0
     if a.cmd == "web-data":
         from .webdata import web_data
 

@@ -44,14 +44,14 @@ def check_numbers(text: str, facts: Facts) -> CheckedText:
         if hit is None and (value in ALWAYS_ALLOWED or _is_period_number(value, facts)):
             hit = "period" if value not in ALWAYS_ALLOWED else "per"
         if hit is None:
-            problems.append(f"{text[start:end]} has no fact behind it")
+            problems.append(f"„{text[start:end]}“ steht in keinem Datensatz")
         found.append((start, end, hit))
     change = facts.get("change")
     if isinstance(change, (int, float)) and abs(change) > 0:
         if change > 0 and DOWN.search(text) and not UP.search(text):
-            problems.append("says it fell, but it rose")
+            problems.append("schreibt „gesunken“, die Zahl ist gestiegen")
         if change < 0 and UP.search(text) and not DOWN.search(text):
-            problems.append("says it rose, but it fell")
+            problems.append("schreibt „gestiegen“, die Zahl ist gesunken")
     return CheckedText(text, not problems, problems, found)
 
 
@@ -100,7 +100,7 @@ def write_checked(kind: str, facts: Facts, writer: Writer | None) -> CheckedText
         if checked.ok:
             return checked
         fallback = check_numbers(plain, facts)
-        fallback.problems = [f"model draft refused: {p}" for p in checked.problems]
+        fallback.problems = [f"Modellentwurf verworfen: {p}" for p in checked.problems]
         fallback.ok = True
         return fallback
     return check_numbers(plain, facts)

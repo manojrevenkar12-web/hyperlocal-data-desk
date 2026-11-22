@@ -74,7 +74,7 @@ def test_a_number_with_no_fact_or_the_wrong_direction_is_refused():
     bad = template_lead(FACTS).replace("3,1 je", "31,0 je")
     assert not check_numbers(bad, FACTS).ok
     flipped = template_lead(FACTS).replace("mehr", "weniger")
-    assert "says it fell, but it rose" in check_numbers(flipped, FACTS).problems
+    assert "schreibt „gesunken“, die Zahl ist gestiegen" in check_numbers(flipped, FACTS).problems
 
 
 class Liar:
@@ -85,4 +85,4 @@ class Liar:
 def test_a_refused_model_draft_falls_back_to_the_template():
     out = write_checked("lead", FACTS, Liar())
     assert out.ok and out.source == "template" and "62 genehmigte" in out.text
-    assert any("refused" in p for p in out.problems)
+    assert any("verworfen" in p for p in out.problems)

@@ -1,0 +1,33 @@
+# Postgres with PostGIS for the desk's store, the desk command, and n8n to run it on a schedule.
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: desk
+      POSTGRES_PASSWORD: desk
+      POSTGRES_DB: desk
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U desk"]
+      interval: 5s
+      retries: 10
+  desk:
+    build: .
+    environment:
+      DESK_DATABASE_URL: postgresql://desk:desk@db:5432/desk
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes: [./inbox:/inbox]
+    depends_on:
+      db: { condition: service_healthy }
+    profiles: [tools]
+  n8n:
+    image: n8nio/n8n:1.80.0
+    ports: ["5678:5678"]
+    environment:
+      N8N_DEFAULT_LOCALE: de
+      GENERIC_TIMEZONE: Europe/Berlin
+    volumes: [n8ndata:/home/node/.n8n, ./n8n:/workflows:ro, ./inbox:/inbox, /var/run/docker.sock:/var/run/docker.sock]
+volumes:
+  pgdata: {}
+  n8ndata: {}

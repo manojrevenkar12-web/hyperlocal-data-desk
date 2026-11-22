@@ -1,0 +1,75 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:16-3.4
+        env: { POSTGRES_USER: desk, POSTGRES_PASSWORD: desk, POSTGRES_DB: desk }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U desk" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      HDD_TEST_POSTGRES_URL: postgresql://desk:desk@localhost:5432/desk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { python-version: "3.12" }
+      - run: uv sync --frozen
+      - run: uv run ruff check src tests
+      - run: uv run ruff format --check src tests
+      - run: uv run mypy
+      - run: uv run pytest -q
+
+  reports:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { python-version: "3.12" }
+      - run: uv sync --frozen
+      - name: The dev report reproduces from its seeds
+        run: |
+          uv run desk study --world dev --workers 4
+          git diff --exit-code reports/dev.json
+      - name: The README block and the app's data match the reports
+        run: |
+          uv run desk readme
+          uv run desk web-data
+          git diff --exit-code README.md web/static/data data/register.json
+      - name: The held-out world ran once and stays locked
+        run: |
+          test -f reports/heldout.lock && test -f reports/heldout.json
+          set +e; uv run desk study --world heldout; code=$?; set -e
+          test "$code" -eq 3
+
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { python-version: "3.12" }
+      - uses: r-lib/actions/setup-r@v2
+      - run: uv sync --frozen
+      - name: R reproduces every lead probability
+        run: |
+          uv run desk r-check
+          Rscript r/check_leads.R reports/r-check.csv
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run: { working-directory: web }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: web/package-lock.json }
+      - run: npm ci
+      - run: npm test
+      - run: npm run check
+      - run: npm run build

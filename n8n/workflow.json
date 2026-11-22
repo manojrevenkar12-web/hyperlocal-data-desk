@@ -1,0 +1,250 @@
+{
+  "name": "Datendesk: Lieferungen der Woche",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Werktags 07:30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 7 * * 1-5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Quellen",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ],
+      "parameters": {
+        "jsCode": "// one item per source: where to fetch it and the desk's source id\nreturn [\n  { json: { source: 'statla-bau', url: $env.SOURCE_STATLA_BAU, file: '/inbox/baugenehmigungen.csv' } },\n  { json: { source: 'geburten-api', url: $env.SOURCE_GEBURTEN, file: '/inbox/geburten.json' } },\n  { json: { source: 'gewerbe-presse', url: $env.SOURCE_GEWERBE, file: '/inbox/gewerbe.html' } },\n  { json: { source: 'kfz-elektro', url: $env.SOURCE_ELEKTRO, file: '/inbox/elektro.csv' } },\n];"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Datei holen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        0
+      ],
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "4",
+      "name": "Ins Postfach schreiben",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        660,
+        0
+      ],
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('Quellen').item.json.file }}"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Desk: ingest",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        880,
+        0
+      ],
+      "parameters": {
+        "command": "=docker compose run --rm desk ingest --source {{ $('Quellen').item.json.source }} --file {{ $('Quellen').item.json.file }}; echo \"exit=$?\""
+      }
+    },
+    {
+      "id": "6",
+      "name": "Ergebnis lesen",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        0
+      ],
+      "parameters": {
+        "jsCode": "// the desk prints one JSON line; exit 4 means quarantined\nreturn $input.all().map(i => {\n  const out = i.json.stdout.split('\\n');\n  const result = JSON.parse(out.find(l => l.startsWith('{')));\n  return { json: { ...result, quarantined: out.includes('exit=4') } };\n});"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Angehalten?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1320,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "conditions": [
+            {
+              "leftValue": "={{ $json.quarantined }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "8",
+      "name": "Datendesk benachrichtigen",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1540,
+        -120
+      ],
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "mode": "name",
+          "value": "#datendesk"
+        },
+        "text": "=Lieferung {{ $json.indicator }} angehalten: {{ $json.problem }}. Bitte beim Amt nachfragen."
+      }
+    },
+    {
+      "id": "9",
+      "name": "Hinweise an die Redaktion",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1540,
+        120
+      ],
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "mode": "name",
+          "value": "#lokales-hinweise"
+        },
+        "text": "={{ $json.leads.length ? $json.leads.map(l => '• ' + l.note).join('\\n') : 'Keine starken Hinweise in ' + $json.indicator + ', ' + $json.period + '.' }}"
+      }
+    }
+  ],
+  "connections": {
+    "Werktags 07:30": {
+      "main": [
+        [
+          {
+            "node": "Quellen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Quellen": {
+      "main": [
+        [
+          {
+            "node": "Datei holen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Datei holen": {
+      "main": [
+        [
+          {
+            "node": "Ins Postfach schreiben",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ins Postfach schreiben": {
+      "main": [
+        [
+          {
+            "node": "Desk: ingest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Desk: ingest": {
+      "main": [
+        [
+          {
+            "node": "Ergebnis lesen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ergebnis lesen": {
+      "main": [
+        [
+          {
+            "node": "Angehalten?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Angehalten?": {
+      "main": [
+        [
+          {
+            "node": "Datendesk benachrichtigen",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Hinweise an die Redaktion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Berlin"
+  }
+}

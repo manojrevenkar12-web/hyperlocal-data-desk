@@ -81,16 +81,16 @@ def test_checks_quarantine_stale_truncated_and_fractional_files():
     ok = parse(csv(), SPECS["statla-bau"])
     assert not blocking_failures(check_release(ok, GEB, None, s))
     english = parse(csv(rows=["08115001;A;12", "08115002;B;3", "08116001;C;1,204"]), SPECS["statla-bau"])
-    assert [c.name for c in blocking_failures(check_release(english, GEB, None, s))] == ["whole numbers"]
+    assert [c.name for c in blocking_failures(check_release(english, GEB, None, s))] == ["Ganze Zahlen"]
     short = parse(csv(rows=["08115001;A;12"]), SPECS["statla-bau"])
-    assert [c.name for c in blocking_failures(check_release(short, GEB, None, s))] == ["coverage"]
+    assert [c.name for c in blocking_failures(check_release(short, GEB, None, s))] == ["Vollständigkeit"]
     many = Gebietsstand({f"08115{i:03d}": Municipality(f"08115{i:03d}", "x", 1000, 0, 0) for i in range(1, 61)})
     rows = [f"08115{i:03d};x;{i}" for i in range(1, 61)]
     stale = parse(csv(rows=rows), SPECS["statla-bau"])
     prev = {o.ags: o.value for o in stale.rows}
-    assert [c.name for c in blocking_failures(check_release(stale, many, prev, s))] == ["fresh"]
+    assert [c.name for c in blocking_failures(check_release(stale, many, prev, s))] == ["Aktualität"]
 
 
 def test_district_rows_must_add_up():
     r = parse(csv(rows=["08115001;A;12", "08115002;B;3", "08115;Böblingen insgesamt;20", "08116001;C;7"]), SPECS["statla-bau"])
-    assert [c.name for c in blocking_failures(check_release(r, GEB, None, CheckSettings()))] == ["reconciliation"]
+    assert [c.name for c in blocking_failures(check_release(r, GEB, None, CheckSettings()))] == ["Kreissummen"]

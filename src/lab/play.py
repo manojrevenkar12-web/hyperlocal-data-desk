@@ -196,12 +196,13 @@ def play(root: Path, w: World, d: Design, lab: dict[str, Any]) -> Played:
                             ld.key,
                             ld.observed,
                             note_wrong,
-                            note_refused=any("refused" in p for p in n.problems),
+                            note_refused=any("verworfen" in p for p in n.problems),
                         )
                     )
                 for ld in o.watch:
                     out.leads.append(PublishedLead(r.indicator, r.period, ld.level, ld.key, ld.observed, False, strong=False))
-            if not out.showcase and o.leads and from_q <= r.period and r.indicator == "baugenehmigungen":
+            # the showcase is the release with the most strong leads (the earliest of equals)
+            if o.leads and from_q <= r.period and len(o.leads) > len(out.showcase.get("leads", [])):
                 out.showcase = {
                     "indicator": r.indicator,
                     "period": str(r.period),

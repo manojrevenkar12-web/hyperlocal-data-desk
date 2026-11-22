@@ -11,3 +11,4 @@ web/.svelte-kit/
 web/build/
 web/test-results/
 .env
+reports/r-check.csv

@@ -35,6 +35,8 @@ def test_the_store_never_changes_a_decision():
 @pytest.mark.skipif(not os.environ.get("HDD_TEST_POSTGRES_URL"), reason="needs Postgres with PostGIS")
 def test_postgis_finds_neighbours_by_outline():
     pg = SqlStore.postgres(os.environ["HDD_TEST_POSTGRES_URL"])
+    if not pg.spatial:
+        pytest.skip("Postgres without PostGIS")
     pg.reset()
     w = generate(load_config("dev"), 1)
     pg.put_municipalities(list(w.as_desk_municipalities().values()), {m.ags: m.outline.wkt for m in w.municipalities})

@@ -52,6 +52,7 @@ class Lead:
     population: int
     strong: bool = True  # passes the release's false-discovery cut-off; False = watch list
     facts: dict[str, float | str] = field(default_factory=dict)
+    shape: float = 0.0  # negative-binomial size behind p, so the test can be reproduced elsewhere (r/check_leads.R)
 
     @property
     def ratio(self) -> float:
@@ -175,6 +176,7 @@ def find_leads(
                 round(sum(pop[a] for a in keys if kreis_of(a) == k) * 1000),
             )
             ld.facts["withheld"] = withheld[k]
+            ld.shape = shape
             leads.append(ld)
 
     for a in ok:
@@ -198,7 +200,7 @@ def find_leads(
         ratio = (y + 0.5) / (mu + 0.5)
         tests.append(p)
         if abs(y - mu) >= s.min_abs and max(ratio, 1 / ratio) >= s.min_ratio:
-            leads.append(Lead(indicator, "gemeinde", a, period, y, mu, p, ys, round(pop[a] * 1000)))
+            leads.append(Lead(indicator, "gemeinde", a, period, y, mu, p, ys, round(pop[a] * 1000), shape=shape))
 
     cut = bh_cutoff(tests, s.fdr)
     for ld in leads:

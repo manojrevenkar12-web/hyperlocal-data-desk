@@ -35,7 +35,7 @@ def test_claude_drafts_and_the_desk_checks_the_numbers():
     w = ClaudeWriter("k", "claude-sonnet-5-5", httpx.Client(transport=httpx.MockTransport(handler)))
     out = write_checked("lead", FACTS, w)
     assert seen["body"]["model"] == "claude-sonnet-5-5" and "Fakten" in seen["body"]["messages"][0]["content"]
-    assert out.source == "template" and any("26" in p for p in out.problems)  # 26 per 1,000 is made up
+    assert out.source == "template" and any("26" in p and "verworfen" in p for p in out.problems)  # 26 per 1,000 is made up
 
 
 def test_datawrapper_chart_create_upload_publish():

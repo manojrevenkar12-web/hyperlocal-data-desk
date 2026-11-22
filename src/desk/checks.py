@@ -45,19 +45,20 @@ def check_release(
     cov = 1 - len(missing) / max(1, len(valid))
     out.append(
         Check(
-            "coverage",
+            "Vollständigkeit",
             cov >= s.min_coverage and not unknown,
             True,
-            f"{len(present)} of {len(valid)} municipalities; missing {missing[:5]}{'…' if len(missing) > 5 else ''}"
-            + (f"; keys that do not exist on {rel.period.end}: {unknown[:5]}" if unknown else ""),
+            f"{len(present)} von {len(valid)} Gemeinden"
+            + (f"; es fehlen {missing[:5]}{'…' if len(missing) > 5 else ''}" if missing else "")
+            + (f"; Schlüssel, die es am {rel.period.end:%d.%m.%Y} nicht gibt: {unknown[:5]}" if unknown else ""),
         )
     )
     out.append(
         Check(
-            "duplicates",
+            "Doppelte Schlüssel",
             not rel.duplicate_keys,
             True,
-            f"keys more than once: {rel.duplicate_keys[:5]}" if rel.duplicate_keys else "every key once",
+            f"mehrfach: {rel.duplicate_keys[:5]}" if rel.duplicate_keys else "jeder Schlüssel einmal",
         )
     )
 
@@ -75,8 +76,8 @@ def check_release(
             if total is None or withheld[k]:
                 continue  # a district with withheld cells cannot be reconciled from the cells
             if abs(sums[k] - total) > max(1.0, s.reconcile_tolerance * abs(total)):
-                bad.append(f"{k}: rows {sums[k]:.0f}, total {total:.0f}")
-        out.append(Check("reconciliation", not bad, True, "; ".join(bad[:4]) or f"{len(rel.kreis_totals)} districts add up"))
+                bad.append(f"{k}: Gemeinden {sums[k]:.0f}, Kreissumme {total:.0f}")
+        out.append(Check("Kreissummen", not bad, True, "; ".join(bad[:4]) or f"alle {len(rel.kreis_totals)} Kreissummen stimmen"))
 
     # staleness: a file re-published under a new period carries last quarter's numbers
     if previous:
@@ -85,10 +86,10 @@ def check_release(
         share = same / max(1, comparable)
         out.append(
             Check(
-                "fresh",
+                "Aktualität",
                 share < s.stale_share or comparable < 50,
                 True,
-                f"{share:.0%} of values identical to the previous quarter",
+                f"{share:.0%} der Werte gleich wie im Vorquartal",
             )
         )
 
@@ -97,17 +98,17 @@ def check_release(
         frac = [o.ags for o in rel.rows if o.value is not None and abs(o.value - round(o.value)) > 1e-6]
         out.append(
             Check(
-                "whole numbers",
+                "Ganze Zahlen",
                 not frac,
                 True,
-                f"{len(frac)} counts with a fraction, e.g. {frac[:3]}" if frac else "all counts are whole",
+                f"{len(frac)} Anzahlen mit Nachkommastellen, etwa {frac[:3]}" if frac else "alle Anzahlen ganz",
             )
         )
 
     # unit: a converted unit is accepted but stated, so a reader of the log knows the file changed
-    out.append(Check("unit", True, False, f"unit {rel.unit_label!r}, factor {rel.factor:g}"))
+    out.append(Check("Einheit", True, False, f"„{rel.unit_label}“, Faktor {rel.factor:g}"))
     withheld_n = sum(1 for o in rel.rows if o.value is None)
-    out.append(Check("withheld", True, False, f"{withheld_n} cells withheld or unknown"))
+    out.append(Check("Geheime Werte", True, False, f"{withheld_n} Felder geheim oder unbekannt"))
     return out
 
 
