@@ -33,8 +33,8 @@ def _clock(minute: float) -> str:
 
 def _table(designs: list[dict[str, Any]]) -> str:
     out = (
-        "| Design | Stories in the top 8 per release | Stories from strong leads | Strong leads that are stories | Reporter hours per story "
-        "| Texts with a wrong number per 1,000 | Lead notes with a wrong number per 100 | Broken files published per season |\n"
+        "| Design | Stories in the top 8 per release | Stories from strong leads | Strong leads that are stories "
+        "| Reporter hours per story | Texts with a wrong number per 1,000 | Lead notes with a wrong number per 100 | Broken files published per season |\n"
     )
     out += "|---|---|---|---|---|---|---|---|\n"
     for d in designs:
@@ -56,7 +56,8 @@ def _night(r: dict[str, Any]) -> str:
     for d in r["night"]:
         s = d["stats"]
         name = f"**{d['label']}**" if d["name"] == "desk" else d["label"]
-        out += f"| {name} | {_ci(s['wrong_calls'], 2)} | {_clock(s['median_call_minute']['value'])} | {_n(s['wrong_figures_minutes']['value'], 0)} |\n"
+        minutes = _n(s["wrong_figures_minutes"]["value"], 0)
+        out += f"| {name} | {_ci(s['wrong_calls'], 2)} | {_clock(s['median_call_minute']['value'])} | {minutes} |\n"
     return out
 
 
