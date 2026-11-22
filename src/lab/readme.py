@@ -34,7 +34,8 @@ def _clock(minute: float) -> str:
 def _table(designs: list[dict[str, Any]]) -> str:
     out = (
         "| Design | Stories in the top 8 per release | Stories from strong leads | Strong leads that are stories "
-        "| Reporter hours per story | Texts with a wrong number per 1,000 | Lead notes with a wrong number per 100 | Broken files published per season |\n"
+        "| Reporter hours per story | Texts with a wrong number per 1,000 | Lead notes with a wrong number per 100 "
+        "| Broken files published per season |\n"
     )
     out += "|---|---|---|---|---|---|---|---|\n"
     for d in designs:
