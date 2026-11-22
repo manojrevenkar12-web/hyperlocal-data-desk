@@ -1,0 +1,127 @@
+{
+  "about": "Held-out: other municipalities, a later period with mergers on 1 January 2027, lumpier counts, more stories and drift, and file layouts, unit labels and drift kinds the dev world never used. Runs once.",
+  "municipalities": 1101,
+  "land_population": 11280000,
+  "geo_seed": 29,
+  "start": "2025Q1",
+  "quarters": 12,
+  "merge_on": "2027-01-01",
+  "mergers": 9,
+  "layouts": "layouts.heldout.json",
+  "indicators": {
+    "baugenehmigungen": {
+      "source": "statla-bau",
+      "format": "csv",
+      "title": "Baugenehmigungen für Wohnungen",
+      "column": "Genehmigte Wohnungen",
+      "rate": 0.9,
+      "kreis_sd": 0.3,
+      "muni_sd": 0.45,
+      "overdispersion": 0.26,
+      "trend": 0.9,
+      "suppress_below": 3,
+      "kreis_rows": true
+    },
+    "geburten": {
+      "source": "geburten-api",
+      "format": "json",
+      "title": "Lebendgeborene",
+      "column": "wert",
+      "rate": 2.0,
+      "kreis_sd": 0.08,
+      "muni_sd": 0.12,
+      "overdispersion": 0.04,
+      "trend": 0.97
+    },
+    "gewerbe": {
+      "source": "gewerbe-presse",
+      "format": "html",
+      "title": "Gewerbeanmeldungen",
+      "column": "Anmeldungen",
+      "rate": 2.3,
+      "kreis_sd": 0.12,
+      "muni_sd": 0.25,
+      "overdispersion": 0.12,
+      "trend": 1.03
+    },
+    "elektro": {
+      "source": "kfz-elektro",
+      "format": "csv",
+      "title": "Neuzulassungen Elektro-Pkw",
+      "column": "Elektro-Pkw",
+      "rate": 0.8,
+      "kreis_sd": 0.2,
+      "muni_sd": 0.35,
+      "overdispersion": 0.14,
+      "trend": 1.35
+    }
+  },
+  "stories": {
+    "from_quarter": 6,
+    "municipal_per_release": 3.0,
+    "kreis_per_release": 0.35,
+    "min_expected": 6,
+    "factor": [
+      1.7,
+      3.0
+    ],
+    "kreis_factor": [
+      1.25,
+      1.6
+    ],
+    "share_up": 0.65,
+    "max_quarters": 2
+  },
+  "drift": {
+    "share": 0.2,
+    "kinds": {
+      "stale": 1,
+      "english_thousands": 1,
+      "unknown_unit": 1,
+      "known_unit_thousands": 1,
+      "extra_column": 1,
+      "truncated": 1,
+      "renamed_field": 1,
+      "swapped_columns": 1.5,
+      "comma_separator": 1
+    }
+  },
+  "model": {
+    "note_error": 0.12,
+    "text_error": 0.03,
+    "min_base": 5
+  },
+  "election": {
+    "rural": [
+      0.34,
+      0.19,
+      0.21,
+      0.09,
+      0.06,
+      0.11
+    ],
+    "urban": [
+      0.22,
+      0.38,
+      0.09,
+      0.15,
+      0.07,
+      0.09
+    ],
+    "kreis_sd": 0.18,
+    "muni_sd": 0.15,
+    "land_swing": [
+      -0.03,
+      0.03,
+      0.04,
+      -0.02,
+      -0.01,
+      -0.01
+    ],
+    "kreis_swing_sd": 0.02,
+    "muni_swing_sd": 0.025,
+    "turnout_change": 0.02,
+    "correction_share": 0.04,
+    "correction_delay": 25
+  }
+}

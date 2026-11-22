@@ -1,0 +1,8810 @@
+[
+{
+"ags": "08111000",
+"name": "Stuttgart",
+"population": 633000,
+"kind": "stadtkreis",
+"lon": 9.19084,
+"lat": 48.78388
+},
+{
+"ags": "08115001",
+"name": "Goldtal",
+"population": 10540,
+"kind": "stadt",
+"lon": 8.8138,
+"lat": 48.5255
+},
+{
+"ags": "08115002",
+"name": "Mosbronn",
+"population": 24210,
+"kind": "stadt",
+"lon": 8.92805,
+"lat": 48.688
+},
+{
+"ags": "08115003",
+"name": "Mittelerleningen",
+"population": 8060,
+"kind": "gemeinde",
+"lon": 9.03846,
+"lat": 48.61843
+},
+{
+"ags": "08115004",
+"name": "Kleinbirkenweiler",
+"population": 2660,
+"kind": "gemeinde",
+"lon": 9.02505,
+"lat": 48.68943
+},
+{
+"ags": "08115005",
+"name": "Kirchtal",
+"population": 7160,
+"kind": "gemeinde",
+"lon": 9.0837,
+"lat": 48.67373
+},
+{
+"ags": "08115006",
+"name": "Kleinrotach",
+"population": 5320,
+"kind": "gemeinde",
+"lon": 8.97847,
+"lat": 48.67302
+},
+{
+"ags": "08115007",
+"name": "Nusshofen",
+"population": 4450,
+"kind": "gemeinde",
+"lon": 8.89635,
+"lat": 48.72437
+},
+{
+"ags": "08115008",
+"name": "Wolfbach",
+"population": 2690,
+"kind": "gemeinde",
+"lon": 8.84629,
+"lat": 48.78115
+},
+{
+"ags": "08115009",
+"name": "Holzheim",
+"population": 7800,
+"kind": "gemeinde",
+"lon": 8.96403,
+"lat": 48.60625
+},
+{
+"ags": "08115010",
+"name": "Rossau",
+"population": 7240,
+"kind": "gemeinde",
+"lon": 8.77599,
+"lat": 48.57452
+},
+{
+"ags": "08115011",
+"name": "Ilsenberg",
+"population": 4940,
+"kind": "gemeinde",
+"lon": 8.87072,
+"lat": 48.6627
+},
+{
+"ags": "08115012",
+"name": "Kirchingen",
+"population": 4370,
+"kind": "gemeinde",
+"lon": 8.96599,
+"lat": 48.75264
+},
+{
+"ags": "08115013",
+"name": "Hallfeld",
+"population": 1590,
+"kind": "gemeinde",
+"lon": 8.88062,
+"lat": 48.58582
+},
+{
+"ags": "08115014",
+"name": "Ehrstetten",
+"population": 3400,
+"kind": "gemeinde",
+"lon": 8.82866,
+"lat": 48.56355
+},
+{
+"ags": "08115015",
+"name": "Niedersalzhofen",
+"population": 16990,
+"kind": "stadt",
+"lon": 8.89042,
+"lat": 48.77602
+},
+{
+"ags": "08115016",
+"name": "Oberlindenhausen",
+"population": 4510,
+"kind": "gemeinde",
+"lon": 8.96045,
+"lat": 48.82022
+},
+{
+"ags": "08115017",
+"name": "Schönbach",
+"population": 1380,
+"kind": "gemeinde",
+"lon": 8.82604,
+"lat": 48.62689
+},
+{
+"ags": "08115018",
+"name": "Großbuchheim",
+"population": 19190,
+"kind": "stadt",
+"lon": 9.12755,
+"lat": 48.63544
+},
+{
+"ags": "08115019",
+"name": "Ilseningen",
+"population": 8940,
+"kind": "gemeinde",
+"lon": 8.92399,
+"lat": 48.62999
+},
+{
+"ags": "08115020",
+"name": "Birkenstatt",
+"population": 40010,
+"kind": "stadt",
+"lon": 9.03674,
+"lat": 48.74949
+},
+{
+"ags": "08116001",
+"name": "Oberkreuzfeld",
+"population": 4830,
+"kind": "gemeinde",
+"lon": 9.41152,
+"lat": 48.55537
+},
+{
+"ags": "08116002",
+"name": "Altlangwang",
+"population": 7810,
+"kind": "gemeinde",
+"lon": 9.38934,
+"lat": 48.59867
+},
+{
+"ags": "08116003",
+"name": "Waldfeld",
+"population": 5470,
+"kind": "gemeinde",
+"lon": 9.36477,
+"lat": 48.72983
+},
+{
+"ags": "08116004",
+"name": "Altlanghausen",
+"population": 9380,
+"kind": "gemeinde",
+"lon": 9.27046,
+"lat": 48.6764
+},
+{
+"ags": "08116005",
+"name": "Teckbach",
+"population": 1530,
+"kind": "gemeinde",
+"lon": 9.24508,
+"lat": 48.60398
+},
+{
+"ags": "08116006",
+"name": "Untermosweil",
+"population": 12550,
+"kind": "stadt",
+"lon": 9.55952,
+"lat": 48.5833
+},
+{
+"ags": "08116007",
+"name": "Hohenhaselloch",
+"population": 2620,
+"kind": "gemeinde",
+"lon": 9.48072,
+"lat": 48.72652
+},
+{
+"ags": "08116008",
+"name": "Schönstatt",
+"population": 2690,
+"kind": "gemeinde",
+"lon": 9.43259,
+"lat": 48.74297
+},
+{
+"ags": "08116009",
+"name": "Ulmenhofen",
+"population": 4480,
+"kind": "gemeinde",
+"lon": 9.46171,
+"lat": 48.59024
+},
+{
+"ags": "08116010",
+"name": "Rothofen",
+"population": 3160,
+"kind": "gemeinde",
+"lon": 9.50808,
+"lat": 48.5677
+},
+{
+"ags": "08116011",
+"name": "Kaltheim",
+"population": 7120,
+"kind": "gemeinde",
+"lon": 9.14972,
+"lat": 48.65743
+},
+{
+"ags": "08116012",
+"name": "Rotwang",
+"population": 3130,
+"kind": "gemeinde",
+"lon": 9.33076,
+"lat": 48.59043
+},
+{
+"ags": "08116013",
+"name": "Hohenweilbach",
+"population": 1960,
+"kind": "gemeinde",
+"lon": 9.39088,
+"lat": 48.67413
+},
+{
+"ags": "08116014",
+"name": "Dorndorf",
+"population": 2420,
+"kind": "gemeinde",
+"lon": 9.17748,
+"lat": 48.67977
+},
+{
+"ags": "08116015",
+"name": "Hallstetten",
+"population": 18780,
+"kind": "stadt",
+"lon": 9.31163,
+"lat": 48.74042
+},
+{
+"ags": "08116016",
+"name": "Teckberg",
+"population": 5630,
+"kind": "gemeinde",
+"lon": 9.24072,
+"lat": 48.71993
+},
+{
+"ags": "08116017",
+"name": "Oberfischloch",
+"population": 1780,
+"kind": "gemeinde",
+"lon": 9.31743,
+"lat": 48.65729
+},
+{
+"ags": "08116018",
+"name": "Niederpfaffloch",
+"population": 5440,
+"kind": "gemeinde",
+"lon": 9.43719,
+"lat": 48.65004
+},
+{
+"ags": "08116019",
+"name": "Pfaffach",
+"population": 1230,
+"kind": "gemeinde",
+"lon": 9.50171,
+"lat": 48.64993
+},
+{
+"ags": "08116020",
+"name": "Steinstetten",
+"population": 29560,
+"kind": "stadt",
+"lon": 9.22518,
+"lat": 48.66154
+},
+{
+"ags": "08116021",
+"name": "Hohenholzweiler",
+"population": 1270,
+"kind": "gemeinde",
+"lon": 9.27331,
+"lat": 48.72815
+},
+{
+"ags": "08117001",
+"name": "Weilloch",
+"population": 9880,
+"kind": "gemeinde",
+"lon": 9.71677,
+"lat": 48.65679
+},
+{
+"ags": "08117002",
+"name": "Bronnbach",
+"population": 6320,
+"kind": "gemeinde",
+"lon": 9.81107,
+"lat": 48.60142
+},
+{
+"ags": "08117003",
+"name": "Waldau",
+"population": 5640,
+"kind": "gemeinde",
+"lon": 9.76498,
+"lat": 48.67013
+},
+{
+"ags": "08117004",
+"name": "Neuloch",
+"population": 8440,
+"kind": "gemeinde",
+"lon": 9.73015,
+"lat": 48.57586
+},
+{
+"ags": "08117005",
+"name": "Bärenau",
+"population": 4420,
+"kind": "gemeinde",
+"lon": 9.86664,
+"lat": 48.63439
+},
+{
+"ags": "08117006",
+"name": "Oberhaselbach",
+"population": 16520,
+"kind": "stadt",
+"lon": 9.60845,
+"lat": 48.58746
+},
+{
+"ags": "08117007",
+"name": "Altfelsfeld",
+"population": 6220,
+"kind": "gemeinde",
+"lon": 9.9425,
+"lat": 48.70572
+},
+{
+"ags": "08117008",
+"name": "Mühlheim",
+"population": 7140,
+"kind": "gemeinde",
+"lon": 9.70097,
+"lat": 48.61759
+},
+{
+"ags": "08117009",
+"name": "Buchheim",
+"population": 9030,
+"kind": "gemeinde",
+"lon": 9.64887,
+"lat": 48.64919
+},
+{
+"ags": "08117010",
+"name": "Buchweiler",
+"population": 1980,
+"kind": "gemeinde",
+"lon": 9.5545,
+"lat": 48.67295
+},
+{
+"ags": "08117011",
+"name": "Riedtal",
+"population": 2750,
+"kind": "gemeinde",
+"lon": 9.87815,
+"lat": 48.69028
+},
+{
+"ags": "08117012",
+"name": "Steinloch",
+"population": 23070,
+"kind": "stadt",
+"lon": 9.72216,
+"lat": 48.74962
+},
+{
+"ags": "08117013",
+"name": "Lindenweiler",
+"population": 7430,
+"kind": "gemeinde",
+"lon": 9.70044,
+"lat": 48.7105
+},
+{
+"ags": "08117014",
+"name": "Altwolfstetten",
+"population": 4130,
+"kind": "gemeinde",
+"lon": 9.68098,
+"lat": 48.54672
+},
+{
+"ags": "08117015",
+"name": "Mosdorf",
+"population": 7470,
+"kind": "gemeinde",
+"lon": 9.80131,
+"lat": 48.7037
+},
+{
+"ags": "08117016",
+"name": "Lauterhausen",
+"population": 3420,
+"kind": "gemeinde",
+"lon": 9.66962,
+"lat": 48.59137
+},
+{
+"ags": "08117017",
+"name": "Niederrotheim",
+"population": 7040,
+"kind": "gemeinde",
+"lon": 9.56632,
+"lat": 48.73196
+},
+{
+"ags": "08117018",
+"name": "Niederilsenberg",
+"population": 2870,
+"kind": "gemeinde",
+"lon": 9.64198,
+"lat": 48.71827
+},
+{
+"ags": "08117019",
+"name": "Mosingen",
+"population": 7020,
+"kind": "gemeinde",
+"lon": 9.75986,
+"lat": 48.61278
+},
+{
+"ags": "08117020",
+"name": "Buchingen",
+"population": 1210,
+"kind": "gemeinde",
+"lon": 9.63646,
+"lat": 48.55281
+},
+{
+"ags": "08118001",
+"name": "Pfaffingen",
+"population": 3210,
+"kind": "gemeinde",
+"lon": 9.31369,
+"lat": 48.90931
+},
+{
+"ags": "08118002",
+"name": "Sulzingen",
+"population": 3090,
+"kind": "gemeinde",
+"lon": 9.06573,
+"lat": 48.9943
+},
+{
+"ags": "08118003",
+"name": "Ulmenberg",
+"population": 28300,
+"kind": "stadt",
+"lon": 9.15522,
+"lat": 48.93463
+},
+{
+"ags": "08118004",
+"name": "Kleinhaselloch",
+"population": 4900,
+"kind": "gemeinde",
+"lon": 8.94526,
+"lat": 48.88636
+},
+{
+"ags": "08118005",
+"name": "Ehrhausen",
+"population": 13860,
+"kind": "stadt",
+"lon": 9.06877,
+"lat": 48.93131
+},
+{
+"ags": "08118006",
+"name": "Mattfeld",
+"population": 7850,
+"kind": "gemeinde",
+"lon": 8.99051,
+"lat": 48.95721
+},
+{
+"ags": "08118007",
+"name": "Lauterwang",
+"population": 3160,
+"kind": "gemeinde",
+"lon": 9.06759,
+"lat": 48.87925
+},
+{
+"ags": "08118008",
+"name": "Holzweil",
+"population": 2650,
+"kind": "gemeinde",
+"lon": 8.93456,
+"lat": 48.92864
+},
+{
+"ags": "08118009",
+"name": "Niederbronntal",
+"population": 6050,
+"kind": "gemeinde",
+"lon": 9.21477,
+"lat": 48.99081
+},
+{
+"ags": "08118010",
+"name": "Vogelau",
+"population": 6890,
+"kind": "gemeinde",
+"lon": 9.21514,
+"lat": 48.90928
+},
+{
+"ags": "08118011",
+"name": "Klingingen",
+"population": 9680,
+"kind": "gemeinde",
+"lon": 8.95597,
+"lat": 49.01464
+},
+{
+"ags": "08118012",
+"name": "Hagenbronn",
+"population": 1620,
+"kind": "gemeinde",
+"lon": 8.98772,
+"lat": 48.90163
+},
+{
+"ags": "08118013",
+"name": "Mittelerlenach",
+"population": 3070,
+"kind": "gemeinde",
+"lon": 9.25339,
+"lat": 48.89001
+},
+{
+"ags": "08118014",
+"name": "Hagenau",
+"population": 4930,
+"kind": "gemeinde",
+"lon": 9.13454,
+"lat": 49.01737
+},
+{
+"ags": "08118015",
+"name": "Klingstatt",
+"population": 24710,
+"kind": "stadt",
+"lon": 9.28872,
+"lat": 48.96318
+},
+{
+"ags": "08118016",
+"name": "Rotstatt",
+"population": 570,
+"kind": "gemeinde",
+"lon": 9.11306,
+"lat": 48.86409
+},
+{
+"ags": "08118017",
+"name": "Waldhofen",
+"population": 8200,
+"kind": "gemeinde",
+"lon": 8.98887,
+"lat": 48.852
+},
+{
+"ags": "08118018",
+"name": "Neutal",
+"population": 3230,
+"kind": "gemeinde",
+"lon": 9.1722,
+"lat": 48.87419
+},
+{
+"ags": "08118019",
+"name": "Osteringen",
+"population": 8140,
+"kind": "gemeinde",
+"lon": 9.06693,
+"lat": 48.7933
+},
+{
+"ags": "08118020",
+"name": "Riedau",
+"population": 3380,
+"kind": "gemeinde",
+"lon": 9.0449,
+"lat": 48.83884
+},
+{
+"ags": "08118021",
+"name": "Unternussfeld",
+"population": 7640,
+"kind": "gemeinde",
+"lon": 9.02445,
+"lat": 48.88753
+},
+{
+"ags": "08118022",
+"name": "Wolftal",
+"population": 23880,
+"kind": "stadt",
+"lon": 9.32735,
+"lat": 49.01072
+},
+{
+"ags": "08119001",
+"name": "Holzhausen",
+"population": 13140,
+"kind": "stadt",
+"lon": 9.74533,
+"lat": 48.86425
+},
+{
+"ags": "08119002",
+"name": "Niedersalzheim",
+"population": 19560,
+"kind": "stadt",
+"lon": 9.46749,
+"lat": 48.90709
+},
+{
+"ags": "08119003",
+"name": "Riedweil",
+"population": 6710,
+"kind": "gemeinde",
+"lon": 9.36231,
+"lat": 48.95694
+},
+{
+"ags": "08119004",
+"name": "Niederrossloch",
+"population": 5090,
+"kind": "gemeinde",
+"lon": 9.59763,
+"lat": 48.79981
+},
+{
+"ags": "08119005",
+"name": "Osterau",
+"population": 11420,
+"kind": "stadt",
+"lon": 9.67763,
+"lat": 48.93241
+},
+{
+"ags": "08119006",
+"name": "Felsberg",
+"population": 1250,
+"kind": "gemeinde",
+"lon": 9.53426,
+"lat": 48.82574
+},
+{
+"ags": "08119007",
+"name": "Osterbronn",
+"population": 5900,
+"kind": "gemeinde",
+"lon": 9.56165,
+"lat": 48.95057
+},
+{
+"ags": "08119008",
+"name": "Unterostertal",
+"population": 14700,
+"kind": "stadt",
+"lon": 9.49176,
+"lat": 48.84922
+},
+{
+"ags": "08119009",
+"name": "Hoheneberdorf",
+"population": 1660,
+"kind": "gemeinde",
+"lon": 9.51842,
+"lat": 48.89254
+},
+{
+"ags": "08119010",
+"name": "Oberhallach",
+"population": 13870,
+"kind": "stadt",
+"lon": 9.70091,
+"lat": 48.88825
+},
+{
+"ags": "08119011",
+"name": "Mosberg",
+"population": 3630,
+"kind": "gemeinde",
+"lon": 9.46647,
+"lat": 48.80846
+},
+{
+"ags": "08119012",
+"name": "Kirchloch",
+"population": 750,
+"kind": "gemeinde",
+"lon": 9.42516,
+"lat": 49.01405
+},
+{
+"ags": "08119013",
+"name": "Ulmenach",
+"population": 4880,
+"kind": "gemeinde",
+"lon": 9.63784,
+"lat": 48.95033
+},
+{
+"ags": "08119014",
+"name": "Wolfbronn",
+"population": 2150,
+"kind": "gemeinde",
+"lon": 9.58854,
+"lat": 49.01198
+},
+{
+"ags": "08119015",
+"name": "Rotbronn",
+"population": 7310,
+"kind": "gemeinde",
+"lon": 9.49262,
+"lat": 48.96303
+},
+{
+"ags": "08119016",
+"name": "Teckwang",
+"population": 1770,
+"kind": "gemeinde",
+"lon": 9.60251,
+"lat": 48.89248
+},
+{
+"ags": "08119017",
+"name": "Lauterheim",
+"population": 14650,
+"kind": "stadt",
+"lon": 9.71688,
+"lat": 48.83855
+},
+{
+"ags": "08119018",
+"name": "Eichbach",
+"population": 2680,
+"kind": "gemeinde",
+"lon": 9.33748,
+"lat": 48.80218
+},
+{
+"ags": "08119019",
+"name": "Felsweil",
+"population": 7580,
+"kind": "gemeinde",
+"lon": 9.34756,
+"lat": 48.87175
+},
+{
+"ags": "08119020",
+"name": "Waldtal",
+"population": 3070,
+"kind": "gemeinde",
+"lon": 9.28254,
+"lat": 48.82907
+},
+{
+"ags": "08119021",
+"name": "Niedertanningen",
+"population": 3970,
+"kind": "gemeinde",
+"lon": 9.41782,
+"lat": 48.94448
+},
+{
+"ags": "08119022",
+"name": "Haselwang",
+"population": 16750,
+"kind": "stadt",
+"lon": 9.50486,
+"lat": 49.03432
+},
+{
+"ags": "08119023",
+"name": "Teckbronn",
+"population": 6630,
+"kind": "gemeinde",
+"lon": 9.65162,
+"lat": 48.85166
+},
+{
+"ags": "08119024",
+"name": "Lindenheim",
+"population": 3710,
+"kind": "gemeinde",
+"lon": 9.53123,
+"lat": 48.77737
+},
+{
+"ags": "08119025",
+"name": "Felsbronn",
+"population": 1640,
+"kind": "gemeinde",
+"lon": 9.40515,
+"lat": 48.80263
+},
+{
+"ags": "08119026",
+"name": "Fischwang",
+"population": 16260,
+"kind": "stadt",
+"lon": 9.41813,
+"lat": 48.86785
+},
+{
+"ags": "08119027",
+"name": "Birkenau",
+"population": 10830,
+"kind": "stadt",
+"lon": 9.56662,
+"lat": 48.85943
+},
+{
+"ags": "08121000",
+"name": "Heilbronn",
+"population": 128000,
+"kind": "stadtkreis",
+"lon": 9.21109,
+"lat": 49.15462
+},
+{
+"ags": "08125001",
+"name": "Langstatt",
+"population": 1750,
+"kind": "gemeinde",
+"lon": 8.92341,
+"lat": 49.19373
+},
+{
+"ags": "08125002",
+"name": "Ehrbronn",
+"population": 4840,
+"kind": "gemeinde",
+"lon": 9.23538,
+"lat": 49.26853
+},
+{
+"ags": "08125003",
+"name": "Mattingen",
+"population": 54840,
+"kind": "stadt",
+"lon": 9.28043,
+"lat": 49.04674
+},
+{
+"ags": "08125004",
+"name": "Althirschbronn",
+"population": 7830,
+"kind": "gemeinde",
+"lon": 9.18428,
+"lat": 49.29503
+},
+{
+"ags": "08125005",
+"name": "Untertannhausen",
+"population": 17020,
+"kind": "stadt",
+"lon": 9.05307,
+"lat": 49.24325
+},
+{
+"ags": "08125006",
+"name": "Niederwiesenberg",
+"population": 4370,
+"kind": "gemeinde",
+"lon": 9.4085,
+"lat": 49.23591
+},
+{
+"ags": "08125007",
+"name": "Erlenfeld",
+"population": 520,
+"kind": "gemeinde",
+"lon": 8.89468,
+"lat": 49.0739
+},
+{
+"ags": "08125008",
+"name": "Altweilstatt",
+"population": 600,
+"kind": "gemeinde",
+"lon": 9.31888,
+"lat": 49.14096
+},
+{
+"ags": "08125009",
+"name": "Fischweiler",
+"population": 14210,
+"kind": "stadt",
+"lon": 8.84974,
+"lat": 49.16834
+},
+{
+"ags": "08125010",
+"name": "Wolfstetten",
+"population": 6440,
+"kind": "gemeinde",
+"lon": 8.90684,
+"lat": 49.13897
+},
+{
+"ags": "08125011",
+"name": "Hohenhirschbach",
+"population": 1570,
+"kind": "gemeinde",
+"lon": 9.46124,
+"lat": 49.09381
+},
+{
+"ags": "08125012",
+"name": "Hohenhagenweil",
+"population": 15610,
+"kind": "stadt",
+"lon": 8.97837,
+"lat": 49.12259
+},
+{
+"ags": "08125013",
+"name": "Eichtal",
+"population": 1250,
+"kind": "gemeinde",
+"lon": 9.19112,
+"lat": 49.07389
+},
+{
+"ags": "08125014",
+"name": "Großbärenweil",
+"population": 15860,
+"kind": "stadt",
+"lon": 9.06031,
+"lat": 49.19865
+},
+{
+"ags": "08125015",
+"name": "Schöntal",
+"population": 21440,
+"kind": "stadt",
+"lon": 9.00028,
+"lat": 49.22592
+},
+{
+"ags": "08125016",
+"name": "Niederulmenweiler",
+"population": 2610,
+"kind": "gemeinde",
+"lon": 9.33497,
+"lat": 49.34097
+},
+{
+"ags": "08125017",
+"name": "Mittelsalzweil",
+"population": 1880,
+"kind": "gemeinde",
+"lon": 9.29406,
+"lat": 49.28184
+},
+{
+"ags": "08125018",
+"name": "Wiesental",
+"population": 12040,
+"kind": "stadt",
+"lon": 9.24328,
+"lat": 49.06684
+},
+{
+"ags": "08125019",
+"name": "Langstetten",
+"population": 1910,
+"kind": "gemeinde",
+"lon": 9.0495,
+"lat": 49.11927
+},
+{
+"ags": "08125020",
+"name": "Lauterach",
+"population": 12250,
+"kind": "stadt",
+"lon": 9.34855,
+"lat": 49.05639
+},
+{
+"ags": "08125021",
+"name": "Kreuzloch",
+"population": 1730,
+"kind": "gemeinde",
+"lon": 9.13751,
+"lat": 49.23865
+},
+{
+"ags": "08125022",
+"name": "Untermühlloch",
+"population": 11630,
+"kind": "stadt",
+"lon": 8.96622,
+"lat": 49.07771
+},
+{
+"ags": "08125023",
+"name": "Ilsenweil",
+"population": 5900,
+"kind": "gemeinde",
+"lon": 8.97175,
+"lat": 49.17679
+},
+{
+"ags": "08125024",
+"name": "Ilsental",
+"population": 3580,
+"kind": "gemeinde",
+"lon": 9.29322,
+"lat": 49.19517
+},
+{
+"ags": "08125025",
+"name": "Lindenhofen",
+"population": 2310,
+"kind": "gemeinde",
+"lon": 8.93086,
+"lat": 49.06998
+},
+{
+"ags": "08125026",
+"name": "Hagental",
+"population": 6770,
+"kind": "gemeinde",
+"lon": 9.02859,
+"lat": 49.05937
+},
+{
+"ags": "08125027",
+"name": "Großeichfeld",
+"population": 890,
+"kind": "gemeinde",
+"lon": 9.37952,
+"lat": 49.08149
+},
+{
+"ags": "08125028",
+"name": "Eichloch",
+"population": 4150,
+"kind": "gemeinde",
+"lon": 9.11328,
+"lat": 49.14499
+},
+{
+"ags": "08125029",
+"name": "Niederlindenheim",
+"population": 3710,
+"kind": "gemeinde",
+"lon": 9.30075,
+"lat": 49.08106
+},
+{
+"ags": "08125030",
+"name": "Fischhofen",
+"population": 10290,
+"kind": "stadt",
+"lon": 9.21891,
+"lat": 49.21056
+},
+{
+"ags": "08125031",
+"name": "Osterhofen",
+"population": 1640,
+"kind": "gemeinde",
+"lon": 9.35175,
+"lat": 49.24776
+},
+{
+"ags": "08125032",
+"name": "Weilhausen",
+"population": 27500,
+"kind": "stadt",
+"lon": 9.02683,
+"lat": 49.16382
+},
+{
+"ags": "08125033",
+"name": "Niedermosbronn",
+"population": 4020,
+"kind": "gemeinde",
+"lon": 9.45739,
+"lat": 49.31558
+},
+{
+"ags": "08125034",
+"name": "Altzellloch",
+"population": 1830,
+"kind": "gemeinde",
+"lon": 9.38539,
+"lat": 49.13904
+},
+{
+"ags": "08125035",
+"name": "Nussbach",
+"population": 20150,
+"kind": "stadt",
+"lon": 9.10992,
+"lat": 49.08455
+},
+{
+"ags": "08125036",
+"name": "Schönwang",
+"population": 26210,
+"kind": "stadt",
+"lon": 9.39351,
+"lat": 49.32651
+},
+{
+"ags": "08125037",
+"name": "Hohenulmenach",
+"population": 4520,
+"kind": "gemeinde",
+"lon": 9.07072,
+"lat": 49.27185
+},
+{
+"ags": "08126001",
+"name": "Bärenheim",
+"population": 1940,
+"kind": "gemeinde",
+"lon": 9.74336,
+"lat": 49.23159
+},
+{
+"ags": "08126002",
+"name": "Lindendorf",
+"population": 1390,
+"kind": "gemeinde",
+"lon": 9.67415,
+"lat": 49.19103
+},
+{
+"ags": "08126003",
+"name": "Oberwolfach",
+"population": 7240,
+"kind": "gemeinde",
+"lon": 9.77238,
+"lat": 49.36452
+},
+{
+"ags": "08126004",
+"name": "Bronningen",
+"population": 2870,
+"kind": "gemeinde",
+"lon": 9.4611,
+"lat": 49.23667
+},
+{
+"ags": "08126005",
+"name": "Großhirschau",
+"population": 820,
+"kind": "gemeinde",
+"lon": 9.81601,
+"lat": 49.28299
+},
+{
+"ags": "08126006",
+"name": "Weilach",
+"population": 57150,
+"kind": "stadt",
+"lon": 9.48307,
+"lat": 49.19539
+},
+{
+"ags": "08126007",
+"name": "Vogelstatt",
+"population": 2440,
+"kind": "gemeinde",
+"lon": 9.50949,
+"lat": 49.35214
+},
+{
+"ags": "08126008",
+"name": "Nussau",
+"population": 1640,
+"kind": "gemeinde",
+"lon": 9.45568,
+"lat": 49.26774
+},
+{
+"ags": "08126009",
+"name": "Dornbronn",
+"population": 17540,
+"kind": "stadt",
+"lon": 9.82394,
+"lat": 49.33884
+},
+{
+"ags": "08126010",
+"name": "Sulzbach",
+"population": 16340,
+"kind": "stadt",
+"lon": 9.74363,
+"lat": 49.29257
+},
+{
+"ags": "08126011",
+"name": "Klingweiler",
+"population": 1810,
+"kind": "gemeinde",
+"lon": 9.55723,
+"lat": 49.29373
+},
+{
+"ags": "08126012",
+"name": "Vogelingen",
+"population": 1330,
+"kind": "gemeinde",
+"lon": 9.54045,
+"lat": 49.15003
+},
+{
+"ags": "08126013",
+"name": "Oberhaselau",
+"population": 2090,
+"kind": "gemeinde",
+"lon": 9.4646,
+"lat": 49.14352
+},
+{
+"ags": "08126014",
+"name": "Goldweiler",
+"population": 15790,
+"kind": "stadt",
+"lon": 9.69047,
+"lat": 49.31787
+},
+{
+"ags": "08126015",
+"name": "Wiesenheim",
+"population": 4020,
+"kind": "gemeinde",
+"lon": 9.69632,
+"lat": 49.37661
+},
+{
+"ags": "08126016",
+"name": "Wolfstatt",
+"population": 2500,
+"kind": "gemeinde",
+"lon": 9.53792,
+"lat": 49.2249
+},
+{
+"ags": "08126017",
+"name": "Untervogelweil",
+"population": 5260,
+"kind": "gemeinde",
+"lon": 9.64443,
+"lat": 49.36233
+},
+{
+"ags": "08126018",
+"name": "Haselbronn",
+"population": 16950,
+"kind": "stadt",
+"lon": 9.62072,
+"lat": 49.28709
+},
+{
+"ags": "08126019",
+"name": "Felsstetten",
+"population": 1440,
+"kind": "gemeinde",
+"lon": 9.50182,
+"lat": 49.27595
+},
+{
+"ags": "08126020",
+"name": "Altsteinbronn",
+"population": 3750,
+"kind": "gemeinde",
+"lon": 9.61336,
+"lat": 49.39139
+},
+{
+"ags": "08126021",
+"name": "Rotheim",
+"population": 1450,
+"kind": "gemeinde",
+"lon": 9.61161,
+"lat": 49.23718
+},
+{
+"ags": "08126022",
+"name": "Tannau",
+"population": 42520,
+"kind": "stadt",
+"lon": 9.68069,
+"lat": 49.25907
+},
+{
+"ags": "08126023",
+"name": "Rossfeld",
+"population": 30380,
+"kind": "stadt",
+"lon": 9.60745,
+"lat": 49.16639
+},
+{
+"ags": "08126024",
+"name": "Lindenach",
+"population": 13330,
+"kind": "stadt",
+"lon": 9.60783,
+"lat": 49.33111
+},
+{
+"ags": "08126025",
+"name": "Eichhausen",
+"population": 4760,
+"kind": "gemeinde",
+"lon": 9.40697,
+"lat": 49.17329
+},
+{
+"ags": "08127001",
+"name": "Altlangtal",
+"population": 800,
+"kind": "gemeinde",
+"lon": 10.02155,
+"lat": 49.20841
+},
+{
+"ags": "08127002",
+"name": "Zellheim",
+"population": 420,
+"kind": "gemeinde",
+"lon": 9.63913,
+"lat": 49.10574
+},
+{
+"ags": "08127003",
+"name": "Waldloch",
+"population": 3010,
+"kind": "gemeinde",
+"lon": 10.0218,
+"lat": 49.11336
+},
+{
+"ags": "08127004",
+"name": "Großhirschstatt",
+"population": 3960,
+"kind": "gemeinde",
+"lon": 9.9785,
+"lat": 49.0591
+},
+{
+"ags": "08127005",
+"name": "Großmühlweil",
+"population": 3060,
+"kind": "gemeinde",
+"lon": 10.12632,
+"lat": 49.11278
+},
+{
+"ags": "08127006",
+"name": "Weilstatt",
+"population": 7610,
+"kind": "gemeinde",
+"lon": 9.89959,
+"lat": 49.15788
+},
+{
+"ags": "08127007",
+"name": "Steindorf",
+"population": 4620,
+"kind": "gemeinde",
+"lon": 9.73731,
+"lat": 49.11652
+},
+{
+"ags": "08127008",
+"name": "Sulzstatt",
+"population": 1760,
+"kind": "gemeinde",
+"lon": 10.10591,
+"lat": 49.25915
+},
+{
+"ags": "08127009",
+"name": "Oberhallstetten",
+"population": 2350,
+"kind": "gemeinde",
+"lon": 10.00482,
+"lat": 49.087
+},
+{
+"ags": "08127010",
+"name": "Hallhausen",
+"population": 6220,
+"kind": "gemeinde",
+"lon": 9.83149,
+"lat": 49.04263
+},
+{
+"ags": "08127011",
+"name": "Kleinrotingen",
+"population": 5810,
+"kind": "gemeinde",
+"lon": 9.75712,
+"lat": 49.17708
+},
+{
+"ags": "08127012",
+"name": "Ulmenbach",
+"population": 5050,
+"kind": "gemeinde",
+"lon": 9.68856,
+"lat": 49.079
+},
+{
+"ags": "08127013",
+"name": "Eichberg",
+"population": 46730,
+"kind": "stadt",
+"lon": 10.20422,
+"lat": 49.14054
+},
+{
+"ags": "08127014",
+"name": "Ilsenhofen",
+"population": 4220,
+"kind": "gemeinde",
+"lon": 9.69597,
+"lat": 49.14213
+},
+{
+"ags": "08127015",
+"name": "Kleinhagenberg",
+"population": 6070,
+"kind": "gemeinde",
+"lon": 9.99617,
+"lat": 49.33304
+},
+{
+"ags": "08127016",
+"name": "Altsalzwang",
+"population": 2100,
+"kind": "gemeinde",
+"lon": 10.12759,
+"lat": 49.1992
+},
+{
+"ags": "08127017",
+"name": "Hallach",
+"population": 3850,
+"kind": "gemeinde",
+"lon": 9.8189,
+"lat": 48.97321
+},
+{
+"ags": "08127018",
+"name": "Steinach",
+"population": 8910,
+"kind": "gemeinde",
+"lon": 10.07861,
+"lat": 49.19331
+},
+{
+"ags": "08127019",
+"name": "Erlenau",
+"population": 9280,
+"kind": "gemeinde",
+"lon": 10.22517,
+"lat": 49.07238
+},
+{
+"ags": "08127020",
+"name": "Salzbronn",
+"population": 4660,
+"kind": "gemeinde",
+"lon": 9.53933,
+"lat": 49.07793
+},
+{
+"ags": "08127021",
+"name": "Waldweiler",
+"population": 7870,
+"kind": "gemeinde",
+"lon": 10.10253,
+"lat": 49.31314
+},
+{
+"ags": "08127022",
+"name": "Zellhausen",
+"population": 5700,
+"kind": "gemeinde",
+"lon": 10.06649,
+"lat": 49.25921
+},
+{
+"ags": "08127023",
+"name": "Felshofen",
+"population": 910,
+"kind": "gemeinde",
+"lon": 9.93788,
+"lat": 49.08422
+},
+{
+"ags": "08127024",
+"name": "Unterlauterstatt",
+"population": 250,
+"kind": "gemeinde",
+"lon": 9.82846,
+"lat": 49.23204
+},
+{
+"ags": "08127025",
+"name": "Hagenfeld",
+"population": 48520,
+"kind": "stadt",
+"lon": 9.55932,
+"lat": 49.10589
+},
+{
+"ags": "08127026",
+"name": "Holzwang",
+"population": 11890,
+"kind": "stadt",
+"lon": 9.59184,
+"lat": 49.09783
+},
+{
+"ags": "08127027",
+"name": "Hagenheim",
+"population": 5120,
+"kind": "gemeinde",
+"lon": 10.07033,
+"lat": 49.06248
+},
+{
+"ags": "08127028",
+"name": "Goldhausen",
+"population": 1040,
+"kind": "gemeinde",
+"lon": 9.79705,
+"lat": 49.1063
+},
+{
+"ags": "08127029",
+"name": "Matthausen",
+"population": 1610,
+"kind": "gemeinde",
+"lon": 9.92958,
+"lat": 48.98921
+},
+{
+"ags": "08127030",
+"name": "Großlangheim",
+"population": 19580,
+"kind": "stadt",
+"lon": 10.07475,
+"lat": 49.35332
+},
+{
+"ags": "08127031",
+"name": "Mattdorf",
+"population": 380,
+"kind": "gemeinde",
+"lon": 9.87009,
+"lat": 49.10347
+},
+{
+"ags": "08127032",
+"name": "Birkenhausen",
+"population": 3970,
+"kind": "gemeinde",
+"lon": 10.06756,
+"lat": 49.10559
+},
+{
+"ags": "08127033",
+"name": "Kaltstetten",
+"population": 12320,
+"kind": "stadt",
+"lon": 9.82803,
+"lat": 49.16266
+},
+{
+"ags": "08127034",
+"name": "Kleinerlenheim",
+"population": 6190,
+"kind": "gemeinde",
+"lon": 10.13849,
+"lat": 49.29094
+},
+{
+"ags": "08127035",
+"name": "Klingtal",
+"population": 11060,
+"kind": "stadt",
+"lon": 9.6926,
+"lat": 49.00628
+},
+{
+"ags": "08127036",
+"name": "Kirchberg",
+"population": 4770,
+"kind": "gemeinde",
+"lon": 10.0976,
+"lat": 49.14796
+},
+{
+"ags": "08127037",
+"name": "Erlenhausen",
+"population": 52470,
+"kind": "stadt",
+"lon": 10.15902,
+"lat": 49.07908
+},
+{
+"ags": "08127038",
+"name": "Schöningen",
+"population": 2030,
+"kind": "gemeinde",
+"lon": 9.90508,
+"lat": 49.3222
+},
+{
+"ags": "08127039",
+"name": "Salztal",
+"population": 1480,
+"kind": "gemeinde",
+"lon": 10.02631,
+"lat": 49.27297
+},
+{
+"ags": "08127040",
+"name": "Goldbach",
+"population": 7010,
+"kind": "gemeinde",
+"lon": 9.90576,
+"lat": 49.23354
+},
+{
+"ags": "08127041",
+"name": "Kaltbronn",
+"population": 21000,
+"kind": "stadt",
+"lon": 10.00904,
+"lat": 49.16063
+},
+{
+"ags": "08127042",
+"name": "Eichheim",
+"population": 5120,
+"kind": "gemeinde",
+"lon": 10.04514,
+"lat": 49.14728
+},
+{
+"ags": "08127043",
+"name": "Altosterhausen",
+"population": 14630,
+"kind": "stadt",
+"lon": 9.6207,
+"lat": 49.04931
+},
+{
+"ags": "08127044",
+"name": "Großilsenhausen",
+"population": 3260,
+"kind": "gemeinde",
+"lon": 9.8961,
+"lat": 49.04986
+},
+{
+"ags": "08127045",
+"name": "Hallhofen",
+"population": 1750,
+"kind": "gemeinde",
+"lon": 9.96871,
+"lat": 49.25788
+},
+{
+"ags": "08127046",
+"name": "Waldhausen",
+"population": 20420,
+"kind": "stadt",
+"lon": 9.95984,
+"lat": 49.16685
+},
+{
+"ags": "08127047",
+"name": "Kaltweiler",
+"population": 23970,
+"kind": "stadt",
+"lon": 9.75352,
+"lat": 49.04487
+},
+{
+"ags": "08128001",
+"name": "Mühlach",
+"population": 5530,
+"kind": "gemeinde",
+"lon": 9.93467,
+"lat": 49.44521
+},
+{
+"ags": "08128002",
+"name": "Kleinneuhausen",
+"population": 1890,
+"kind": "gemeinde",
+"lon": 9.6467,
+"lat": 49.44732
+},
+{
+"ags": "08128003",
+"name": "Moshausen",
+"population": 10960,
+"kind": "stadt",
+"lon": 9.62356,
+"lat": 49.75183
+},
+{
+"ags": "08128004",
+"name": "Eberau",
+"population": 9600,
+"kind": "gemeinde",
+"lon": 9.82055,
+"lat": 49.58528
+},
+{
+"ags": "08128005",
+"name": "Eberbach",
+"population": 1510,
+"kind": "gemeinde",
+"lon": 9.80718,
+"lat": 49.68239
+},
+{
+"ags": "08128006",
+"name": "Niedergoldstatt",
+"population": 3770,
+"kind": "gemeinde",
+"lon": 9.85325,
+"lat": 49.61637
+},
+{
+"ags": "08128007",
+"name": "Hallingen",
+"population": 6900,
+"kind": "gemeinde",
+"lon": 9.47366,
+"lat": 49.69513
+},
+{
+"ags": "08128008",
+"name": "Buchweil",
+"population": 5330,
+"kind": "gemeinde",
+"lon": 9.67993,
+"lat": 49.5695
+},
+{
+"ags": "08128009",
+"name": "Eichwang",
+"population": 8800,
+"kind": "gemeinde",
+"lon": 9.78833,
+"lat": 49.62732
+},
+{
+"ags": "08128010",
+"name": "Niederpfaffbach",
+"population": 11380,
+"kind": "stadt",
+"lon": 10.13571,
+"lat": 49.40809
+},
+{
+"ags": "08128011",
+"name": "Ehrweil",
+"population": 8940,
+"kind": "gemeinde",
+"lon": 9.45212,
+"lat": 49.74927
+},
+{
+"ags": "08128012",
+"name": "Bronnau",
+"population": 4790,
+"kind": "gemeinde",
+"lon": 9.53895,
+"lat": 49.56885
+},
+{
+"ags": "08128013",
+"name": "Eberweiler",
+"population": 1480,
+"kind": "gemeinde",
+"lon": 9.75275,
+"lat": 49.66461
+},
+{
+"ags": "08128014",
+"name": "Ulmendorf",
+"population": 9590,
+"kind": "gemeinde",
+"lon": 9.5933,
+"lat": 49.62701
+},
+{
+"ags": "08128015",
+"name": "Lautertal",
+"population": 20220,
+"kind": "stadt",
+"lon": 10.08406,
+"lat": 49.40797
+},
+{
+"ags": "08128016",
+"name": "Mattloch",
+"population": 34890,
+"kind": "stadt",
+"lon": 10.07844,
+"lat": 49.50185
+},
+{
+"ags": "08128017",
+"name": "Fischloch",
+"population": 5170,
+"kind": "gemeinde",
+"lon": 9.6186,
+"lat": 49.52484
+},
+{
+"ags": "08128018",
+"name": "Haselingen",
+"population": 5160,
+"kind": "gemeinde",
+"lon": 10.08999,
+"lat": 49.45271
+},
+{
+"ags": "08128019",
+"name": "Mosstetten",
+"population": 21090,
+"kind": "stadt",
+"lon": 10.03133,
+"lat": 49.45758
+},
+{
+"ags": "08128020",
+"name": "Haselheim",
+"population": 20940,
+"kind": "stadt",
+"lon": 9.89662,
+"lat": 49.53134
+},
+{
+"ags": "08128021",
+"name": "Felstal",
+"population": 7380,
+"kind": "gemeinde",
+"lon": 9.89071,
+"lat": 49.46283
+},
+{
+"ags": "08128022",
+"name": "Steinweil",
+"population": 10500,
+"kind": "stadt",
+"lon": 9.75882,
+"lat": 49.5754
+},
+{
+"ags": "08128023",
+"name": "Ehrstatt",
+"population": 2590,
+"kind": "gemeinde",
+"lon": 9.55384,
+"lat": 49.75
+},
+{
+"ags": "08128024",
+"name": "Mosweiler",
+"population": 9290,
+"kind": "gemeinde",
+"lon": 9.55815,
+"lat": 49.47839
+},
+{
+"ags": "08128025",
+"name": "Großilsenwang",
+"population": 2430,
+"kind": "gemeinde",
+"lon": 10.01878,
+"lat": 49.39917
+},
+{
+"ags": "08128026",
+"name": "Hirschingen",
+"population": 4640,
+"kind": "gemeinde",
+"lon": 9.71804,
+"lat": 49.44214
+},
+{
+"ags": "08128027",
+"name": "Kirchweiler",
+"population": 4740,
+"kind": "gemeinde",
+"lon": 9.52211,
+"lat": 49.65889
+},
+{
+"ags": "08128028",
+"name": "Goldhofen",
+"population": 3410,
+"kind": "gemeinde",
+"lon": 9.75758,
+"lat": 49.51333
+},
+{
+"ags": "08128029",
+"name": "Niederhallwang",
+"population": 720,
+"kind": "gemeinde",
+"lon": 9.93988,
+"lat": 49.3881
+},
+{
+"ags": "08128030",
+"name": "Großschöndorf",
+"population": 2430,
+"kind": "gemeinde",
+"lon": 9.86022,
+"lat": 49.41035
+},
+{
+"ags": "08128031",
+"name": "Kleinmattstatt",
+"population": 7310,
+"kind": "gemeinde",
+"lon": 9.97871,
+"lat": 49.44947
+},
+{
+"ags": "08128032",
+"name": "Sulzberg",
+"population": 5030,
+"kind": "gemeinde",
+"lon": 9.80481,
+"lat": 49.42785
+},
+{
+"ags": "08128033",
+"name": "Mittelhagenbach",
+"population": 3670,
+"kind": "gemeinde",
+"lon": 9.70702,
+"lat": 49.62712
+},
+{
+"ags": "08128034",
+"name": "Hirschtal",
+"population": 8010,
+"kind": "gemeinde",
+"lon": 9.61085,
+"lat": 49.68715
+},
+{
+"ags": "08128035",
+"name": "Mühlloch",
+"population": 10250,
+"kind": "stadt",
+"lon": 9.70007,
+"lat": 49.68638
+},
+{
+"ags": "08128036",
+"name": "Weilberg",
+"population": 11920,
+"kind": "stadt",
+"lon": 9.68341,
+"lat": 49.50338
+},
+{
+"ags": "08128037",
+"name": "Unterilsenheim",
+"population": 2470,
+"kind": "gemeinde",
+"lon": 9.65116,
+"lat": 49.637
+},
+{
+"ags": "08128038",
+"name": "Mattbach",
+"population": 5430,
+"kind": "gemeinde",
+"lon": 9.5536,
+"lat": 49.70254
+},
+{
+"ags": "08128039",
+"name": "Lauteringen",
+"population": 3870,
+"kind": "gemeinde",
+"lon": 9.76492,
+"lat": 49.43671
+},
+{
+"ags": "08128040",
+"name": "Pfaffwang",
+"population": 2310,
+"kind": "gemeinde",
+"lon": 9.37191,
+"lat": 49.74398
+},
+{
+"ags": "08128041",
+"name": "Osterloch",
+"population": 1280,
+"kind": "gemeinde",
+"lon": 9.58355,
+"lat": 49.57036
+},
+{
+"ags": "08128042",
+"name": "Langweiler",
+"population": 4840,
+"kind": "gemeinde",
+"lon": 9.82785,
+"lat": 49.50346
+},
+{
+"ags": "08135001",
+"name": "Hallweil",
+"population": 44270,
+"kind": "stadt",
+"lon": 10.09128,
+"lat": 48.63203
+},
+{
+"ags": "08135002",
+"name": "Fischberg",
+"population": 2140,
+"kind": "gemeinde",
+"lon": 10.2497,
+"lat": 48.73458
+},
+{
+"ags": "08135003",
+"name": "Großklingingen",
+"population": 9700,
+"kind": "gemeinde",
+"lon": 9.98164,
+"lat": 48.64737
+},
+{
+"ags": "08135004",
+"name": "Holzstatt",
+"population": 27300,
+"kind": "stadt",
+"lon": 10.06503,
+"lat": 48.72628
+},
+{
+"ags": "08135005",
+"name": "Unterklingwang",
+"population": 3250,
+"kind": "gemeinde",
+"lon": 10.20623,
+"lat": 48.67429
+},
+{
+"ags": "08135006",
+"name": "Teckloch",
+"population": 1680,
+"kind": "gemeinde",
+"lon": 10.30848,
+"lat": 48.72304
+},
+{
+"ags": "08135007",
+"name": "Felsingen",
+"population": 14520,
+"kind": "stadt",
+"lon": 10.27335,
+"lat": 48.55248
+},
+{
+"ags": "08135008",
+"name": "Mittelosteringen",
+"population": 5750,
+"kind": "gemeinde",
+"lon": 10.19604,
+"lat": 48.74374
+},
+{
+"ags": "08135009",
+"name": "Mittelulmenbronn",
+"population": 1680,
+"kind": "gemeinde",
+"lon": 10.13365,
+"lat": 48.67979
+},
+{
+"ags": "08135010",
+"name": "Sulzbronn",
+"population": 1930,
+"kind": "gemeinde",
+"lon": 10.10409,
+"lat": 48.59279
+},
+{
+"ags": "08135011",
+"name": "Dornstatt",
+"population": 3730,
+"kind": "gemeinde",
+"lon": 10.21117,
+"lat": 48.57949
+},
+{
+"ags": "08135012",
+"name": "Hohenbirkendorf",
+"population": 13490,
+"kind": "stadt",
+"lon": 10.14903,
+"lat": 48.74941
+},
+{
+"ags": "08135013",
+"name": "Vogelwang",
+"population": 4110,
+"kind": "gemeinde",
+"lon": 10.37019,
+"lat": 48.70284
+},
+{
+"ags": "08135014",
+"name": "Altmühlberg",
+"population": 10060,
+"kind": "stadt",
+"lon": 10.46033,
+"lat": 48.69592
+},
+{
+"ags": "08135015",
+"name": "Ulmenstatt",
+"population": 25960,
+"kind": "stadt",
+"lon": 10.15793,
+"lat": 48.6083
+},
+{
+"ags": "08135016",
+"name": "Waldstetten",
+"population": 18040,
+"kind": "stadt",
+"lon": 10.26557,
+"lat": 48.62436
+},
+{
+"ags": "08135017",
+"name": "Erlenstatt",
+"population": 21160,
+"kind": "stadt",
+"lon": 10.41803,
+"lat": 48.72575
+},
+{
+"ags": "08135018",
+"name": "Salzach",
+"population": 17410,
+"kind": "stadt",
+"lon": 10.10858,
+"lat": 48.73326
+},
+{
+"ags": "08135019",
+"name": "Haselach",
+"population": 1170,
+"kind": "gemeinde",
+"lon": 10.02138,
+"lat": 48.70944
+},
+{
+"ags": "08135020",
+"name": "Salzbach",
+"population": 17260,
+"kind": "stadt",
+"lon": 10.04991,
+"lat": 48.65236
+},
+{
+"ags": "08136001",
+"name": "Unternussingen",
+"population": 1780,
+"kind": "gemeinde",
+"lon": 9.89608,
+"lat": 48.77893
+},
+{
+"ags": "08136002",
+"name": "Untereichhausen",
+"population": 2400,
+"kind": "gemeinde",
+"lon": 10.43487,
+"lat": 48.82861
+},
+{
+"ags": "08136003",
+"name": "Mittelschönstetten",
+"population": 8080,
+"kind": "gemeinde",
+"lon": 10.39772,
+"lat": 48.95231
+},
+{
+"ags": "08136004",
+"name": "Kaltwang",
+"population": 11710,
+"kind": "stadt",
+"lon": 9.79952,
+"lat": 48.78555
+},
+{
+"ags": "08136005",
+"name": "Altkaltloch",
+"population": 3640,
+"kind": "gemeinde",
+"lon": 10.43555,
+"lat": 48.91912
+},
+{
+"ags": "08136006",
+"name": "Rieddorf",
+"population": 4490,
+"kind": "gemeinde",
+"lon": 10.29638,
+"lat": 48.96222
+},
+{
+"ags": "08136007",
+"name": "Niederlindenfeld",
+"population": 3810,
+"kind": "gemeinde",
+"lon": 9.83061,
+"lat": 48.8635
+},
+{
+"ags": "08136008",
+"name": "Lindenbach",
+"population": 4490,
+"kind": "gemeinde",
+"lon": 10.34038,
+"lat": 48.77229
+},
+{
+"ags": "08136009",
+"name": "Eichau",
+"population": 1710,
+"kind": "gemeinde",
+"lon": 10.02457,
+"lat": 48.79219
+},
+{
+"ags": "08136010",
+"name": "Altpfaffbach",
+"population": 1370,
+"kind": "gemeinde",
+"lon": 9.87854,
+"lat": 48.83112
+},
+{
+"ags": "08136011",
+"name": "Rosshofen",
+"population": 4950,
+"kind": "gemeinde",
+"lon": 10.36517,
+"lat": 48.88757
+},
+{
+"ags": "08136012",
+"name": "Mittelulmenweil",
+"population": 1030,
+"kind": "gemeinde",
+"lon": 10.41751,
+"lat": 48.86894
+},
+{
+"ags": "08136013",
+"name": "Osterstatt",
+"population": 2110,
+"kind": "gemeinde",
+"lon": 10.10586,
+"lat": 49.00882
+},
+{
+"ags": "08136014",
+"name": "Wolfdorf",
+"population": 2850,
+"kind": "gemeinde",
+"lon": 9.8628,
+"lat": 48.74648
+},
+{
+"ags": "08136015",
+"name": "Nussberg",
+"population": 1960,
+"kind": "gemeinde",
+"lon": 9.97622,
+"lat": 48.93573
+},
+{
+"ags": "08136016",
+"name": "Lindenstetten",
+"population": 6680,
+"kind": "gemeinde",
+"lon": 10.26421,
+"lat": 49.01776
+},
+{
+"ags": "08136017",
+"name": "Holzau",
+"population": 3490,
+"kind": "gemeinde",
+"lon": 10.03089,
+"lat": 48.93573
+},
+{
+"ags": "08136018",
+"name": "Wolfhausen",
+"population": 4930,
+"kind": "gemeinde",
+"lon": 10.01626,
+"lat": 49.01247
+},
+{
+"ags": "08136019",
+"name": "Haseltal",
+"population": 2040,
+"kind": "gemeinde",
+"lon": 10.33849,
+"lat": 48.93611
+},
+{
+"ags": "08136020",
+"name": "Buchwang",
+"population": 2620,
+"kind": "gemeinde",
+"lon": 9.80051,
+"lat": 48.91187
+},
+{
+"ags": "08136021",
+"name": "Kleinhirschloch",
+"population": 8630,
+"kind": "gemeinde",
+"lon": 10.25141,
+"lat": 48.94569
+},
+{
+"ags": "08136022",
+"name": "Weilhofen",
+"population": 7480,
+"kind": "gemeinde",
+"lon": 10.113,
+"lat": 48.94263
+},
+{
+"ags": "08136023",
+"name": "Kalthofen",
+"population": 3400,
+"kind": "gemeinde",
+"lon": 10.06887,
+"lat": 48.96311
+},
+{
+"ags": "08136024",
+"name": "Dornach",
+"population": 7470,
+"kind": "gemeinde",
+"lon": 10.21417,
+"lat": 49.02212
+},
+{
+"ags": "08136025",
+"name": "Hohenilsenbach",
+"population": 6310,
+"kind": "gemeinde",
+"lon": 10.20463,
+"lat": 48.81786
+},
+{
+"ags": "08136026",
+"name": "Lauterfeld",
+"population": 6140,
+"kind": "gemeinde",
+"lon": 10.35932,
+"lat": 48.99321
+},
+{
+"ags": "08136027",
+"name": "Felsweiler",
+"population": 23980,
+"kind": "stadt",
+"lon": 9.70058,
+"lat": 48.79709
+},
+{
+"ags": "08136028",
+"name": "Riedfeld",
+"population": 3600,
+"kind": "gemeinde",
+"lon": 10.21762,
+"lat": 48.89663
+},
+{
+"ags": "08136029",
+"name": "Pfaffberg",
+"population": 7840,
+"kind": "gemeinde",
+"lon": 10.275,
+"lat": 48.80409
+},
+{
+"ags": "08136030",
+"name": "Kleinwaldhausen",
+"population": 7850,
+"kind": "gemeinde",
+"lon": 10.05345,
+"lat": 49.01221
+},
+{
+"ags": "08136031",
+"name": "Hallberg",
+"population": 4210,
+"kind": "gemeinde",
+"lon": 9.94255,
+"lat": 48.87166
+},
+{
+"ags": "08136032",
+"name": "Mittelsteinweiler",
+"population": 1740,
+"kind": "gemeinde",
+"lon": 10.00894,
+"lat": 48.85125
+},
+{
+"ags": "08136033",
+"name": "Kleinlindenheim",
+"population": 10120,
+"kind": "stadt",
+"lon": 10.15649,
+"lat": 49.0227
+},
+{
+"ags": "08136034",
+"name": "Niederbronnbach",
+"population": 6720,
+"kind": "gemeinde",
+"lon": 10.34455,
+"lat": 48.83442
+},
+{
+"ags": "08136035",
+"name": "Felsbach",
+"population": 5490,
+"kind": "gemeinde",
+"lon": 10.15252,
+"lat": 48.84351
+},
+{
+"ags": "08136036",
+"name": "Ilsenfeld",
+"population": 5350,
+"kind": "gemeinde",
+"lon": 10.31504,
+"lat": 49.00847
+},
+{
+"ags": "08136037",
+"name": "Oberhirschbach",
+"population": 5330,
+"kind": "gemeinde",
+"lon": 10.19286,
+"lat": 48.98332
+},
+{
+"ags": "08136038",
+"name": "Ehrdorf",
+"population": 2230,
+"kind": "gemeinde",
+"lon": 10.05999,
+"lat": 48.89172
+},
+{
+"ags": "08136039",
+"name": "Großvogelhausen",
+"population": 6880,
+"kind": "gemeinde",
+"lon": 9.90333,
+"lat": 48.91714
+},
+{
+"ags": "08136040",
+"name": "Teckfeld",
+"population": 940,
+"kind": "gemeinde",
+"lon": 10.14684,
+"lat": 48.90359
+},
+{
+"ags": "08136041",
+"name": "Hagenbach",
+"population": 5070,
+"kind": "gemeinde",
+"lon": 10.09839,
+"lat": 48.7915
+},
+{
+"ags": "08136042",
+"name": "Hohenvogelhofen",
+"population": 1250,
+"kind": "gemeinde",
+"lon": 10.17424,
+"lat": 48.94829
+},
+{
+"ags": "08136043",
+"name": "Hohenholzingen",
+"population": 3710,
+"kind": "gemeinde",
+"lon": 10.09265,
+"lat": 48.85385
+},
+{
+"ags": "08136044",
+"name": "Alteichberg",
+"population": 10230,
+"kind": "stadt",
+"lon": 9.73955,
+"lat": 48.92663
+},
+{
+"ags": "08136045",
+"name": "Oberlangstetten",
+"population": 4050,
+"kind": "gemeinde",
+"lon": 9.94506,
+"lat": 48.80561
+},
+{
+"ags": "08136046",
+"name": "Untersteinach",
+"population": 3280,
+"kind": "gemeinde",
+"lon": 9.97438,
+"lat": 48.75365
+},
+{
+"ags": "08136047",
+"name": "Schönfeld",
+"population": 8420,
+"kind": "gemeinde",
+"lon": 10.29031,
+"lat": 48.88083
+},
+{
+"ags": "08136048",
+"name": "Hirschbronn",
+"population": 4000,
+"kind": "gemeinde",
+"lon": 10.40184,
+"lat": 48.78474
+},
+{
+"ags": "08211000",
+"name": "Baden-Baden",
+"population": 57000,
+"kind": "stadtkreis",
+"lon": 8.2401,
+"lat": 48.74801
+},
+{
+"ags": "08212000",
+"name": "Karlsruhe",
+"population": 306000,
+"kind": "stadtkreis",
+"lon": 8.40926,
+"lat": 49.01709
+},
+{
+"ags": "08215001",
+"name": "Hohenmattwang",
+"population": 1220,
+"kind": "gemeinde",
+"lon": 8.61209,
+"lat": 49.06668
+},
+{
+"ags": "08215002",
+"name": "Ulmenau",
+"population": 4190,
+"kind": "gemeinde",
+"lon": 8.38429,
+"lat": 49.12308
+},
+{
+"ags": "08215003",
+"name": "Wiesenach",
+"population": 3270,
+"kind": "gemeinde",
+"lon": 8.41425,
+"lat": 48.93724
+},
+{
+"ags": "08215004",
+"name": "Birkental",
+"population": 22480,
+"kind": "stadt",
+"lon": 8.48006,
+"lat": 49.26101
+},
+{
+"ags": "08215005",
+"name": "Mittelsulzfeld",
+"population": 1740,
+"kind": "gemeinde",
+"lon": 8.57617,
+"lat": 49.23918
+},
+{
+"ags": "08215006",
+"name": "Birkeningen",
+"population": 13790,
+"kind": "stadt",
+"lon": 8.54667,
+"lat": 49.14429
+},
+{
+"ags": "08215007",
+"name": "Kleinlindeningen",
+"population": 950,
+"kind": "gemeinde",
+"lon": 8.59855,
+"lat": 49.00968
+},
+{
+"ags": "08215008",
+"name": "Zellingen",
+"population": 6980,
+"kind": "gemeinde",
+"lon": 8.70397,
+"lat": 49.02922
+},
+{
+"ags": "08215009",
+"name": "Zelltal",
+"population": 4420,
+"kind": "gemeinde",
+"lon": 8.79999,
+"lat": 49.16453
+},
+{
+"ags": "08215010",
+"name": "Hohenschönweiler",
+"population": 7200,
+"kind": "gemeinde",
+"lon": 8.49063,
+"lat": 49.15813
+},
+{
+"ags": "08215011",
+"name": "Bronnwang",
+"population": 2580,
+"kind": "gemeinde",
+"lon": 8.70394,
+"lat": 49.21011
+},
+{
+"ags": "08215012",
+"name": "Wiesenbach",
+"population": 790,
+"kind": "gemeinde",
+"lon": 8.56859,
+"lat": 49.08903
+},
+{
+"ags": "08215013",
+"name": "Rossheim",
+"population": 1160,
+"kind": "gemeinde",
+"lon": 8.74956,
+"lat": 49.09269
+},
+{
+"ags": "08215014",
+"name": "Birkenberg",
+"population": 17450,
+"kind": "stadt",
+"lon": 8.45544,
+"lat": 49.21118
+},
+{
+"ags": "08215015",
+"name": "Klinghausen",
+"population": 6130,
+"kind": "gemeinde",
+"lon": 8.47481,
+"lat": 48.8864
+},
+{
+"ags": "08215016",
+"name": "Kreuzau",
+"population": 2200,
+"kind": "gemeinde",
+"lon": 8.43612,
+"lat": 49.14533
+},
+{
+"ags": "08215017",
+"name": "Oberhaselweil",
+"population": 11760,
+"kind": "stadt",
+"lon": 8.45122,
+"lat": 49.08626
+},
+{
+"ags": "08215018",
+"name": "Niederbärenweiler",
+"population": 2460,
+"kind": "gemeinde",
+"lon": 8.58113,
+"lat": 49.199
+},
+{
+"ags": "08215019",
+"name": "Neuhausen",
+"population": 2480,
+"kind": "gemeinde",
+"lon": 8.61782,
+"lat": 49.11926
+},
+{
+"ags": "08215020",
+"name": "Großwolfberg",
+"population": 1580,
+"kind": "gemeinde",
+"lon": 8.68173,
+"lat": 49.14134
+},
+{
+"ags": "08215021",
+"name": "Mosfeld",
+"population": 15260,
+"kind": "stadt",
+"lon": 8.52529,
+"lat": 49.20259
+},
+{
+"ags": "08215022",
+"name": "Steinbronn",
+"population": 32150,
+"kind": "stadt",
+"lon": 8.42781,
+"lat": 48.85869
+},
+{
+"ags": "08215023",
+"name": "Felsfeld",
+"population": 1990,
+"kind": "gemeinde",
+"lon": 8.5167,
+"lat": 48.93016
+},
+{
+"ags": "08215024",
+"name": "Steinheim",
+"population": 6550,
+"kind": "gemeinde",
+"lon": 8.3463,
+"lat": 48.89217
+},
+{
+"ags": "08215025",
+"name": "Hirschfeld",
+"population": 12590,
+"kind": "stadt",
+"lon": 8.41163,
+"lat": 49.21789
+},
+{
+"ags": "08215026",
+"name": "Vogeldorf",
+"population": 37070,
+"kind": "stadt",
+"lon": 8.66296,
+"lat": 49.06071
+},
+{
+"ags": "08215027",
+"name": "Hagenstetten",
+"population": 510,
+"kind": "gemeinde",
+"lon": 8.32334,
+"lat": 48.96697
+},
+{
+"ags": "08215028",
+"name": "Eberdorf",
+"population": 5670,
+"kind": "gemeinde",
+"lon": 8.83683,
+"lat": 49.09443
+},
+{
+"ags": "08215029",
+"name": "Weildorf",
+"population": 9150,
+"kind": "gemeinde",
+"lon": 8.5315,
+"lat": 49.2531
+},
+{
+"ags": "08215030",
+"name": "Weilweil",
+"population": 1210,
+"kind": "gemeinde",
+"lon": 8.52896,
+"lat": 49.01377
+},
+{
+"ags": "08215031",
+"name": "Niedernussweiler",
+"population": 7300,
+"kind": "gemeinde",
+"lon": 8.63953,
+"lat": 49.21769
+},
+{
+"ags": "08215032",
+"name": "Hohenmattstetten",
+"population": 5970,
+"kind": "gemeinde",
+"lon": 8.61029,
+"lat": 49.16571
+},
+{
+"ags": "08215033",
+"name": "Kleinriedach",
+"population": 9830,
+"kind": "gemeinde",
+"lon": 8.51788,
+"lat": 49.09509
+},
+{
+"ags": "08215034",
+"name": "Langingen",
+"population": 2840,
+"kind": "gemeinde",
+"lon": 8.56048,
+"lat": 49.04226
+},
+{
+"ags": "08215035",
+"name": "Wiesenstatt",
+"population": 7350,
+"kind": "gemeinde",
+"lon": 8.75213,
+"lat": 49.17273
+},
+{
+"ags": "08216001",
+"name": "Tannhausen",
+"population": 9820,
+"kind": "gemeinde",
+"lon": 8.01881,
+"lat": 48.73194
+},
+{
+"ags": "08216002",
+"name": "Hirschberg",
+"population": 3980,
+"kind": "gemeinde",
+"lon": 8.40582,
+"lat": 48.66467
+},
+{
+"ags": "08216003",
+"name": "Kaltbach",
+"population": 14480,
+"kind": "stadt",
+"lon": 8.35724,
+"lat": 48.66976
+},
+{
+"ags": "08216004",
+"name": "Neufeld",
+"population": 4820,
+"kind": "gemeinde",
+"lon": 8.30782,
+"lat": 48.93187
+},
+{
+"ags": "08216005",
+"name": "Weilfeld",
+"population": 3120,
+"kind": "gemeinde",
+"lon": 8.19703,
+"lat": 48.92579
+},
+{
+"ags": "08216006",
+"name": "Mittelnussweil",
+"population": 5130,
+"kind": "gemeinde",
+"lon": 8.22694,
+"lat": 48.89656
+},
+{
+"ags": "08216007",
+"name": "Wiesenhofen",
+"population": 4910,
+"kind": "gemeinde",
+"lon": 8.15482,
+"lat": 48.67772
+},
+{
+"ags": "08216008",
+"name": "Oberhirschfeld",
+"population": 7570,
+"kind": "gemeinde",
+"lon": 8.31106,
+"lat": 48.64043
+},
+{
+"ags": "08216009",
+"name": "Langau",
+"population": 8200,
+"kind": "gemeinde",
+"lon": 8.14925,
+"lat": 48.76207
+},
+{
+"ags": "08216010",
+"name": "Obertannweil",
+"population": 1740,
+"kind": "gemeinde",
+"lon": 8.35445,
+"lat": 48.74904
+},
+{
+"ags": "08216011",
+"name": "Ehrtal",
+"population": 2840,
+"kind": "gemeinde",
+"lon": 8.25364,
+"lat": 48.84615
+},
+{
+"ags": "08216012",
+"name": "Rossstatt",
+"population": 7430,
+"kind": "gemeinde",
+"lon": 8.0897,
+"lat": 48.70403
+},
+{
+"ags": "08216013",
+"name": "Mittelulmenberg",
+"population": 8340,
+"kind": "gemeinde",
+"lon": 8.25014,
+"lat": 48.63286
+},
+{
+"ags": "08216014",
+"name": "Großhalldorf",
+"population": 5740,
+"kind": "gemeinde",
+"lon": 8.25066,
+"lat": 48.94791
+},
+{
+"ags": "08216015",
+"name": "Rossloch",
+"population": 64620,
+"kind": "stadt",
+"lon": 8.27432,
+"lat": 48.88653
+},
+{
+"ags": "08216016",
+"name": "Nussfeld",
+"population": 15350,
+"kind": "stadt",
+"lon": 8.38545,
+"lat": 48.81316
+},
+{
+"ags": "08216017",
+"name": "Steinstatt",
+"population": 4940,
+"kind": "gemeinde",
+"lon": 8.43337,
+"lat": 48.72723
+},
+{
+"ags": "08216018",
+"name": "Großdornfeld",
+"population": 10620,
+"kind": "stadt",
+"lon": 8.15507,
+"lat": 48.84193
+},
+{
+"ags": "08216019",
+"name": "Niederbärendorf",
+"population": 18970,
+"kind": "stadt",
+"lon": 8.15751,
+"lat": 48.88544
+},
+{
+"ags": "08216020",
+"name": "Kleineichstetten",
+"population": 7540,
+"kind": "gemeinde",
+"lon": 8.20193,
+"lat": 48.68237
+},
+{
+"ags": "08216021",
+"name": "Buchau",
+"population": 1020,
+"kind": "gemeinde",
+"lon": 8.28861,
+"lat": 48.79949
+},
+{
+"ags": "08216022",
+"name": "Zellweil",
+"population": 5860,
+"kind": "gemeinde",
+"lon": 8.10343,
+"lat": 48.7917
+},
+{
+"ags": "08216023",
+"name": "Mittelteckach",
+"population": 5620,
+"kind": "gemeinde",
+"lon": 8.32225,
+"lat": 48.83149
+},
+{
+"ags": "08216024",
+"name": "Kirchfeld",
+"population": 40650,
+"kind": "stadt",
+"lon": 8.20461,
+"lat": 48.85189
+},
+{
+"ags": "08221000",
+"name": "Heidelberg",
+"population": 162000,
+"kind": "stadtkreis",
+"lon": 8.71389,
+"lat": 49.41334
+},
+{
+"ags": "08222000",
+"name": "Mannheim",
+"population": 316000,
+"kind": "stadtkreis",
+"lon": 8.50959,
+"lat": 49.50046
+},
+{
+"ags": "08225001",
+"name": "Hoheneichau",
+"population": 4080,
+"kind": "gemeinde",
+"lon": 9.49969,
+"lat": 49.48293
+},
+{
+"ags": "08225002",
+"name": "Unterrossfeld",
+"population": 3220,
+"kind": "gemeinde",
+"lon": 9.42392,
+"lat": 49.53677
+},
+{
+"ags": "08225003",
+"name": "Sulzdorf",
+"population": 10980,
+"kind": "stadt",
+"lon": 9.50062,
+"lat": 49.41003
+},
+{
+"ags": "08225004",
+"name": "Kirchbach",
+"population": 2700,
+"kind": "gemeinde",
+"lon": 9.27563,
+"lat": 49.36511
+},
+{
+"ags": "08225005",
+"name": "Hohenteckbach",
+"population": 6340,
+"kind": "gemeinde",
+"lon": 9.03905,
+"lat": 49.42931
+},
+{
+"ags": "08225006",
+"name": "Tanntal",
+"population": 2770,
+"kind": "gemeinde",
+"lon": 9.44385,
+"lat": 49.43751
+},
+{
+"ags": "08225007",
+"name": "Sulzstetten",
+"population": 5380,
+"kind": "gemeinde",
+"lon": 8.9825,
+"lat": 49.38397
+},
+{
+"ags": "08225008",
+"name": "Riedloch",
+"population": 3540,
+"kind": "gemeinde",
+"lon": 9.2925,
+"lat": 49.42274
+},
+{
+"ags": "08225009",
+"name": "Tannstatt",
+"population": 16510,
+"kind": "stadt",
+"lon": 9.39419,
+"lat": 49.57355
+},
+{
+"ags": "08225010",
+"name": "Altwolfweil",
+"population": 6280,
+"kind": "gemeinde",
+"lon": 9.4505,
+"lat": 49.49524
+},
+{
+"ags": "08225011",
+"name": "Mattwang",
+"population": 6260,
+"kind": "gemeinde",
+"lon": 9.49843,
+"lat": 49.55964
+},
+{
+"ags": "08225012",
+"name": "Kirchbronn",
+"population": 27790,
+"kind": "stadt",
+"lon": 9.34831,
+"lat": 49.54198
+},
+{
+"ags": "08225013",
+"name": "Großfelshausen",
+"population": 370,
+"kind": "gemeinde",
+"lon": 9.29676,
+"lat": 49.48808
+},
+{
+"ags": "08225014",
+"name": "Steinbach",
+"population": 2000,
+"kind": "gemeinde",
+"lon": 9.03471,
+"lat": 49.37133
+},
+{
+"ags": "08225015",
+"name": "Rotweil",
+"population": 430,
+"kind": "gemeinde",
+"lon": 9.5654,
+"lat": 49.40801
+},
+{
+"ags": "08225016",
+"name": "Lauterstetten",
+"population": 5690,
+"kind": "gemeinde",
+"lon": 9.2247,
+"lat": 49.34695
+},
+{
+"ags": "08225017",
+"name": "Oberlindenau",
+"population": 8660,
+"kind": "gemeinde",
+"lon": 9.30354,
+"lat": 49.55276
+},
+{
+"ags": "08225018",
+"name": "Mittelneuingen",
+"population": 10500,
+"kind": "stadt",
+"lon": 9.4303,
+"lat": 49.38461
+},
+{
+"ags": "08225019",
+"name": "Unterrotweil",
+"population": 7340,
+"kind": "gemeinde",
+"lon": 9.19693,
+"lat": 49.53344
+},
+{
+"ags": "08225020",
+"name": "Goldstetten",
+"population": 2480,
+"kind": "gemeinde",
+"lon": 9.08334,
+"lat": 49.30235
+},
+{
+"ags": "08225021",
+"name": "Haseldorf",
+"population": 29940,
+"kind": "stadt",
+"lon": 9.13765,
+"lat": 49.4737
+},
+{
+"ags": "08225022",
+"name": "Klingdorf",
+"population": 7550,
+"kind": "gemeinde",
+"lon": 9.1141,
+"lat": 49.33966
+},
+{
+"ags": "08225023",
+"name": "Niedertannweil",
+"population": 4400,
+"kind": "gemeinde",
+"lon": 9.34797,
+"lat": 49.62002
+},
+{
+"ags": "08225024",
+"name": "Kaltfeld",
+"population": 1940,
+"kind": "gemeinde",
+"lon": 9.0913,
+"lat": 49.44193
+},
+{
+"ags": "08225025",
+"name": "Holzhofen",
+"population": 8380,
+"kind": "gemeinde",
+"lon": 9.12055,
+"lat": 49.29348
+},
+{
+"ags": "08225026",
+"name": "Lindenwang",
+"population": 3520,
+"kind": "gemeinde",
+"lon": 9.34611,
+"lat": 49.47893
+},
+{
+"ags": "08225027",
+"name": "Oberzellau",
+"population": 3660,
+"kind": "gemeinde",
+"lon": 9.13313,
+"lat": 49.54455
+},
+{
+"ags": "08225028",
+"name": "Vogeltal",
+"population": 6810,
+"kind": "gemeinde",
+"lon": 9.09001,
+"lat": 49.37715
+},
+{
+"ags": "08225029",
+"name": "Eberach",
+"population": 6870,
+"kind": "gemeinde",
+"lon": 9.20636,
+"lat": 49.43522
+},
+{
+"ags": "08225030",
+"name": "Pfaffstetten",
+"population": 2560,
+"kind": "gemeinde",
+"lon": 9.37251,
+"lat": 49.40505
+},
+{
+"ags": "08225031",
+"name": "Neuwang",
+"population": 18330,
+"kind": "stadt",
+"lon": 9.05785,
+"lat": 49.32988
+},
+{
+"ags": "08225032",
+"name": "Langhofen",
+"population": 2150,
+"kind": "gemeinde",
+"lon": 9.26525,
+"lat": 49.57324
+},
+{
+"ags": "08225033",
+"name": "Wolfheim",
+"population": 1920,
+"kind": "gemeinde",
+"lon": 9.46673,
+"lat": 49.61941
+},
+{
+"ags": "08225034",
+"name": "Nussstetten",
+"population": 7440,
+"kind": "gemeinde",
+"lon": 9.14817,
+"lat": 49.317
+},
+{
+"ags": "08225035",
+"name": "Bronnhausen",
+"population": 6260,
+"kind": "gemeinde",
+"lon": 9.24443,
+"lat": 49.49458
+},
+{
+"ags": "08225036",
+"name": "Obereichau",
+"population": 5920,
+"kind": "gemeinde",
+"lon": 9.39266,
+"lat": 49.4699
+},
+{
+"ags": "08225037",
+"name": "Großbuchstatt",
+"population": 3740,
+"kind": "gemeinde",
+"lon": 9.1606,
+"lat": 49.38055
+},
+{
+"ags": "08226001",
+"name": "Ehrloch",
+"population": 3430,
+"kind": "gemeinde",
+"lon": 9.0042,
+"lat": 49.47267
+},
+{
+"ags": "08226002",
+"name": "Schönweiler",
+"population": 3960,
+"kind": "gemeinde",
+"lon": 8.96317,
+"lat": 49.26241
+},
+{
+"ags": "08226003",
+"name": "Langbach",
+"population": 5510,
+"kind": "gemeinde",
+"lon": 8.69258,
+"lat": 49.26936
+},
+{
+"ags": "08226004",
+"name": "Kleinklingingen",
+"population": 4300,
+"kind": "gemeinde",
+"lon": 8.81501,
+"lat": 49.38783
+},
+{
+"ags": "08226005",
+"name": "Niedersulzingen",
+"population": 1980,
+"kind": "gemeinde",
+"lon": 8.89965,
+"lat": 49.38571
+},
+{
+"ags": "08226006",
+"name": "Nusswang",
+"population": 12570,
+"kind": "stadt",
+"lon": 8.7493,
+"lat": 49.25735
+},
+{
+"ags": "08226007",
+"name": "Birkenweiler",
+"population": 3230,
+"kind": "gemeinde",
+"lon": 8.8014,
+"lat": 49.27674
+},
+{
+"ags": "08226008",
+"name": "Bronnhofen",
+"population": 20070,
+"kind": "stadt",
+"lon": 8.97976,
+"lat": 49.32479
+},
+{
+"ags": "08226009",
+"name": "Altkaltach",
+"population": 4840,
+"kind": "gemeinde",
+"lon": 8.62645,
+"lat": 49.48564
+},
+{
+"ags": "08226010",
+"name": "Mittelnussbronn",
+"population": 2860,
+"kind": "gemeinde",
+"lon": 8.89485,
+"lat": 49.48104
+},
+{
+"ags": "08226011",
+"name": "Großrotingen",
+"population": 8480,
+"kind": "gemeinde",
+"lon": 8.63062,
+"lat": 49.34929
+},
+{
+"ags": "08226012",
+"name": "Kaltberg",
+"population": 13010,
+"kind": "stadt",
+"lon": 8.7248,
+"lat": 49.31454
+},
+{
+"ags": "08226013",
+"name": "Unterwaldhausen",
+"population": 2330,
+"kind": "gemeinde",
+"lon": 8.81568,
+"lat": 49.22765
+},
+{
+"ags": "08226014",
+"name": "Mittelfelsach",
+"population": 4270,
+"kind": "gemeinde",
+"lon": 8.61476,
+"lat": 49.30237
+},
+{
+"ags": "08226015",
+"name": "Rotstetten",
+"population": 21710,
+"kind": "stadt",
+"lon": 8.50509,
+"lat": 49.35965
+},
+{
+"ags": "08226016",
+"name": "Untersteiningen",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 9.04745,
+"lat": 49.48631
+},
+{
+"ags": "08226017",
+"name": "Bronnweil",
+"population": 2500,
+"kind": "gemeinde",
+"lon": 8.63774,
+"lat": 49.55244
+},
+{
+"ags": "08226018",
+"name": "Hohenteckweiler",
+"population": 6550,
+"kind": "gemeinde",
+"lon": 8.7583,
+"lat": 49.35175
+},
+{
+"ags": "08226019",
+"name": "Unterbronnberg",
+"population": 1760,
+"kind": "gemeinde",
+"lon": 8.68812,
+"lat": 49.34854
+},
+{
+"ags": "08226020",
+"name": "Wolfhofen",
+"population": 540,
+"kind": "gemeinde",
+"lon": 8.96822,
+"lat": 49.48517
+},
+{
+"ags": "08226021",
+"name": "Zellau",
+"population": 1150,
+"kind": "gemeinde",
+"lon": 8.6681,
+"lat": 49.31079
+},
+{
+"ags": "08226022",
+"name": "Goldfeld",
+"population": 7980,
+"kind": "gemeinde",
+"lon": 8.8268,
+"lat": 49.33099
+},
+{
+"ags": "08226023",
+"name": "Lindenfeld",
+"population": 10420,
+"kind": "stadt",
+"lon": 8.87525,
+"lat": 49.23015
+},
+{
+"ags": "08226024",
+"name": "Birkenbronn",
+"population": 9820,
+"kind": "gemeinde",
+"lon": 8.9602,
+"lat": 49.42856
+},
+{
+"ags": "08226025",
+"name": "Großlanghausen",
+"population": 8110,
+"kind": "gemeinde",
+"lon": 8.65268,
+"lat": 49.60053
+},
+{
+"ags": "08226026",
+"name": "Fischdorf",
+"population": 1730,
+"kind": "gemeinde",
+"lon": 8.68493,
+"lat": 49.52909
+},
+{
+"ags": "08226027",
+"name": "Eberstetten",
+"population": 10650,
+"kind": "stadt",
+"lon": 8.55038,
+"lat": 49.30248
+},
+{
+"ags": "08226028",
+"name": "Kleinnussdorf",
+"population": 16710,
+"kind": "stadt",
+"lon": 8.63393,
+"lat": 49.26338
+},
+{
+"ags": "08226029",
+"name": "Mittelbirkeningen",
+"population": 2880,
+"kind": "gemeinde",
+"lon": 8.57132,
+"lat": 49.37808
+},
+{
+"ags": "08226030",
+"name": "Ehrau",
+"population": 13700,
+"kind": "stadt",
+"lon": 8.82068,
+"lat": 49.46561
+},
+{
+"ags": "08226031",
+"name": "Hagenstatt",
+"population": 3950,
+"kind": "gemeinde",
+"lon": 8.71943,
+"lat": 49.48511
+},
+{
+"ags": "08226032",
+"name": "Obereberhofen",
+"population": 6710,
+"kind": "gemeinde",
+"lon": 8.78487,
+"lat": 49.49361
+},
+{
+"ags": "08226033",
+"name": "Riedweiler",
+"population": 7940,
+"kind": "gemeinde",
+"lon": 8.60343,
+"lat": 49.43359
+},
+{
+"ags": "08226034",
+"name": "Fischtal",
+"population": 1370,
+"kind": "gemeinde",
+"lon": 8.88898,
+"lat": 49.30182
+},
+{
+"ags": "08231000",
+"name": "Pforzheim",
+"population": 127000,
+"kind": "stadtkreis",
+"lon": 8.71975,
+"lat": 48.8815
+},
+{
+"ags": "08235001",
+"name": "Oberilsenach",
+"population": 15760,
+"kind": "stadt",
+"lon": 8.52828,
+"lat": 48.7623
+},
+{
+"ags": "08235002",
+"name": "Großulmenwang",
+"population": 10740,
+"kind": "stadt",
+"lon": 8.58353,
+"lat": 48.63694
+},
+{
+"ags": "08235003",
+"name": "Nussstatt",
+"population": 1160,
+"kind": "gemeinde",
+"lon": 8.72605,
+"lat": 48.5251
+},
+{
+"ags": "08235004",
+"name": "Ulmenloch",
+"population": 1080,
+"kind": "gemeinde",
+"lon": 8.45686,
+"lat": 48.79402
+},
+{
+"ags": "08235005",
+"name": "Ilsenstatt",
+"population": 6550,
+"kind": "gemeinde",
+"lon": 8.76752,
+"lat": 48.64367
+},
+{
+"ags": "08235006",
+"name": "Fischau",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 8.72532,
+"lat": 48.70307
+},
+{
+"ags": "08235007",
+"name": "Mittelmattdorf",
+"population": 8440,
+"kind": "gemeinde",
+"lon": 8.72517,
+"lat": 48.78023
+},
+{
+"ags": "08235008",
+"name": "Niederteckhofen",
+"population": 6330,
+"kind": "gemeinde",
+"lon": 8.46828,
+"lat": 48.65253
+},
+{
+"ags": "08235009",
+"name": "Hohenfischwang",
+"population": 1400,
+"kind": "gemeinde",
+"lon": 8.66484,
+"lat": 48.73977
+},
+{
+"ags": "08235010",
+"name": "Fischheim",
+"population": 2000,
+"kind": "gemeinde",
+"lon": 8.78224,
+"lat": 48.74758
+},
+{
+"ags": "08235011",
+"name": "Ulmenwang",
+"population": 1820,
+"kind": "gemeinde",
+"lon": 8.59039,
+"lat": 48.78979
+},
+{
+"ags": "08235012",
+"name": "Großtannstetten",
+"population": 2310,
+"kind": "gemeinde",
+"lon": 8.65577,
+"lat": 48.68515
+},
+{
+"ags": "08235013",
+"name": "Teckweiler",
+"population": 4420,
+"kind": "gemeinde",
+"lon": 8.52097,
+"lat": 48.68832
+},
+{
+"ags": "08235014",
+"name": "Buchloch",
+"population": 10350,
+"kind": "stadt",
+"lon": 8.53729,
+"lat": 48.60545
+},
+{
+"ags": "08235015",
+"name": "Bronnberg",
+"population": 19440,
+"kind": "stadt",
+"lon": 8.84014,
+"lat": 48.71929
+},
+{
+"ags": "08235016",
+"name": "Nussach",
+"population": 2130,
+"kind": "gemeinde",
+"lon": 8.62192,
+"lat": 48.75626
+},
+{
+"ags": "08235017",
+"name": "Großneuau",
+"population": 3140,
+"kind": "gemeinde",
+"lon": 8.65463,
+"lat": 48.62739
+},
+{
+"ags": "08235018",
+"name": "Klingloch",
+"population": 23900,
+"kind": "stadt",
+"lon": 8.62905,
+"lat": 48.52261
+},
+{
+"ags": "08235019",
+"name": "Dornfeld",
+"population": 12700,
+"kind": "stadt",
+"lon": 8.6314,
+"lat": 48.80726
+},
+{
+"ags": "08235020",
+"name": "Buchach",
+"population": 6740,
+"kind": "gemeinde",
+"lon": 8.58698,
+"lat": 48.71463
+},
+{
+"ags": "08235021",
+"name": "Kirchstatt",
+"population": 570,
+"kind": "gemeinde",
+"lon": 8.61321,
+"lat": 48.5752
+},
+{
+"ags": "08235022",
+"name": "Schönloch",
+"population": 2050,
+"kind": "gemeinde",
+"lon": 8.80218,
+"lat": 48.69267
+},
+{
+"ags": "08235023",
+"name": "Bronnstetten",
+"population": 6270,
+"kind": "gemeinde",
+"lon": 8.67796,
+"lat": 48.78835
+},
+{
+"ags": "08235024",
+"name": "Hohenweilberg",
+"population": 3060,
+"kind": "gemeinde",
+"lon": 8.71997,
+"lat": 48.60505
+},
+{
+"ags": "08235025",
+"name": "Hagenach",
+"population": 36300,
+"kind": "stadt",
+"lon": 8.67425,
+"lat": 48.54831
+},
+{
+"ags": "08236001",
+"name": "Osterfeld",
+"population": 3110,
+"kind": "gemeinde",
+"lon": 8.7726,
+"lat": 48.81203
+},
+{
+"ags": "08236002",
+"name": "Mittelschönberg",
+"population": 5270,
+"kind": "gemeinde",
+"lon": 8.87906,
+"lat": 49.00891
+},
+{
+"ags": "08236003",
+"name": "Oberfischtal",
+"population": 6440,
+"kind": "gemeinde",
+"lon": 8.55586,
+"lat": 48.89684
+},
+{
+"ags": "08236004",
+"name": "Hohenwolfhausen",
+"population": 510,
+"kind": "gemeinde",
+"lon": 8.62064,
+"lat": 48.83872
+},
+{
+"ags": "08236005",
+"name": "Erlenweil",
+"population": 9520,
+"kind": "gemeinde",
+"lon": 8.51493,
+"lat": 48.82273
+},
+{
+"ags": "08236006",
+"name": "Großsteinstatt",
+"population": 4220,
+"kind": "gemeinde",
+"lon": 8.8365,
+"lat": 48.95683
+},
+{
+"ags": "08236007",
+"name": "Unterhaseldorf",
+"population": 2030,
+"kind": "gemeinde",
+"lon": 8.81264,
+"lat": 48.91143
+},
+{
+"ags": "08236008",
+"name": "Mittelhallingen",
+"population": 13390,
+"kind": "stadt",
+"lon": 8.90122,
+"lat": 48.95425
+},
+{
+"ags": "08236009",
+"name": "Unterbirkenhausen",
+"population": 3870,
+"kind": "gemeinde",
+"lon": 8.61267,
+"lat": 48.89939
+},
+{
+"ags": "08236010",
+"name": "Altwieseningen",
+"population": 16000,
+"kind": "stadt",
+"lon": 8.85715,
+"lat": 48.83026
+},
+{
+"ags": "08236011",
+"name": "Fischbronn",
+"population": 8970,
+"kind": "gemeinde",
+"lon": 8.77312,
+"lat": 48.9576
+},
+{
+"ags": "08236012",
+"name": "Birkenhofen",
+"population": 3960,
+"kind": "gemeinde",
+"lon": 8.81575,
+"lat": 48.86476
+},
+{
+"ags": "08236013",
+"name": "Waldstatt",
+"population": 16560,
+"kind": "stadt",
+"lon": 8.5996,
+"lat": 48.97191
+},
+{
+"ags": "08236014",
+"name": "Hohenmattingen",
+"population": 11650,
+"kind": "stadt",
+"lon": 8.88781,
+"lat": 48.89367
+},
+{
+"ags": "08236015",
+"name": "Obereichstatt",
+"population": 3310,
+"kind": "gemeinde",
+"lon": 8.7169,
+"lat": 48.97124
+},
+{
+"ags": "08236016",
+"name": "Lindenhausen",
+"population": 1150,
+"kind": "gemeinde",
+"lon": 8.65418,
+"lat": 48.9598
+},
+{
+"ags": "08236017",
+"name": "Rotbach",
+"population": 3180,
+"kind": "gemeinde",
+"lon": 8.79998,
+"lat": 49.0251
+},
+{
+"ags": "08236018",
+"name": "Hohenriedberg",
+"population": 9710,
+"kind": "gemeinde",
+"lon": 8.572,
+"lat": 48.94327
+},
+{
+"ags": "08236019",
+"name": "Rotweiler",
+"population": 4280,
+"kind": "gemeinde",
+"lon": 8.54526,
+"lat": 48.84713
+},
+{
+"ags": "08237001",
+"name": "Goldbronn",
+"population": 50530,
+"kind": "stadt",
+"lon": 8.75397,
+"lat": 48.48613
+},
+{
+"ags": "08237002",
+"name": "Kaltingen",
+"population": 1800,
+"kind": "gemeinde",
+"lon": 8.69675,
+"lat": 48.40798
+},
+{
+"ags": "08237003",
+"name": "Mühlhausen",
+"population": 6930,
+"kind": "gemeinde",
+"lon": 8.48744,
+"lat": 48.53812
+},
+{
+"ags": "08237004",
+"name": "Teckau",
+"population": 10680,
+"kind": "stadt",
+"lon": 8.68455,
+"lat": 48.46406
+},
+{
+"ags": "08237005",
+"name": "Mittelnussdorf",
+"population": 2290,
+"kind": "gemeinde",
+"lon": 8.61189,
+"lat": 48.48903
+},
+{
+"ags": "08237006",
+"name": "Steinweiler",
+"population": 2970,
+"kind": "gemeinde",
+"lon": 8.38985,
+"lat": 48.37861
+},
+{
+"ags": "08237007",
+"name": "Rotloch",
+"population": 3510,
+"kind": "gemeinde",
+"lon": 8.35248,
+"lat": 48.419
+},
+{
+"ags": "08237008",
+"name": "Hohenerlenweil",
+"population": 550,
+"kind": "gemeinde",
+"lon": 8.63254,
+"lat": 48.42603
+},
+{
+"ags": "08237009",
+"name": "Hohensalzhofen",
+"population": 10110,
+"kind": "stadt",
+"lon": 8.2632,
+"lat": 48.57031
+},
+{
+"ags": "08237010",
+"name": "Niederneuhofen",
+"population": 5200,
+"kind": "gemeinde",
+"lon": 8.43901,
+"lat": 48.50736
+},
+{
+"ags": "08237011",
+"name": "Neustatt",
+"population": 4980,
+"kind": "gemeinde",
+"lon": 8.53859,
+"lat": 48.5586
+},
+{
+"ags": "08237012",
+"name": "Mühlbronn",
+"population": 5880,
+"kind": "gemeinde",
+"lon": 8.2739,
+"lat": 48.44223
+},
+{
+"ags": "08237013",
+"name": "Buchberg",
+"population": 6900,
+"kind": "gemeinde",
+"lon": 8.30179,
+"lat": 48.38101
+},
+{
+"ags": "08237014",
+"name": "Eberloch",
+"population": 49510,
+"kind": "stadt",
+"lon": 8.27191,
+"lat": 48.39869
+},
+{
+"ags": "08237015",
+"name": "Salzberg",
+"population": 6470,
+"kind": "gemeinde",
+"lon": 8.44739,
+"lat": 48.35027
+},
+{
+"ags": "08237016",
+"name": "Mitteleichloch",
+"population": 12070,
+"kind": "stadt",
+"lon": 8.73743,
+"lat": 48.40917
+},
+{
+"ags": "08237017",
+"name": "Niedersulzberg",
+"population": 3320,
+"kind": "gemeinde",
+"lon": 8.53908,
+"lat": 48.42713
+},
+{
+"ags": "08237018",
+"name": "Mittelneubach",
+"population": 7630,
+"kind": "gemeinde",
+"lon": 8.45761,
+"lat": 48.43173
+},
+{
+"ags": "08237019",
+"name": "Bäreningen",
+"population": 4040,
+"kind": "gemeinde",
+"lon": 8.32187,
+"lat": 48.50728
+},
+{
+"ags": "08237020",
+"name": "Altehrach",
+"population": 4730,
+"kind": "gemeinde",
+"lon": 8.79051,
+"lat": 48.46664
+},
+{
+"ags": "08237021",
+"name": "Weilau",
+"population": 2300,
+"kind": "gemeinde",
+"lon": 8.25532,
+"lat": 48.52033
+},
+{
+"ags": "08237022",
+"name": "Rossdorf",
+"population": 2500,
+"kind": "gemeinde",
+"lon": 8.35733,
+"lat": 48.55926
+},
+{
+"ags": "08237023",
+"name": "Holzweiler",
+"population": 8430,
+"kind": "gemeinde",
+"lon": 8.73961,
+"lat": 48.45361
+},
+{
+"ags": "08237024",
+"name": "Hallbronn",
+"population": 11110,
+"kind": "stadt",
+"lon": 8.31291,
+"lat": 48.45459
+},
+{
+"ags": "08237025",
+"name": "Bärenstetten",
+"population": 8470,
+"kind": "gemeinde",
+"lon": 8.38631,
+"lat": 48.47185
+},
+{
+"ags": "08237026",
+"name": "Niederehrstetten",
+"population": 2880,
+"kind": "gemeinde",
+"lon": 8.53997,
+"lat": 48.48556
+},
+{
+"ags": "08237027",
+"name": "Mittelsalzfeld",
+"population": 7380,
+"kind": "gemeinde",
+"lon": 8.42421,
+"lat": 48.59387
+},
+{
+"ags": "08311000",
+"name": "Freiburg im Breisgau",
+"population": 236000,
+"kind": "stadtkreis",
+"lon": 7.80849,
+"lat": 47.99041
+},
+{
+"ags": "08315001",
+"name": "Niederilsenheim",
+"population": 4060,
+"kind": "gemeinde",
+"lon": 8.16389,
+"lat": 47.86935
+},
+{
+"ags": "08315002",
+"name": "Untermühlhausen",
+"population": 6210,
+"kind": "gemeinde",
+"lon": 7.61915,
+"lat": 47.84696
+},
+{
+"ags": "08315003",
+"name": "Goldberg",
+"population": 7800,
+"kind": "gemeinde",
+"lon": 8.09492,
+"lat": 47.89025
+},
+{
+"ags": "08315004",
+"name": "Erlenweiler",
+"population": 3800,
+"kind": "gemeinde",
+"lon": 7.66113,
+"lat": 47.84555
+},
+{
+"ags": "08315005",
+"name": "Mattstetten",
+"population": 33710,
+"kind": "stadt",
+"lon": 7.67499,
+"lat": 48.06757
+},
+{
+"ags": "08315006",
+"name": "Salzheim",
+"population": 3170,
+"kind": "gemeinde",
+"lon": 7.63457,
+"lat": 47.8931
+},
+{
+"ags": "08315007",
+"name": "Kirchstetten",
+"population": 5140,
+"kind": "gemeinde",
+"lon": 7.74397,
+"lat": 47.87409
+},
+{
+"ags": "08315008",
+"name": "Hohenteckloch",
+"population": 17760,
+"kind": "stadt",
+"lon": 7.68296,
+"lat": 47.88532
+},
+{
+"ags": "08315009",
+"name": "Hohenhagenheim",
+"population": 13130,
+"kind": "stadt",
+"lon": 8.0687,
+"lat": 47.94884
+},
+{
+"ags": "08315010",
+"name": "Niederhirschheim",
+"population": 6160,
+"kind": "gemeinde",
+"lon": 8.34522,
+"lat": 47.9107
+},
+{
+"ags": "08315011",
+"name": "Klingbronn",
+"population": 8960,
+"kind": "gemeinde",
+"lon": 7.94392,
+"lat": 47.94798
+},
+{
+"ags": "08315012",
+"name": "Eichstatt",
+"population": 13700,
+"kind": "stadt",
+"lon": 7.68411,
+"lat": 47.92997
+},
+{
+"ags": "08315013",
+"name": "Untermosdorf",
+"population": 6160,
+"kind": "gemeinde",
+"lon": 7.97856,
+"lat": 48.0395
+},
+{
+"ags": "08315014",
+"name": "Salzstetten",
+"population": 11630,
+"kind": "stadt",
+"lon": 7.79128,
+"lat": 47.95165
+},
+{
+"ags": "08315015",
+"name": "Erlenheim",
+"population": 2580,
+"kind": "gemeinde",
+"lon": 8.12289,
+"lat": 47.82634
+},
+{
+"ags": "08315016",
+"name": "Mittellangau",
+"population": 6660,
+"kind": "gemeinde",
+"lon": 7.60774,
+"lat": 48.03224
+},
+{
+"ags": "08315017",
+"name": "Salzhofen",
+"population": 1280,
+"kind": "gemeinde",
+"lon": 8.18931,
+"lat": 47.80982
+},
+{
+"ags": "08315018",
+"name": "Hagenweil",
+"population": 2630,
+"kind": "gemeinde",
+"lon": 7.83903,
+"lat": 47.93186
+},
+{
+"ags": "08315019",
+"name": "Großholzau",
+"population": 2060,
+"kind": "gemeinde",
+"lon": 7.58344,
+"lat": 47.87064
+},
+{
+"ags": "08315020",
+"name": "Rothausen",
+"population": 20640,
+"kind": "stadt",
+"lon": 7.71085,
+"lat": 47.84655
+},
+{
+"ags": "08315021",
+"name": "Eberweil",
+"population": 3960,
+"kind": "gemeinde",
+"lon": 7.86077,
+"lat": 47.88168
+},
+{
+"ags": "08315022",
+"name": "Felshausen",
+"population": 8240,
+"kind": "gemeinde",
+"lon": 7.73387,
+"lat": 47.95037
+},
+{
+"ags": "08315023",
+"name": "Großkreuzweiler",
+"population": 2530,
+"kind": "gemeinde",
+"lon": 7.80015,
+"lat": 47.84335
+},
+{
+"ags": "08315024",
+"name": "Langfeld",
+"population": 5070,
+"kind": "gemeinde",
+"lon": 8.21632,
+"lat": 47.96964
+},
+{
+"ags": "08315025",
+"name": "Großhaselstatt",
+"population": 4710,
+"kind": "gemeinde",
+"lon": 7.90551,
+"lat": 48.03394
+},
+{
+"ags": "08315026",
+"name": "Kalttal",
+"population": 2700,
+"kind": "gemeinde",
+"lon": 8.39253,
+"lat": 47.87556
+},
+{
+"ags": "08315027",
+"name": "Großosterfeld",
+"population": 14050,
+"kind": "stadt",
+"lon": 8.23524,
+"lat": 47.88584
+},
+{
+"ags": "08315028",
+"name": "Mosstatt",
+"population": 1240,
+"kind": "gemeinde",
+"lon": 7.98946,
+"lat": 47.99088
+},
+{
+"ags": "08315029",
+"name": "Bärenstatt",
+"population": 11220,
+"kind": "stadt",
+"lon": 7.57268,
+"lat": 47.79902
+},
+{
+"ags": "08315030",
+"name": "Hagenloch",
+"population": 79510,
+"kind": "stadt",
+"lon": 7.72095,
+"lat": 47.80914
+},
+{
+"ags": "08315031",
+"name": "Kaltweil",
+"population": 2770,
+"kind": "gemeinde",
+"lon": 7.77713,
+"lat": 47.90704
+},
+{
+"ags": "08315032",
+"name": "Niederholzdorf",
+"population": 6290,
+"kind": "gemeinde",
+"lon": 7.94069,
+"lat": 47.89873
+},
+{
+"ags": "08315033",
+"name": "Holzloch",
+"population": 1360,
+"kind": "gemeinde",
+"lon": 7.64765,
+"lat": 47.79739
+},
+{
+"ags": "08315034",
+"name": "Mittelbronnheim",
+"population": 5920,
+"kind": "gemeinde",
+"lon": 7.61804,
+"lat": 47.93181
+},
+{
+"ags": "08315035",
+"name": "Sulzhausen",
+"population": 1140,
+"kind": "gemeinde",
+"lon": 7.60603,
+"lat": 48.08548
+},
+{
+"ags": "08315036",
+"name": "Altmühlweiler",
+"population": 11070,
+"kind": "stadt",
+"lon": 8.31707,
+"lat": 47.87081
+},
+{
+"ags": "08315037",
+"name": "Teckheim",
+"population": 3750,
+"kind": "gemeinde",
+"lon": 7.75329,
+"lat": 48.06754
+},
+{
+"ags": "08315038",
+"name": "Mittelbirkendorf",
+"population": 1010,
+"kind": "gemeinde",
+"lon": 8.02172,
+"lat": 47.88603
+},
+{
+"ags": "08315039",
+"name": "Fischingen",
+"population": 1720,
+"kind": "gemeinde",
+"lon": 8.00359,
+"lat": 47.93911
+},
+{
+"ags": "08315040",
+"name": "Tannbach",
+"population": 1290,
+"kind": "gemeinde",
+"lon": 8.07158,
+"lat": 48.01608
+},
+{
+"ags": "08315041",
+"name": "Altkreuzbach",
+"population": 4520,
+"kind": "gemeinde",
+"lon": 8.28212,
+"lat": 47.94421
+},
+{
+"ags": "08315042",
+"name": "Haselstetten",
+"population": 13530,
+"kind": "stadt",
+"lon": 7.65404,
+"lat": 47.99141
+},
+{
+"ags": "08315043",
+"name": "Teckstetten",
+"population": 4030,
+"kind": "gemeinde",
+"lon": 8.15339,
+"lat": 47.94562
+},
+{
+"ags": "08316001",
+"name": "Unterkirchweil",
+"population": 2950,
+"kind": "gemeinde",
+"lon": 8.02245,
+"lat": 48.16506
+},
+{
+"ags": "08316002",
+"name": "Kreuzheim",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 7.86186,
+"lat": 48.08372
+},
+{
+"ags": "08316003",
+"name": "Kaltau",
+"population": 19030,
+"kind": "stadt",
+"lon": 8.02081,
+"lat": 48.1041
+},
+{
+"ags": "08316004",
+"name": "Altfischberg",
+"population": 4240,
+"kind": "gemeinde",
+"lon": 7.94947,
+"lat": 48.13513
+},
+{
+"ags": "08316005",
+"name": "Hohenwaldach",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 8.08197,
+"lat": 48.10798
+},
+{
+"ags": "08316006",
+"name": "Tannach",
+"population": 6010,
+"kind": "gemeinde",
+"lon": 7.78797,
+"lat": 48.20983
+},
+{
+"ags": "08316007",
+"name": "Mattbronn",
+"population": 2180,
+"kind": "gemeinde",
+"lon": 7.84587,
+"lat": 48.19314
+},
+{
+"ags": "08316008",
+"name": "Mittelehrwang",
+"population": 10310,
+"kind": "stadt",
+"lon": 8.1138,
+"lat": 48.06968
+},
+{
+"ags": "08316009",
+"name": "Dornbach",
+"population": 13200,
+"kind": "stadt",
+"lon": 7.9007,
+"lat": 48.11526
+},
+{
+"ags": "08316010",
+"name": "Wiesenloch",
+"population": 15660,
+"kind": "stadt",
+"lon": 7.90108,
+"lat": 48.16297
+},
+{
+"ags": "08316011",
+"name": "Sulztal",
+"population": 2070,
+"kind": "gemeinde",
+"lon": 8.04503,
+"lat": 48.20297
+},
+{
+"ags": "08316012",
+"name": "Altholzberg",
+"population": 5020,
+"kind": "gemeinde",
+"lon": 7.95107,
+"lat": 48.19065
+},
+{
+"ags": "08316013",
+"name": "Rosshausen",
+"population": 34690,
+"kind": "stadt",
+"lon": 7.95054,
+"lat": 48.08399
+},
+{
+"ags": "08316014",
+"name": "Kaltach",
+"population": 4700,
+"kind": "gemeinde",
+"lon": 7.89138,
+"lat": 48.2071
+},
+{
+"ags": "08316015",
+"name": "Bärenbronn",
+"population": 19770,
+"kind": "stadt",
+"lon": 7.76164,
+"lat": 48.14848
+},
+{
+"ags": "08316016",
+"name": "Rossach",
+"population": 25500,
+"kind": "stadt",
+"lon": 7.83858,
+"lat": 48.13752
+},
+{
+"ags": "08316017",
+"name": "Hohenkreuzhausen",
+"population": 1510,
+"kind": "gemeinde",
+"lon": 7.98142,
+"lat": 48.15966
+},
+{
+"ags": "08316018",
+"name": "Osterweil",
+"population": 18790,
+"kind": "stadt",
+"lon": 8.12375,
+"lat": 48.18392
+},
+{
+"ags": "08316019",
+"name": "Tannheim",
+"population": 12040,
+"kind": "stadt",
+"lon": 7.7945,
+"lat": 48.10483
+},
+{
+"ags": "08316020",
+"name": "Osterheim",
+"population": 13590,
+"kind": "stadt",
+"lon": 7.71044,
+"lat": 48.20844
+},
+{
+"ags": "08316021",
+"name": "Kirchau",
+"population": 29940,
+"kind": "stadt",
+"lon": 7.65325,
+"lat": 48.14877
+},
+{
+"ags": "08317001",
+"name": "Eichbronn",
+"population": 5720,
+"kind": "gemeinde",
+"lon": 8.02906,
+"lat": 48.35546
+},
+{
+"ags": "08317002",
+"name": "Eberfeld",
+"population": 5290,
+"kind": "gemeinde",
+"lon": 7.89019,
+"lat": 48.33372
+},
+{
+"ags": "08317003",
+"name": "Teckdorf",
+"population": 2000,
+"kind": "gemeinde",
+"lon": 8.1208,
+"lat": 48.46422
+},
+{
+"ags": "08317004",
+"name": "Wiesenberg",
+"population": 3080,
+"kind": "gemeinde",
+"lon": 7.94715,
+"lat": 48.35441
+},
+{
+"ags": "08317005",
+"name": "Birkenach",
+"population": 2640,
+"kind": "gemeinde",
+"lon": 8.20271,
+"lat": 48.61351
+},
+{
+"ags": "08317006",
+"name": "Großwiesendorf",
+"population": 14010,
+"kind": "stadt",
+"lon": 7.96966,
+"lat": 48.46498
+},
+{
+"ags": "08317007",
+"name": "Kirchweil",
+"population": 20500,
+"kind": "stadt",
+"lon": 8.07555,
+"lat": 48.4593
+},
+{
+"ags": "08317008",
+"name": "Kleinrotstatt",
+"population": 7160,
+"kind": "gemeinde",
+"lon": 8.16618,
+"lat": 48.55929
+},
+{
+"ags": "08317009",
+"name": "Ulmenheim",
+"population": 23420,
+"kind": "stadt",
+"lon": 7.86823,
+"lat": 48.26789
+},
+{
+"ags": "08317010",
+"name": "Hohenosterberg",
+"population": 3930,
+"kind": "gemeinde",
+"lon": 8.02275,
+"lat": 48.6529
+},
+{
+"ags": "08317011",
+"name": "Tannberg",
+"population": 3950,
+"kind": "gemeinde",
+"lon": 7.81014,
+"lat": 48.27581
+},
+{
+"ags": "08317012",
+"name": "Lauterweil",
+"population": 1520,
+"kind": "gemeinde",
+"lon": 7.98216,
+"lat": 48.24579
+},
+{
+"ags": "08317013",
+"name": "Kreuzhofen",
+"population": 6450,
+"kind": "gemeinde",
+"lon": 7.96366,
+"lat": 48.52732
+},
+{
+"ags": "08317014",
+"name": "Neuingen",
+"population": 3380,
+"kind": "gemeinde",
+"lon": 8.22688,
+"lat": 48.48182
+},
+{
+"ags": "08317015",
+"name": "Bärenach",
+"population": 5670,
+"kind": "gemeinde",
+"lon": 8.09861,
+"lat": 48.39892
+},
+{
+"ags": "08317016",
+"name": "Hohenilsenwang",
+"population": 8240,
+"kind": "gemeinde",
+"lon": 7.82753,
+"lat": 48.51177
+},
+{
+"ags": "08317017",
+"name": "Lauterhofen",
+"population": 4140,
+"kind": "gemeinde",
+"lon": 8.06269,
+"lat": 48.52481
+},
+{
+"ags": "08317018",
+"name": "Altlindenloch",
+"population": 1800,
+"kind": "gemeinde",
+"lon": 7.92959,
+"lat": 48.22737
+},
+{
+"ags": "08317019",
+"name": "Zellberg",
+"population": 4990,
+"kind": "gemeinde",
+"lon": 7.81993,
+"lat": 48.3496
+},
+{
+"ags": "08317020",
+"name": "Ulmenbronn",
+"population": 4870,
+"kind": "gemeinde",
+"lon": 8.20721,
+"lat": 48.56329
+},
+{
+"ags": "08317021",
+"name": "Kleineberdorf",
+"population": 5350,
+"kind": "gemeinde",
+"lon": 8.26233,
+"lat": 48.20827
+},
+{
+"ags": "08317022",
+"name": "Mittelzellingen",
+"population": 9860,
+"kind": "gemeinde",
+"lon": 7.73605,
+"lat": 48.2804
+},
+{
+"ags": "08317023",
+"name": "Hohenhaselbach",
+"population": 4260,
+"kind": "gemeinde",
+"lon": 7.9837,
+"lat": 48.57829
+},
+{
+"ags": "08317024",
+"name": "Neuau",
+"population": 4060,
+"kind": "gemeinde",
+"lon": 8.04277,
+"lat": 48.2517
+},
+{
+"ags": "08317025",
+"name": "Hirschhausen",
+"population": 26780,
+"kind": "stadt",
+"lon": 8.2276,
+"lat": 48.43581
+},
+{
+"ags": "08317026",
+"name": "Bärenweiler",
+"population": 14390,
+"kind": "stadt",
+"lon": 8.16345,
+"lat": 48.50142
+},
+{
+"ags": "08317027",
+"name": "Fischbach",
+"population": 4810,
+"kind": "gemeinde",
+"lon": 8.24159,
+"lat": 48.33348
+},
+{
+"ags": "08317028",
+"name": "Oberbärenstetten",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 7.92048,
+"lat": 48.2651
+},
+{
+"ags": "08317029",
+"name": "Mühlingen",
+"population": 3450,
+"kind": "gemeinde",
+"lon": 7.86016,
+"lat": 48.40851
+},
+{
+"ags": "08317030",
+"name": "Altdornhofen",
+"population": 7520,
+"kind": "gemeinde",
+"lon": 8.16699,
+"lat": 48.43144
+},
+{
+"ags": "08317031",
+"name": "Waldbach",
+"population": 11640,
+"kind": "stadt",
+"lon": 7.96313,
+"lat": 48.30199
+},
+{
+"ags": "08317032",
+"name": "Dornberg",
+"population": 50810,
+"kind": "stadt",
+"lon": 7.78677,
+"lat": 48.42704
+},
+{
+"ags": "08317033",
+"name": "Hohenbirkenwang",
+"population": 4190,
+"kind": "gemeinde",
+"lon": 8.08797,
+"lat": 48.63059
+},
+{
+"ags": "08317034",
+"name": "Lindenstatt",
+"population": 6110,
+"kind": "gemeinde",
+"lon": 8.10232,
+"lat": 48.28128
+},
+{
+"ags": "08317035",
+"name": "Rossingen",
+"population": 3790,
+"kind": "gemeinde",
+"lon": 8.29463,
+"lat": 48.32102
+},
+{
+"ags": "08317036",
+"name": "Hohenklingheim",
+"population": 5730,
+"kind": "gemeinde",
+"lon": 8.10845,
+"lat": 48.55761
+},
+{
+"ags": "08317037",
+"name": "Felsloch",
+"population": 3710,
+"kind": "gemeinde",
+"lon": 7.98562,
+"lat": 48.38921
+},
+{
+"ags": "08317038",
+"name": "Großwaldweiler",
+"population": 1950,
+"kind": "gemeinde",
+"lon": 8.20152,
+"lat": 48.21997
+},
+{
+"ags": "08317039",
+"name": "Altgoldau",
+"population": 13940,
+"kind": "stadt",
+"lon": 7.89851,
+"lat": 48.49174
+},
+{
+"ags": "08317040",
+"name": "Mosloch",
+"population": 6020,
+"kind": "gemeinde",
+"lon": 7.87864,
+"lat": 48.59619
+},
+{
+"ags": "08317041",
+"name": "Wolffeld",
+"population": 17900,
+"kind": "stadt",
+"lon": 8.17062,
+"lat": 48.27374
+},
+{
+"ags": "08317042",
+"name": "Hohenweilstetten",
+"population": 3330,
+"kind": "gemeinde",
+"lon": 8.16074,
+"lat": 48.3241
+},
+{
+"ags": "08317043",
+"name": "Langwang",
+"population": 6860,
+"kind": "gemeinde",
+"lon": 8.0454,
+"lat": 48.41217
+},
+{
+"ags": "08317044",
+"name": "Hohenbuchweiler",
+"population": 9950,
+"kind": "gemeinde",
+"lon": 8.22164,
+"lat": 48.38098
+},
+{
+"ags": "08317045",
+"name": "Salzfeld",
+"population": 920,
+"kind": "gemeinde",
+"lon": 8.0429,
+"lat": 48.59316
+},
+{
+"ags": "08317046",
+"name": "Mitteleichfeld",
+"population": 1560,
+"kind": "gemeinde",
+"lon": 8.24592,
+"lat": 48.27529
+},
+{
+"ags": "08317047",
+"name": "Haselhofen",
+"population": 10910,
+"kind": "stadt",
+"lon": 7.94845,
+"lat": 48.65977
+},
+{
+"ags": "08317048",
+"name": "Holzstetten",
+"population": 5920,
+"kind": "gemeinde",
+"lon": 8.14381,
+"lat": 48.62001
+},
+{
+"ags": "08317049",
+"name": "Eichstetten",
+"population": 960,
+"kind": "gemeinde",
+"lon": 8.09785,
+"lat": 48.34578
+},
+{
+"ags": "08317050",
+"name": "Ilsenau",
+"population": 2700,
+"kind": "gemeinde",
+"lon": 8.16967,
+"lat": 48.37357
+},
+{
+"ags": "08317051",
+"name": "Großhallbach",
+"population": 2020,
+"kind": "gemeinde",
+"lon": 8.04103,
+"lat": 48.30295
+},
+{
+"ags": "08317052",
+"name": "Tanningen",
+"population": 3440,
+"kind": "gemeinde",
+"lon": 7.92607,
+"lat": 48.41918
+},
+{
+"ags": "08317053",
+"name": "Langhausen",
+"population": 23130,
+"kind": "stadt",
+"lon": 7.76181,
+"lat": 48.35374
+},
+{
+"ags": "08317054",
+"name": "Halldorf",
+"population": 3170,
+"kind": "gemeinde",
+"lon": 8.11534,
+"lat": 48.23709
+},
+{
+"ags": "08317055",
+"name": "Weilbach",
+"population": 36460,
+"kind": "stadt",
+"lon": 8.02409,
+"lat": 48.4924
+},
+{
+"ags": "08317056",
+"name": "Unternussach",
+"population": 4300,
+"kind": "gemeinde",
+"lon": 8.01458,
+"lat": 48.44038
+},
+{
+"ags": "08325001",
+"name": "Weilheim",
+"population": 4230,
+"kind": "gemeinde",
+"lon": 8.33042,
+"lat": 48.19051
+},
+{
+"ags": "08325002",
+"name": "Sulzheim",
+"population": 3770,
+"kind": "gemeinde",
+"lon": 8.62702,
+"lat": 48.14018
+},
+{
+"ags": "08325003",
+"name": "Hallau",
+"population": 1810,
+"kind": "gemeinde",
+"lon": 8.53702,
+"lat": 48.27343
+},
+{
+"ags": "08325004",
+"name": "Fischach",
+"population": 50150,
+"kind": "stadt",
+"lon": 8.67544,
+"lat": 48.27265
+},
+{
+"ags": "08325005",
+"name": "Tannstetten",
+"population": 3640,
+"kind": "gemeinde",
+"lon": 8.65804,
+"lat": 48.35709
+},
+{
+"ags": "08325006",
+"name": "Haselstatt",
+"population": 7590,
+"kind": "gemeinde",
+"lon": 8.64112,
+"lat": 48.18475
+},
+{
+"ags": "08325007",
+"name": "Mittelbronnbach",
+"population": 5470,
+"kind": "gemeinde",
+"lon": 8.32256,
+"lat": 48.2564
+},
+{
+"ags": "08325008",
+"name": "Holzingen",
+"population": 1180,
+"kind": "gemeinde",
+"lon": 8.42965,
+"lat": 48.2645
+},
+{
+"ags": "08325009",
+"name": "Sulzwang",
+"population": 3160,
+"kind": "gemeinde",
+"lon": 8.61708,
+"lat": 48.22774
+},
+{
+"ags": "08325010",
+"name": "Bärenweil",
+"population": 6450,
+"kind": "gemeinde",
+"lon": 8.38432,
+"lat": 48.29996
+},
+{
+"ags": "08325011",
+"name": "Hirschloch",
+"population": 12730,
+"kind": "stadt",
+"lon": 8.70486,
+"lat": 48.15831
+},
+{
+"ags": "08325012",
+"name": "Langdorf",
+"population": 3830,
+"kind": "gemeinde",
+"lon": 8.50342,
+"lat": 48.20078
+},
+{
+"ags": "08325013",
+"name": "Bärenhofen",
+"population": 7490,
+"kind": "gemeinde",
+"lon": 8.59422,
+"lat": 48.28818
+},
+{
+"ags": "08325014",
+"name": "Sulzach",
+"population": 3860,
+"kind": "gemeinde",
+"lon": 8.48002,
+"lat": 48.28174
+},
+{
+"ags": "08325015",
+"name": "Mittelneuach",
+"population": 9240,
+"kind": "gemeinde",
+"lon": 8.69202,
+"lat": 48.19006
+},
+{
+"ags": "08325016",
+"name": "Lindenbronn",
+"population": 520,
+"kind": "gemeinde",
+"lon": 8.57323,
+"lat": 48.12291
+},
+{
+"ags": "08325017",
+"name": "Holztal",
+"population": 9350,
+"kind": "gemeinde",
+"lon": 8.38106,
+"lat": 48.22126
+},
+{
+"ags": "08325018",
+"name": "Obereichloch",
+"population": 2960,
+"kind": "gemeinde",
+"lon": 8.33126,
+"lat": 48.31914
+},
+{
+"ags": "08325019",
+"name": "Neuweiler",
+"population": 3080,
+"kind": "gemeinde",
+"lon": 8.3348,
+"lat": 48.36245
+},
+{
+"ags": "08325020",
+"name": "Schönheim",
+"population": 370,
+"kind": "gemeinde",
+"lon": 8.6423,
+"lat": 48.27013
+},
+{
+"ags": "08325021",
+"name": "Hirschach",
+"population": 1960,
+"kind": "gemeinde",
+"lon": 8.4342,
+"lat": 48.20369
+},
+{
+"ags": "08325022",
+"name": "Pfaffhofen",
+"population": 9490,
+"kind": "gemeinde",
+"lon": 8.68012,
+"lat": 48.22429
+},
+{
+"ags": "08325023",
+"name": "Riedstetten",
+"population": 47010,
+"kind": "stadt",
+"lon": 8.56661,
+"lat": 48.19428
+},
+{
+"ags": "08325024",
+"name": "Niederfelsdorf",
+"population": 2750,
+"kind": "gemeinde",
+"lon": 8.54189,
+"lat": 48.36219
+},
+{
+"ags": "08326001",
+"name": "Niederklingwang",
+"population": 1140,
+"kind": "gemeinde",
+"lon": 8.39035,
+"lat": 48.1024
+},
+{
+"ags": "08326002",
+"name": "Birkenstetten",
+"population": 5740,
+"kind": "gemeinde",
+"lon": 8.3535,
+"lat": 47.95606
+},
+{
+"ags": "08326003",
+"name": "Wolfwang",
+"population": 10520,
+"kind": "stadt",
+"lon": 8.60681,
+"lat": 47.98711
+},
+{
+"ags": "08326004",
+"name": "Oberrossau",
+"population": 8460,
+"kind": "gemeinde",
+"lon": 8.30234,
+"lat": 47.99846
+},
+{
+"ags": "08326005",
+"name": "Hohensteinwang",
+"population": 4780,
+"kind": "gemeinde",
+"lon": 8.32849,
+"lat": 48.14356
+},
+{
+"ags": "08326006",
+"name": "Ehrfeld",
+"population": 1590,
+"kind": "gemeinde",
+"lon": 8.42267,
+"lat": 47.91746
+},
+{
+"ags": "08326007",
+"name": "Steinhausen",
+"population": 11470,
+"kind": "stadt",
+"lon": 8.54784,
+"lat": 48.07686
+},
+{
+"ags": "08326008",
+"name": "Dornweiler",
+"population": 4120,
+"kind": "gemeinde",
+"lon": 8.5841,
+"lat": 48.03614
+},
+{
+"ags": "08326009",
+"name": "Hirschweil",
+"population": 5280,
+"kind": "gemeinde",
+"lon": 8.4378,
+"lat": 48.03772
+},
+{
+"ags": "08326010",
+"name": "Hirschdorf",
+"population": 5020,
+"kind": "gemeinde",
+"lon": 8.55472,
+"lat": 47.92642
+},
+{
+"ags": "08326011",
+"name": "Untervogelstetten",
+"population": 3450,
+"kind": "gemeinde",
+"lon": 8.57794,
+"lat": 47.83954
+},
+{
+"ags": "08326012",
+"name": "Kreuzach",
+"population": 2710,
+"kind": "gemeinde",
+"lon": 8.46737,
+"lat": 47.87955
+},
+{
+"ags": "08326013",
+"name": "Rotfeld",
+"population": 3070,
+"kind": "gemeinde",
+"lon": 8.45839,
+"lat": 48.09431
+},
+{
+"ags": "08326014",
+"name": "Bronnfeld",
+"population": 1580,
+"kind": "gemeinde",
+"lon": 8.21757,
+"lat": 48.03344
+},
+{
+"ags": "08326015",
+"name": "Neuberg",
+"population": 6810,
+"kind": "gemeinde",
+"lon": 8.42105,
+"lat": 48.1523
+},
+{
+"ags": "08326016",
+"name": "Lauterau",
+"population": 4560,
+"kind": "gemeinde",
+"lon": 8.39169,
+"lat": 47.93535
+},
+{
+"ags": "08326017",
+"name": "Ehringen",
+"population": 14140,
+"kind": "stadt",
+"lon": 8.32326,
+"lat": 48.08082
+},
+{
+"ags": "08326018",
+"name": "Schönau",
+"population": 960,
+"kind": "gemeinde",
+"lon": 8.50575,
+"lat": 48.03653
+},
+{
+"ags": "08326019",
+"name": "Altsulzweiler",
+"population": 16380,
+"kind": "stadt",
+"lon": 8.51461,
+"lat": 48.11247
+},
+{
+"ags": "08326020",
+"name": "Oberbirkenach",
+"population": 5020,
+"kind": "gemeinde",
+"lon": 8.51841,
+"lat": 47.85272
+},
+{
+"ags": "08326021",
+"name": "Oberosterwang",
+"population": 4610,
+"kind": "gemeinde",
+"lon": 8.46425,
+"lat": 47.93215
+},
+{
+"ags": "08326022",
+"name": "Niederschönau",
+"population": 2500,
+"kind": "gemeinde",
+"lon": 8.15507,
+"lat": 48.03446
+},
+{
+"ags": "08326023",
+"name": "Haselhausen",
+"population": 2470,
+"kind": "gemeinde",
+"lon": 8.1839,
+"lat": 48.09401
+},
+{
+"ags": "08326024",
+"name": "Kleintannheim",
+"population": 1300,
+"kind": "gemeinde",
+"lon": 8.35605,
+"lat": 47.9992
+},
+{
+"ags": "08326025",
+"name": "Hohenmühlau",
+"population": 12630,
+"kind": "stadt",
+"lon": 8.22238,
+"lat": 48.15796
+},
+{
+"ags": "08326026",
+"name": "Klingwang",
+"population": 4390,
+"kind": "gemeinde",
+"lon": 8.5076,
+"lat": 47.97283
+},
+{
+"ags": "08326027",
+"name": "Unterehrstatt",
+"population": 10630,
+"kind": "stadt",
+"lon": 8.37747,
+"lat": 48.03917
+},
+{
+"ags": "08326028",
+"name": "Oberkaltau",
+"population": 11800,
+"kind": "stadt",
+"lon": 8.27407,
+"lat": 48.04775
+},
+{
+"ags": "08326029",
+"name": "Salzloch",
+"population": 3350,
+"kind": "gemeinde",
+"lon": 8.15311,
+"lat": 48.13578
+},
+{
+"ags": "08326030",
+"name": "Niederbärenstatt",
+"population": 4290,
+"kind": "gemeinde",
+"lon": 8.4284,
+"lat": 47.98094
+},
+{
+"ags": "08326031",
+"name": "Eberbronn",
+"population": 3880,
+"kind": "gemeinde",
+"lon": 8.2492,
+"lat": 48.10988
+},
+{
+"ags": "08326032",
+"name": "Mittelfischstetten",
+"population": 14270,
+"kind": "stadt",
+"lon": 8.4843,
+"lat": 48.15186
+},
+{
+"ags": "08327001",
+"name": "Alteichtal",
+"population": 6800,
+"kind": "gemeinde",
+"lon": 8.73829,
+"lat": 47.92969
+},
+{
+"ags": "08327002",
+"name": "Altmühlfeld",
+"population": 3930,
+"kind": "gemeinde",
+"lon": 8.86258,
+"lat": 48.00478
+},
+{
+"ags": "08327003",
+"name": "Oberilsenberg",
+"population": 810,
+"kind": "gemeinde",
+"lon": 8.83476,
+"lat": 48.10566
+},
+{
+"ags": "08327004",
+"name": "Großgoldberg",
+"population": 1480,
+"kind": "gemeinde",
+"lon": 8.68412,
+"lat": 47.91135
+},
+{
+"ags": "08327005",
+"name": "Obersalzdorf",
+"population": 15820,
+"kind": "stadt",
+"lon": 8.61654,
+"lat": 47.92676
+},
+{
+"ags": "08327006",
+"name": "Untermühldorf",
+"population": 8600,
+"kind": "gemeinde",
+"lon": 8.64591,
+"lat": 48.0908
+},
+{
+"ags": "08327007",
+"name": "Kleinsulzberg",
+"population": 18470,
+"kind": "stadt",
+"lon": 8.76335,
+"lat": 47.9854
+},
+{
+"ags": "08327008",
+"name": "Kleinmosweil",
+"population": 6500,
+"kind": "gemeinde",
+"lon": 8.82069,
+"lat": 47.93339
+},
+{
+"ags": "08327009",
+"name": "Erlenloch",
+"population": 340,
+"kind": "gemeinde",
+"lon": 8.72377,
+"lat": 48.11644
+},
+{
+"ags": "08327010",
+"name": "Ehrhofen",
+"population": 6840,
+"kind": "gemeinde",
+"lon": 8.70138,
+"lat": 48.06121
+},
+{
+"ags": "08327011",
+"name": "Unterteckheim",
+"population": 3140,
+"kind": "gemeinde",
+"lon": 8.90278,
+"lat": 47.95328
+},
+{
+"ags": "08327012",
+"name": "Mühlau",
+"population": 3340,
+"kind": "gemeinde",
+"lon": 8.77116,
+"lat": 48.06998
+},
+{
+"ags": "08327013",
+"name": "Bronntal",
+"population": 3520,
+"kind": "gemeinde",
+"lon": 8.71695,
+"lat": 48.01249
+},
+{
+"ags": "08327014",
+"name": "Oberteckhausen",
+"population": 2600,
+"kind": "gemeinde",
+"lon": 8.81411,
+"lat": 48.02547
+},
+{
+"ags": "08327015",
+"name": "Mittelmühlach",
+"population": 2160,
+"kind": "gemeinde",
+"lon": 8.93787,
+"lat": 48.01011
+},
+{
+"ags": "08327016",
+"name": "Mosheim",
+"population": 17520,
+"kind": "stadt",
+"lon": 8.78832,
+"lat": 48.1495
+},
+{
+"ags": "08327017",
+"name": "Klingach",
+"population": 8230,
+"kind": "gemeinde",
+"lon": 8.67298,
+"lat": 47.96645
+},
+{
+"ags": "08327018",
+"name": "Großhirschingen",
+"population": 2890,
+"kind": "gemeinde",
+"lon": 8.65498,
+"lat": 48.0316
+},
+{
+"ags": "08327019",
+"name": "Großosterloch",
+"population": 3600,
+"kind": "gemeinde",
+"lon": 8.64761,
+"lat": 47.87926
+},
+{
+"ags": "08327020",
+"name": "Unterdorndorf",
+"population": 13570,
+"kind": "stadt",
+"lon": 8.88462,
+"lat": 48.08369
+},
+{
+"ags": "08327021",
+"name": "Hagenwang",
+"population": 7730,
+"kind": "gemeinde",
+"lon": 8.95092,
+"lat": 48.07727
+},
+{
+"ags": "08327022",
+"name": "Großosterheim",
+"population": 6470,
+"kind": "gemeinde",
+"lon": 8.97981,
+"lat": 47.97695
+},
+{
+"ags": "08327023",
+"name": "Kirchheim",
+"population": 1680,
+"kind": "gemeinde",
+"lon": 8.90465,
+"lat": 48.04586
+},
+{
+"ags": "08335001",
+"name": "Mühltal",
+"population": 13680,
+"kind": "stadt",
+"lon": 8.73166,
+"lat": 47.87543
+},
+{
+"ags": "08335002",
+"name": "Lindental",
+"population": 78810,
+"kind": "stadt",
+"lon": 8.74734,
+"lat": 47.77715
+},
+{
+"ags": "08335003",
+"name": "Ulmenhausen",
+"population": 5860,
+"kind": "gemeinde",
+"lon": 8.94512,
+"lat": 47.87244
+},
+{
+"ags": "08335004",
+"name": "Kleinteckberg",
+"population": 2510,
+"kind": "gemeinde",
+"lon": 8.90765,
+"lat": 47.7461
+},
+{
+"ags": "08335005",
+"name": "Ilsenbronn",
+"population": 6260,
+"kind": "gemeinde",
+"lon": 8.69296,
+"lat": 47.85157
+},
+{
+"ags": "08335006",
+"name": "Hohensalzdorf",
+"population": 10080,
+"kind": "stadt",
+"lon": 8.88936,
+"lat": 47.80859
+},
+{
+"ags": "08335007",
+"name": "Großpfaffhausen",
+"population": 6040,
+"kind": "gemeinde",
+"lon": 8.8845,
+"lat": 47.693
+},
+{
+"ags": "08335008",
+"name": "Großgoldweiler",
+"population": 1940,
+"kind": "gemeinde",
+"lon": 9.04831,
+"lat": 47.89625
+},
+{
+"ags": "08335009",
+"name": "Niederteckbronn",
+"population": 4810,
+"kind": "gemeinde",
+"lon": 9.09532,
+"lat": 47.86811
+},
+{
+"ags": "08335010",
+"name": "Rossbronn",
+"population": 5090,
+"kind": "gemeinde",
+"lon": 8.85542,
+"lat": 47.75389
+},
+{
+"ags": "08335011",
+"name": "Unterwaldhofen",
+"population": 1400,
+"kind": "gemeinde",
+"lon": 9.14845,
+"lat": 47.70689
+},
+{
+"ags": "08335012",
+"name": "Lauterloch",
+"population": 1690,
+"kind": "gemeinde",
+"lon": 8.80511,
+"lat": 47.80208
+},
+{
+"ags": "08335013",
+"name": "Kreuzbronn",
+"population": 16470,
+"kind": "stadt",
+"lon": 8.97019,
+"lat": 47.70125
+},
+{
+"ags": "08335014",
+"name": "Holzdorf",
+"population": 640,
+"kind": "gemeinde",
+"lon": 8.92801,
+"lat": 47.68592
+},
+{
+"ags": "08335015",
+"name": "Hallloch",
+"population": 6210,
+"kind": "gemeinde",
+"lon": 8.87505,
+"lat": 47.87389
+},
+{
+"ags": "08335016",
+"name": "Wiesenstetten",
+"population": 4140,
+"kind": "gemeinde",
+"lon": 8.73976,
+"lat": 47.7153
+},
+{
+"ags": "08335017",
+"name": "Klingheim",
+"population": 19660,
+"kind": "stadt",
+"lon": 8.63306,
+"lat": 47.79397
+},
+{
+"ags": "08335018",
+"name": "Mattweiler",
+"population": 9430,
+"kind": "gemeinde",
+"lon": 8.79524,
+"lat": 47.87129
+},
+{
+"ags": "08335019",
+"name": "Hohenneubach",
+"population": 2340,
+"kind": "gemeinde",
+"lon": 9.00113,
+"lat": 47.82231
+},
+{
+"ags": "08335020",
+"name": "Ostertal",
+"population": 17430,
+"kind": "stadt",
+"lon": 8.64349,
+"lat": 47.83243
+},
+{
+"ags": "08335021",
+"name": "Unterzellstatt",
+"population": 3120,
+"kind": "gemeinde",
+"lon": 8.80821,
+"lat": 47.73604
+},
+{
+"ags": "08335022",
+"name": "Kirchhofen",
+"population": 34760,
+"kind": "stadt",
+"lon": 8.95838,
+"lat": 47.76775
+},
+{
+"ags": "08335023",
+"name": "Kreuzwang",
+"population": 25350,
+"kind": "stadt",
+"lon": 8.73723,
+"lat": 47.82603
+},
+{
+"ags": "08335024",
+"name": "Wiesenfeld",
+"population": 4920,
+"kind": "gemeinde",
+"lon": 8.98842,
+"lat": 47.9126
+},
+{
+"ags": "08335025",
+"name": "Erlendorf",
+"population": 11010,
+"kind": "stadt",
+"lon": 8.68861,
+"lat": 47.80112
+},
+{
+"ags": "08335026",
+"name": "Zellwang",
+"population": 6310,
+"kind": "gemeinde",
+"lon": 9.05263,
+"lat": 47.75826
+},
+{
+"ags": "08336001",
+"name": "Vogelstetten",
+"population": 22020,
+"kind": "stadt",
+"lon": 7.97612,
+"lat": 47.85286
+},
+{
+"ags": "08336002",
+"name": "Althagenberg",
+"population": 4180,
+"kind": "gemeinde",
+"lon": 7.87601,
+"lat": 47.69231
+},
+{
+"ags": "08336003",
+"name": "Buchhofen",
+"population": 21750,
+"kind": "stadt",
+"lon": 7.7523,
+"lat": 47.67954
+},
+{
+"ags": "08336004",
+"name": "Untermühlau",
+"population": 13340,
+"kind": "stadt",
+"lon": 7.68223,
+"lat": 47.67785
+},
+{
+"ags": "08336005",
+"name": "Lindenau",
+"population": 2150,
+"kind": "gemeinde",
+"lon": 7.76481,
+"lat": 47.64369
+},
+{
+"ags": "08336006",
+"name": "Unterlauterloch",
+"population": 4160,
+"kind": "gemeinde",
+"lon": 7.90743,
+"lat": 47.83906
+},
+{
+"ags": "08336007",
+"name": "Althalltal",
+"population": 7310,
+"kind": "gemeinde",
+"lon": 7.82537,
+"lat": 47.64535
+},
+{
+"ags": "08336008",
+"name": "Alteichach",
+"population": 14570,
+"kind": "stadt",
+"lon": 7.5708,
+"lat": 47.68183
+},
+{
+"ags": "08336009",
+"name": "Pfaffweiler",
+"population": 1510,
+"kind": "gemeinde",
+"lon": 7.68561,
+"lat": 47.56195
+},
+{
+"ags": "08336010",
+"name": "Holzach",
+"population": 3480,
+"kind": "gemeinde",
+"lon": 7.86783,
+"lat": 47.76054
+},
+{
+"ags": "08336011",
+"name": "Mittelhagenhofen",
+"population": 10050,
+"kind": "stadt",
+"lon": 7.77578,
+"lat": 47.59079
+},
+{
+"ags": "08336012",
+"name": "Altfischloch",
+"population": 8770,
+"kind": "gemeinde",
+"lon": 7.84051,
+"lat": 47.8059
+},
+{
+"ags": "08336013",
+"name": "Ulmeningen",
+"population": 2070,
+"kind": "gemeinde",
+"lon": 7.93296,
+"lat": 47.70596
+},
+{
+"ags": "08336014",
+"name": "Zellbach",
+"population": 2390,
+"kind": "gemeinde",
+"lon": 7.61263,
+"lat": 47.74341
+},
+{
+"ags": "08336015",
+"name": "Kleinlauterach",
+"population": 8370,
+"kind": "gemeinde",
+"lon": 7.71539,
+"lat": 47.60419
+},
+{
+"ags": "08336016",
+"name": "Erlenbronn",
+"population": 2120,
+"kind": "gemeinde",
+"lon": 7.63334,
+"lat": 47.62579
+},
+{
+"ags": "08336017",
+"name": "Bärendorf",
+"population": 6950,
+"kind": "gemeinde",
+"lon": 7.77623,
+"lat": 47.77104
+},
+{
+"ags": "08336018",
+"name": "Mittelhaselheim",
+"population": 13260,
+"kind": "stadt",
+"lon": 7.81292,
+"lat": 47.73966
+},
+{
+"ags": "08336019",
+"name": "Mittelosterach",
+"population": 5660,
+"kind": "gemeinde",
+"lon": 7.72058,
+"lat": 47.7717
+},
+{
+"ags": "08336020",
+"name": "Salzhausen",
+"population": 440,
+"kind": "gemeinde",
+"lon": 7.81836,
+"lat": 47.69101
+},
+{
+"ags": "08336021",
+"name": "Althaselfeld",
+"population": 16910,
+"kind": "stadt",
+"lon": 7.75443,
+"lat": 47.71883
+},
+{
+"ags": "08336022",
+"name": "Schönweil",
+"population": 16550,
+"kind": "stadt",
+"lon": 7.69242,
+"lat": 47.73603
+},
+{
+"ags": "08336023",
+"name": "Klingau",
+"population": 21300,
+"kind": "stadt",
+"lon": 7.96989,
+"lat": 47.79951
+},
+{
+"ags": "08336024",
+"name": "Weilwang",
+"population": 12560,
+"kind": "stadt",
+"lon": 7.85645,
+"lat": 47.61306
+},
+{
+"ags": "08336025",
+"name": "Ilsenloch",
+"population": 1140,
+"kind": "gemeinde",
+"lon": 7.92889,
+"lat": 47.76207
+},
+{
+"ags": "08337001",
+"name": "Mühldorf",
+"population": 16220,
+"kind": "stadt",
+"lon": 8.42244,
+"lat": 47.7906
+},
+{
+"ags": "08337002",
+"name": "Oberdorndorf",
+"population": 6790,
+"kind": "gemeinde",
+"lon": 7.9653,
+"lat": 47.64919
+},
+{
+"ags": "08337003",
+"name": "Buchhausen",
+"population": 4450,
+"kind": "gemeinde",
+"lon": 8.36594,
+"lat": 47.64967
+},
+{
+"ags": "08337004",
+"name": "Kreuzingen",
+"population": 11910,
+"kind": "stadt",
+"lon": 8.4791,
+"lat": 47.80859
+},
+{
+"ags": "08337005",
+"name": "Haselfeld",
+"population": 6010,
+"kind": "gemeinde",
+"lon": 8.40043,
+"lat": 47.59333
+},
+{
+"ags": "08337006",
+"name": "Altwaldingen",
+"population": 900,
+"kind": "gemeinde",
+"lon": 8.12557,
+"lat": 47.76174
+},
+{
+"ags": "08337007",
+"name": "Waldheim",
+"population": 2090,
+"kind": "gemeinde",
+"lon": 8.37496,
+"lat": 47.77943
+},
+{
+"ags": "08337008",
+"name": "Mittelkirchfeld",
+"population": 750,
+"kind": "gemeinde",
+"lon": 8.05298,
+"lat": 47.82125
+},
+{
+"ags": "08337009",
+"name": "Kleinkirchwang",
+"population": 4390,
+"kind": "gemeinde",
+"lon": 8.36644,
+"lat": 47.74424
+},
+{
+"ags": "08337010",
+"name": "Großzelldorf",
+"population": 3550,
+"kind": "gemeinde",
+"lon": 8.41941,
+"lat": 47.74662
+},
+{
+"ags": "08337011",
+"name": "Bronnach",
+"population": 8210,
+"kind": "gemeinde",
+"lon": 8.00636,
+"lat": 47.69959
+},
+{
+"ags": "08337012",
+"name": "Eberwang",
+"population": 40000,
+"kind": "stadt",
+"lon": 8.42987,
+"lat": 47.83751
+},
+{
+"ags": "08337013",
+"name": "Kreuzdorf",
+"population": 3080,
+"kind": "gemeinde",
+"lon": 8.06657,
+"lat": 47.7458
+},
+{
+"ags": "08337014",
+"name": "Hallwang",
+"population": 5460,
+"kind": "gemeinde",
+"lon": 7.94055,
+"lat": 47.58556
+},
+{
+"ags": "08337015",
+"name": "Golddorf",
+"population": 3780,
+"kind": "gemeinde",
+"lon": 8.10063,
+"lat": 47.6086
+},
+{
+"ags": "08337016",
+"name": "Mittelmatthausen",
+"population": 380,
+"kind": "gemeinde",
+"lon": 8.18454,
+"lat": 47.74891
+},
+{
+"ags": "08337017",
+"name": "Wolfingen",
+"population": 2640,
+"kind": "gemeinde",
+"lon": 8.16721,
+"lat": 47.6951
+},
+{
+"ags": "08337018",
+"name": "Dorntal",
+"population": 2750,
+"kind": "gemeinde",
+"lon": 8.19436,
+"lat": 47.64377
+},
+{
+"ags": "08337019",
+"name": "Altweilhofen",
+"population": 7030,
+"kind": "gemeinde",
+"lon": 7.90767,
+"lat": 47.63674
+},
+{
+"ags": "08337020",
+"name": "Kleinzellloch",
+"population": 2450,
+"kind": "gemeinde",
+"lon": 8.44151,
+"lat": 47.62997
+},
+{
+"ags": "08337021",
+"name": "Mittelbronnwang",
+"population": 1600,
+"kind": "gemeinde",
+"lon": 8.39226,
+"lat": 47.82018
+},
+{
+"ags": "08337022",
+"name": "Hohenkirchhofen",
+"population": 9480,
+"kind": "gemeinde",
+"lon": 8.05387,
+"lat": 47.65455
+},
+{
+"ags": "08337023",
+"name": "Osterstetten",
+"population": 5100,
+"kind": "gemeinde",
+"lon": 8.10454,
+"lat": 47.68671
+},
+{
+"ags": "08337024",
+"name": "Niederriedstetten",
+"population": 2330,
+"kind": "gemeinde",
+"lon": 8.32995,
+"lat": 47.808
+},
+{
+"ags": "08337025",
+"name": "Großtannbronn",
+"population": 2650,
+"kind": "gemeinde",
+"lon": 8.55987,
+"lat": 47.64134
+},
+{
+"ags": "08337026",
+"name": "Kleinvogelberg",
+"population": 4090,
+"kind": "gemeinde",
+"lon": 8.45179,
+"lat": 47.76661
+},
+{
+"ags": "08337027",
+"name": "Haselbach",
+"population": 11790,
+"kind": "stadt",
+"lon": 8.01691,
+"lat": 47.59578
+},
+{
+"ags": "08337028",
+"name": "Ehrwang",
+"population": 20850,
+"kind": "stadt",
+"lon": 8.2881,
+"lat": 47.65074
+},
+{
+"ags": "08337029",
+"name": "Hohenbuchfeld",
+"population": 1580,
+"kind": "gemeinde",
+"lon": 8.27412,
+"lat": 47.71345
+},
+{
+"ags": "08337030",
+"name": "Erlenhofen",
+"population": 16370,
+"kind": "stadt",
+"lon": 8.39642,
+"lat": 47.70257
+},
+{
+"ags": "08337031",
+"name": "Neubach",
+"population": 5720,
+"kind": "gemeinde",
+"lon": 8.23415,
+"lat": 47.7431
+},
+{
+"ags": "08337032",
+"name": "Wiesendorf",
+"population": 7650,
+"kind": "gemeinde",
+"lon": 8.0087,
+"lat": 47.76716
+},
+{
+"ags": "08337033",
+"name": "Oberosterstatt",
+"population": 13630,
+"kind": "stadt",
+"lon": 8.33408,
+"lat": 47.71559
+},
+{
+"ags": "08337034",
+"name": "Klingbach",
+"population": 2180,
+"kind": "gemeinde",
+"lon": 8.32897,
+"lat": 47.60321
+},
+{
+"ags": "08337035",
+"name": "Untereichstatt",
+"population": 12250,
+"kind": "stadt",
+"lon": 8.2624,
+"lat": 47.81087
+},
+{
+"ags": "08415001",
+"name": "Neubronn",
+"population": 1550,
+"kind": "gemeinde",
+"lon": 9.17949,
+"lat": 48.47739
+},
+{
+"ags": "08415002",
+"name": "Niederbronndorf",
+"population": 11280,
+"kind": "stadt",
+"lon": 9.47191,
+"lat": 48.44582
+},
+{
+"ags": "08415003",
+"name": "Unterneubronn",
+"population": 1990,
+"kind": "gemeinde",
+"lon": 9.33817,
+"lat": 48.41117
+},
+{
+"ags": "08415004",
+"name": "Kleinbirkeningen",
+"population": 6860,
+"kind": "gemeinde",
+"lon": 9.15815,
+"lat": 48.41856
+},
+{
+"ags": "08415005",
+"name": "Altkreuzhofen",
+"population": 2250,
+"kind": "gemeinde",
+"lon": 9.27114,
+"lat": 48.33997
+},
+{
+"ags": "08415006",
+"name": "Klinghofen",
+"population": 2220,
+"kind": "gemeinde",
+"lon": 9.33692,
+"lat": 48.50184
+},
+{
+"ags": "08415007",
+"name": "Niedersulzfeld",
+"population": 3290,
+"kind": "gemeinde",
+"lon": 9.29571,
+"lat": 48.37568
+},
+{
+"ags": "08415008",
+"name": "Hallweiler",
+"population": 20480,
+"kind": "stadt",
+"lon": 9.56132,
+"lat": 48.3764
+},
+{
+"ags": "08415009",
+"name": "Oberklingingen",
+"population": 2940,
+"kind": "gemeinde",
+"lon": 9.39177,
+"lat": 48.24709
+},
+{
+"ags": "08415010",
+"name": "Birkenloch",
+"population": 9740,
+"kind": "gemeinde",
+"lon": 9.61129,
+"lat": 48.43175
+},
+{
+"ags": "08415011",
+"name": "Altrothofen",
+"population": 6310,
+"kind": "gemeinde",
+"lon": 9.44336,
+"lat": 48.3792
+},
+{
+"ags": "08415012",
+"name": "Kleinbärenhofen",
+"population": 7230,
+"kind": "gemeinde",
+"lon": 9.273,
+"lat": 48.29219
+},
+{
+"ags": "08415013",
+"name": "Salzdorf",
+"population": 7300,
+"kind": "gemeinde",
+"lon": 9.47533,
+"lat": 48.25316
+},
+{
+"ags": "08415014",
+"name": "Hohenkaltfeld",
+"population": 9800,
+"kind": "gemeinde",
+"lon": 9.46126,
+"lat": 48.51133
+},
+{
+"ags": "08415015",
+"name": "Waldbronn",
+"population": 1790,
+"kind": "gemeinde",
+"lon": 9.49349,
+"lat": 48.38341
+},
+{
+"ags": "08415016",
+"name": "Mittelhaselloch",
+"population": 5690,
+"kind": "gemeinde",
+"lon": 9.52017,
+"lat": 48.32673
+},
+{
+"ags": "08415017",
+"name": "Kleinhirschhofen",
+"population": 7560,
+"kind": "gemeinde",
+"lon": 9.33211,
+"lat": 48.30511
+},
+{
+"ags": "08415018",
+"name": "Mittelsalzstatt",
+"population": 3180,
+"kind": "gemeinde",
+"lon": 9.19124,
+"lat": 48.36721
+},
+{
+"ags": "08415019",
+"name": "Waldberg",
+"population": 7610,
+"kind": "gemeinde",
+"lon": 9.23404,
+"lat": 48.32892
+},
+{
+"ags": "08415020",
+"name": "Obersulzstetten",
+"population": 2120,
+"kind": "gemeinde",
+"lon": 9.2685,
+"lat": 48.51161
+},
+{
+"ags": "08415021",
+"name": "Alteichhofen",
+"population": 10720,
+"kind": "stadt",
+"lon": 9.23181,
+"lat": 48.40057
+},
+{
+"ags": "08415022",
+"name": "Mittelfelsau",
+"population": 2850,
+"kind": "gemeinde",
+"lon": 9.24274,
+"lat": 48.55508
+},
+{
+"ags": "08415023",
+"name": "Sulzau",
+"population": 4210,
+"kind": "gemeinde",
+"lon": 9.16908,
+"lat": 48.57212
+},
+{
+"ags": "08415024",
+"name": "Altwiesenfeld",
+"population": 11400,
+"kind": "stadt",
+"lon": 9.30002,
+"lat": 48.54757
+},
+{
+"ags": "08415025",
+"name": "Ulmenweil",
+"population": 14910,
+"kind": "stadt",
+"lon": 9.5477,
+"lat": 48.49682
+},
+{
+"ags": "08415026",
+"name": "Obergoldau",
+"population": 3230,
+"kind": "gemeinde",
+"lon": 9.25223,
+"lat": 48.46528
+},
+{
+"ags": "08415027",
+"name": "Hohenriedstetten",
+"population": 3020,
+"kind": "gemeinde",
+"lon": 9.43573,
+"lat": 48.30191
+},
+{
+"ags": "08415028",
+"name": "Klingweil",
+"population": 13690,
+"kind": "stadt",
+"lon": 9.29571,
+"lat": 48.43842
+},
+{
+"ags": "08415029",
+"name": "Großrotweil",
+"population": 380,
+"kind": "gemeinde",
+"lon": 9.21061,
+"lat": 48.52262
+},
+{
+"ags": "08415030",
+"name": "Lauterbach",
+"population": 18950,
+"kind": "stadt",
+"lon": 9.5583,
+"lat": 48.43957
+},
+{
+"ags": "08415031",
+"name": "Hirschwang",
+"population": 18150,
+"kind": "stadt",
+"lon": 9.36153,
+"lat": 48.35811
+},
+{
+"ags": "08415032",
+"name": "Großwaldbronn",
+"population": 2030,
+"kind": "gemeinde",
+"lon": 9.20642,
+"lat": 48.2959
+},
+{
+"ags": "08415033",
+"name": "Mühlstetten",
+"population": 16520,
+"kind": "stadt",
+"lon": 9.38883,
+"lat": 48.43079
+},
+{
+"ags": "08415034",
+"name": "Birkendorf",
+"population": 7650,
+"kind": "gemeinde",
+"lon": 9.40491,
+"lat": 48.35309
+},
+{
+"ags": "08415035",
+"name": "Mitteleberhofen",
+"population": 8360,
+"kind": "gemeinde",
+"lon": 9.40022,
+"lat": 48.4931
+},
+{
+"ags": "08416001",
+"name": "Großwaldau",
+"population": 10470,
+"kind": "stadt",
+"lon": 9.10042,
+"lat": 48.46876
+},
+{
+"ags": "08416002",
+"name": "Eichingen",
+"population": 3850,
+"kind": "gemeinde",
+"lon": 8.7955,
+"lat": 48.43378
+},
+{
+"ags": "08416003",
+"name": "Neustetten",
+"population": 2890,
+"kind": "gemeinde",
+"lon": 9.0852,
+"lat": 48.40295
+},
+{
+"ags": "08416004",
+"name": "Altfelsdorf",
+"population": 3320,
+"kind": "gemeinde",
+"lon": 9.03741,
+"lat": 48.50011
+},
+{
+"ags": "08416005",
+"name": "Wieseningen",
+"population": 3500,
+"kind": "gemeinde",
+"lon": 8.8982,
+"lat": 48.41317
+},
+{
+"ags": "08416006",
+"name": "Wiesenweil",
+"population": 25820,
+"kind": "stadt",
+"lon": 9.07722,
+"lat": 48.57653
+},
+{
+"ags": "08416007",
+"name": "Fischhausen",
+"population": 2230,
+"kind": "gemeinde",
+"lon": 9.09663,
+"lat": 48.53559
+},
+{
+"ags": "08416008",
+"name": "Oberbirkenweiler",
+"population": 3700,
+"kind": "gemeinde",
+"lon": 8.8415,
+"lat": 48.44844
+},
+{
+"ags": "08416009",
+"name": "Niederbärenstetten",
+"population": 18850,
+"kind": "stadt",
+"lon": 8.89029,
+"lat": 48.52077
+},
+{
+"ags": "08416010",
+"name": "Lindenweil",
+"population": 22140,
+"kind": "stadt",
+"lon": 8.90041,
+"lat": 48.45408
+},
+{
+"ags": "08416011",
+"name": "Mittelnussheim",
+"population": 2150,
+"kind": "gemeinde",
+"lon": 8.80118,
+"lat": 48.49788
+},
+{
+"ags": "08416012",
+"name": "Steinwang",
+"population": 37520,
+"kind": "stadt",
+"lon": 8.97912,
+"lat": 48.55311
+},
+{
+"ags": "08416013",
+"name": "Salzweil",
+"population": 15200,
+"kind": "stadt",
+"lon": 9.13981,
+"lat": 48.52757
+},
+{
+"ags": "08416014",
+"name": "Haselberg",
+"population": 1340,
+"kind": "gemeinde",
+"lon": 9.02183,
+"lat": 48.43824
+},
+{
+"ags": "08416015",
+"name": "Langbronn",
+"population": 29460,
+"kind": "stadt",
+"lon": 8.95232,
+"lat": 48.48833
+},
+{
+"ags": "08416016",
+"name": "Unterklingheim",
+"population": 1350,
+"kind": "gemeinde",
+"lon": 8.97346,
+"lat": 48.41187
+},
+{
+"ags": "08417001",
+"name": "Niederlindenweil",
+"population": 4730,
+"kind": "gemeinde",
+"lon": 8.86781,
+"lat": 48.16938
+},
+{
+"ags": "08417002",
+"name": "Salzingen",
+"population": 11260,
+"kind": "stadt",
+"lon": 9.10603,
+"lat": 48.32461
+},
+{
+"ags": "08417003",
+"name": "Altsteinwang",
+"population": 4260,
+"kind": "gemeinde",
+"lon": 8.78634,
+"lat": 48.29516
+},
+{
+"ags": "08417004",
+"name": "Zellhofen",
+"population": 49930,
+"kind": "stadt",
+"lon": 9.1618,
+"lat": 48.29719
+},
+{
+"ags": "08417005",
+"name": "Teckingen",
+"population": 2130,
+"kind": "gemeinde",
+"lon": 9.12762,
+"lat": 48.18672
+},
+{
+"ags": "08417006",
+"name": "Lauterdorf",
+"population": 3950,
+"kind": "gemeinde",
+"lon": 9.15141,
+"lat": 48.34079
+},
+{
+"ags": "08417007",
+"name": "Oberkirchbach",
+"population": 2270,
+"kind": "gemeinde",
+"lon": 9.12058,
+"lat": 48.36031
+},
+{
+"ags": "08417008",
+"name": "Hohenlindenloch",
+"population": 3380,
+"kind": "gemeinde",
+"lon": 9.07361,
+"lat": 48.2484
+},
+{
+"ags": "08417009",
+"name": "Zellweiler",
+"population": 3490,
+"kind": "gemeinde",
+"lon": 9.19089,
+"lat": 48.33239
+},
+{
+"ags": "08417010",
+"name": "Riedbronn",
+"population": 1350,
+"kind": "gemeinde",
+"lon": 8.97862,
+"lat": 48.34761
+},
+{
+"ags": "08417011",
+"name": "Großpfafftal",
+"population": 2160,
+"kind": "gemeinde",
+"lon": 8.85383,
+"lat": 48.38638
+},
+{
+"ags": "08417012",
+"name": "Nusstal",
+"population": 36880,
+"kind": "stadt",
+"lon": 9.02796,
+"lat": 48.2305
+},
+{
+"ags": "08417013",
+"name": "Mittelwaldhofen",
+"population": 4240,
+"kind": "gemeinde",
+"lon": 8.9959,
+"lat": 48.28872
+},
+{
+"ags": "08417014",
+"name": "Kleinhagenstetten",
+"population": 12840,
+"kind": "stadt",
+"lon": 8.84617,
+"lat": 48.33372
+},
+{
+"ags": "08417015",
+"name": "Großbronnhausen",
+"population": 1640,
+"kind": "gemeinde",
+"lon": 8.73944,
+"lat": 48.22105
+},
+{
+"ags": "08417016",
+"name": "Nussheim",
+"population": 4870,
+"kind": "gemeinde",
+"lon": 9.00764,
+"lat": 48.18034
+},
+{
+"ags": "08417017",
+"name": "Steinhofen",
+"population": 9010,
+"kind": "gemeinde",
+"lon": 8.92397,
+"lat": 48.14223
+},
+{
+"ags": "08417018",
+"name": "Großrotloch",
+"population": 4620,
+"kind": "gemeinde",
+"lon": 8.91855,
+"lat": 48.3588
+},
+{
+"ags": "08417019",
+"name": "Unterfelshofen",
+"population": 3350,
+"kind": "gemeinde",
+"lon": 8.80936,
+"lat": 48.19703
+},
+{
+"ags": "08417020",
+"name": "Langheim",
+"population": 4550,
+"kind": "gemeinde",
+"lon": 8.77878,
+"lat": 48.37362
+},
+{
+"ags": "08417021",
+"name": "Mühlwang",
+"population": 5570,
+"kind": "gemeinde",
+"lon": 8.71434,
+"lat": 48.29859
+},
+{
+"ags": "08417022",
+"name": "Mittelerlenberg",
+"population": 11910,
+"kind": "stadt",
+"lon": 8.93726,
+"lat": 48.21902
+},
+{
+"ags": "08417023",
+"name": "Hohenilsenfeld",
+"population": 16930,
+"kind": "stadt",
+"lon": 9.05291,
+"lat": 48.30642
+},
+{
+"ags": "08417024",
+"name": "Dorningen",
+"population": 1560,
+"kind": "gemeinde",
+"lon": 8.92395,
+"lat": 48.2887
+},
+{
+"ags": "08417025",
+"name": "Kleinsalzach",
+"population": 780,
+"kind": "gemeinde",
+"lon": 8.80113,
+"lat": 48.23914
+},
+{
+"ags": "08417026",
+"name": "Altsulzingen",
+"population": 4520,
+"kind": "gemeinde",
+"lon": 8.86977,
+"lat": 48.22819
+},
+{
+"ags": "08417027",
+"name": "Niederkreuzingen",
+"population": 5440,
+"kind": "gemeinde",
+"lon": 8.85386,
+"lat": 48.27845
+},
+{
+"ags": "08417028",
+"name": "Unterhaselberg",
+"population": 10650,
+"kind": "stadt",
+"lon": 9.0449,
+"lat": 48.35319
+},
+{
+"ags": "08417029",
+"name": "Langach",
+"population": 14840,
+"kind": "stadt",
+"lon": 9.11154,
+"lat": 48.27521
+},
+{
+"ags": "08421000",
+"name": "Ulm",
+"population": 128000,
+"kind": "stadtkreis",
+"lon": 9.93079,
+"lat": 48.39103
+},
+{
+"ags": "08425001",
+"name": "Neuach",
+"population": 1330,
+"kind": "gemeinde",
+"lon": 9.71756,
+"lat": 48.51831
+},
+{
+"ags": "08425002",
+"name": "Eichweiler",
+"population": 5590,
+"kind": "gemeinde",
+"lon": 9.74358,
+"lat": 48.33193
+},
+{
+"ags": "08425003",
+"name": "Oberehrhausen",
+"population": 2030,
+"kind": "gemeinde",
+"lon": 9.97899,
+"lat": 48.3103
+},
+{
+"ags": "08425004",
+"name": "Vogelbach",
+"population": 1520,
+"kind": "gemeinde",
+"lon": 9.71501,
+"lat": 48.37424
+},
+{
+"ags": "08425005",
+"name": "Kleinlindenloch",
+"population": 12550,
+"kind": "stadt",
+"lon": 9.86834,
+"lat": 48.51318
+},
+{
+"ags": "08425006",
+"name": "Oberbuchfeld",
+"population": 12790,
+"kind": "stadt",
+"lon": 9.78865,
+"lat": 48.37713
+},
+{
+"ags": "08425007",
+"name": "Kirchwang",
+"population": 9910,
+"kind": "gemeinde",
+"lon": 9.89046,
+"lat": 48.42159
+},
+{
+"ags": "08425008",
+"name": "Mittelhirschstatt",
+"population": 18660,
+"kind": "stadt",
+"lon": 9.84372,
+"lat": 48.45201
+},
+{
+"ags": "08425009",
+"name": "Teckstatt",
+"population": 12680,
+"kind": "stadt",
+"lon": 9.65357,
+"lat": 48.41598
+},
+{
+"ags": "08425010",
+"name": "Wiesenwang",
+"population": 1800,
+"kind": "gemeinde",
+"lon": 9.55753,
+"lat": 48.24269
+},
+{
+"ags": "08425011",
+"name": "Langweil",
+"population": 15990,
+"kind": "stadt",
+"lon": 9.90414,
+"lat": 48.31903
+},
+{
+"ags": "08425012",
+"name": "Rossbach",
+"population": 6040,
+"kind": "gemeinde",
+"lon": 9.82703,
+"lat": 48.50476
+},
+{
+"ags": "08425013",
+"name": "Birkenwang",
+"population": 8200,
+"kind": "gemeinde",
+"lon": 9.63032,
+"lat": 48.47922
+},
+{
+"ags": "08425014",
+"name": "Osterhausen",
+"population": 23850,
+"kind": "stadt",
+"lon": 9.74814,
+"lat": 48.46694
+},
+{
+"ags": "08425015",
+"name": "Unternussbach",
+"population": 8200,
+"kind": "gemeinde",
+"lon": 10.04567,
+"lat": 48.25503
+},
+{
+"ags": "08425016",
+"name": "Vogelweil",
+"population": 24000,
+"kind": "stadt",
+"lon": 9.7456,
+"lat": 48.42012
+},
+{
+"ags": "08425017",
+"name": "Pfafftal",
+"population": 5690,
+"kind": "gemeinde",
+"lon": 10.1668,
+"lat": 48.52406
+},
+{
+"ags": "08425018",
+"name": "Altneuheim",
+"population": 3760,
+"kind": "gemeinde",
+"lon": 9.9141,
+"lat": 48.47079
+},
+{
+"ags": "08425019",
+"name": "Großbärenbach",
+"population": 2760,
+"kind": "gemeinde",
+"lon": 9.93485,
+"lat": 48.60268
+},
+{
+"ags": "08425020",
+"name": "Nusshausen",
+"population": 4740,
+"kind": "gemeinde",
+"lon": 9.73672,
+"lat": 48.27076
+},
+{
+"ags": "08425021",
+"name": "Mittelklingau",
+"population": 1090,
+"kind": "gemeinde",
+"lon": 9.84102,
+"lat": 48.38001
+},
+{
+"ags": "08425022",
+"name": "Lauterweiler",
+"population": 5080,
+"kind": "gemeinde",
+"lon": 10.01324,
+"lat": 48.28703
+},
+{
+"ags": "08425023",
+"name": "Kleinosterhausen",
+"population": 4810,
+"kind": "gemeinde",
+"lon": 9.82402,
+"lat": 48.29157
+},
+{
+"ags": "08425024",
+"name": "Osterberg",
+"population": 3250,
+"kind": "gemeinde",
+"lon": 9.77897,
+"lat": 48.49598
+},
+{
+"ags": "08425025",
+"name": "Mittelkirchweiler",
+"population": 650,
+"kind": "gemeinde",
+"lon": 9.64935,
+"lat": 48.35424
+},
+{
+"ags": "08425026",
+"name": "Ilsendorf",
+"population": 700,
+"kind": "gemeinde",
+"lon": 10.05871,
+"lat": 48.16309
+},
+{
+"ags": "08425027",
+"name": "Birkenheim",
+"population": 10530,
+"kind": "stadt",
+"lon": 9.79458,
+"lat": 48.54536
+},
+{
+"ags": "08425028",
+"name": "Niedererlenweiler",
+"population": 2170,
+"kind": "gemeinde",
+"lon": 9.96653,
+"lat": 48.53953
+},
+{
+"ags": "08425029",
+"name": "Unterrotdorf",
+"population": 19820,
+"kind": "stadt",
+"lon": 9.69343,
+"lat": 48.45117
+},
+{
+"ags": "08425030",
+"name": "Kleinrossbach",
+"population": 2740,
+"kind": "gemeinde",
+"lon": 9.70321,
+"lat": 48.20701
+},
+{
+"ags": "08425031",
+"name": "Großfelsstetten",
+"population": 7590,
+"kind": "gemeinde",
+"lon": 10.1001,
+"lat": 48.49621
+},
+{
+"ags": "08425032",
+"name": "Weilingen",
+"population": 1370,
+"kind": "gemeinde",
+"lon": 10.06821,
+"lat": 48.19997
+},
+{
+"ags": "08425033",
+"name": "Altvogelweil",
+"population": 2940,
+"kind": "gemeinde",
+"lon": 10.05009,
+"lat": 48.54765
+},
+{
+"ags": "08425034",
+"name": "Vogelberg",
+"population": 4380,
+"kind": "gemeinde",
+"lon": 9.79684,
+"lat": 48.31643
+},
+{
+"ags": "08425035",
+"name": "Mittelrossweiler",
+"population": 9360,
+"kind": "gemeinde",
+"lon": 9.63207,
+"lat": 48.51475
+},
+{
+"ags": "08425036",
+"name": "Eichfeld",
+"population": 26660,
+"kind": "stadt",
+"lon": 9.92107,
+"lat": 48.52226
+},
+{
+"ags": "08425037",
+"name": "Kleinmühldorf",
+"population": 13470,
+"kind": "stadt",
+"lon": 10.00591,
+"lat": 48.58562
+},
+{
+"ags": "08425038",
+"name": "Großbärenheim",
+"population": 1360,
+"kind": "gemeinde",
+"lon": 9.85617,
+"lat": 48.28474
+},
+{
+"ags": "08425039",
+"name": "Niederwaldach",
+"population": 5430,
+"kind": "gemeinde",
+"lon": 9.59794,
+"lat": 48.31087
+},
+{
+"ags": "08425040",
+"name": "Nussdorf",
+"population": 4600,
+"kind": "gemeinde",
+"lon": 9.64854,
+"lat": 48.25055
+},
+{
+"ags": "08425041",
+"name": "Obermosingen",
+"population": 2950,
+"kind": "gemeinde",
+"lon": 9.79703,
+"lat": 48.43264
+},
+{
+"ags": "08425042",
+"name": "Hohengoldhausen",
+"population": 9440,
+"kind": "gemeinde",
+"lon": 9.88183,
+"lat": 48.57045
+},
+{
+"ags": "08425043",
+"name": "Hageningen",
+"population": 24170,
+"kind": "stadt",
+"lon": 9.99695,
+"lat": 48.48732
+},
+{
+"ags": "08426001",
+"name": "Altwaldhofen",
+"population": 3500,
+"kind": "gemeinde",
+"lon": 9.83775,
+"lat": 48.22151
+},
+{
+"ags": "08426002",
+"name": "Kleinlangstetten",
+"population": 720,
+"kind": "gemeinde",
+"lon": 10.02816,
+"lat": 48.19551
+},
+{
+"ags": "08426003",
+"name": "Altlangbronn",
+"population": 10930,
+"kind": "stadt",
+"lon": 9.58717,
+"lat": 48.06145
+},
+{
+"ags": "08426004",
+"name": "Kleinosterbach",
+"population": 11220,
+"kind": "stadt",
+"lon": 9.69426,
+"lat": 48.1498
+},
+{
+"ags": "08426005",
+"name": "Niederkaltwang",
+"population": 3410,
+"kind": "gemeinde",
+"lon": 9.75177,
+"lat": 48.00063
+},
+{
+"ags": "08426006",
+"name": "Altulmenhofen",
+"population": 4650,
+"kind": "gemeinde",
+"lon": 9.9325,
+"lat": 48.07654
+},
+{
+"ags": "08426007",
+"name": "Kalthausen",
+"population": 7210,
+"kind": "gemeinde",
+"lon": 9.80138,
+"lat": 48.05957
+},
+{
+"ags": "08426008",
+"name": "Großvogelwang",
+"population": 2190,
+"kind": "gemeinde",
+"lon": 9.97476,
+"lat": 48.23907
+},
+{
+"ags": "08426009",
+"name": "Rotau",
+"population": 10760,
+"kind": "stadt",
+"lon": 9.99976,
+"lat": 48.02897
+},
+{
+"ags": "08426010",
+"name": "Zellloch",
+"population": 10810,
+"kind": "stadt",
+"lon": 9.98457,
+"lat": 48.11364
+},
+{
+"ags": "08426011",
+"name": "Kleinriedingen",
+"population": 12350,
+"kind": "stadt",
+"lon": 9.73797,
+"lat": 48.12071
+},
+{
+"ags": "08426012",
+"name": "Hagenweiler",
+"population": 13190,
+"kind": "stadt",
+"lon": 9.64511,
+"lat": 48.13824
+},
+{
+"ags": "08426013",
+"name": "Großsulzweil",
+"population": 920,
+"kind": "gemeinde",
+"lon": 10.05837,
+"lat": 48.12543
+},
+{
+"ags": "08426014",
+"name": "Oberhallwang",
+"population": 9050,
+"kind": "gemeinde",
+"lon": 9.77579,
+"lat": 48.18595
+},
+{
+"ags": "08426015",
+"name": "Wiesenbronn",
+"population": 3650,
+"kind": "gemeinde",
+"lon": 9.91345,
+"lat": 48.13135
+},
+{
+"ags": "08426016",
+"name": "Teckweil",
+"population": 15810,
+"kind": "stadt",
+"lon": 9.93572,
+"lat": 47.98685
+},
+{
+"ags": "08426017",
+"name": "Kleindornhofen",
+"population": 15040,
+"kind": "stadt",
+"lon": 9.95092,
+"lat": 48.01805
+},
+{
+"ags": "08426018",
+"name": "Rossweil",
+"population": 11970,
+"kind": "stadt",
+"lon": 9.67951,
+"lat": 48.02736
+},
+{
+"ags": "08426019",
+"name": "Oberwaldingen",
+"population": 5120,
+"kind": "gemeinde",
+"lon": 9.52273,
+"lat": 48.16688
+},
+{
+"ags": "08426020",
+"name": "Erlenwang",
+"population": 77920,
+"kind": "stadt",
+"lon": 9.33939,
+"lat": 48.17226
+},
+{
+"ags": "08426021",
+"name": "Oberriedtal",
+"population": 5270,
+"kind": "gemeinde",
+"lon": 9.87091,
+"lat": 48.16313
+},
+{
+"ags": "08426022",
+"name": "Kleinhallberg",
+"population": 2070,
+"kind": "gemeinde",
+"lon": 9.43529,
+"lat": 48.17465
+},
+{
+"ags": "08426023",
+"name": "Oberpfaffstetten",
+"population": 13890,
+"kind": "stadt",
+"lon": 9.54768,
+"lat": 48.10014
+},
+{
+"ags": "08426024",
+"name": "Mattheim",
+"population": 1420,
+"kind": "gemeinde",
+"lon": 9.4992,
+"lat": 48.1991
+},
+{
+"ags": "08426025",
+"name": "Mattweil",
+"population": 34150,
+"kind": "stadt",
+"lon": 10.06007,
+"lat": 47.99155
+},
+{
+"ags": "08426026",
+"name": "Großbronntal",
+"population": 14530,
+"kind": "stadt",
+"lon": 9.86288,
+"lat": 48.07736
+},
+{
+"ags": "08426027",
+"name": "Tecktal",
+"population": 19510,
+"kind": "stadt",
+"lon": 10.10439,
+"lat": 48.05151
+},
+{
+"ags": "08426028",
+"name": "Altvogelhofen",
+"population": 14990,
+"kind": "stadt",
+"lon": 9.84166,
+"lat": 47.99676
+},
+{
+"ags": "08426029",
+"name": "Kreuzweiler",
+"population": 8190,
+"kind": "gemeinde",
+"lon": 9.88559,
+"lat": 48.02353
+},
+{
+"ags": "08426030",
+"name": "Niederkirchweil",
+"population": 1610,
+"kind": "gemeinde",
+"lon": 9.65861,
+"lat": 48.08227
+},
+{
+"ags": "08426031",
+"name": "Wiesenhausen",
+"population": 3190,
+"kind": "gemeinde",
+"lon": 9.7942,
+"lat": 47.99038
+},
+{
+"ags": "08426032",
+"name": "Niederhagenweiler",
+"population": 9550,
+"kind": "gemeinde",
+"lon": 9.61379,
+"lat": 48.18041
+},
+{
+"ags": "08426033",
+"name": "Schönhausen",
+"population": 4640,
+"kind": "gemeinde",
+"lon": 9.71441,
+"lat": 48.01102
+},
+{
+"ags": "08426034",
+"name": "Hagendorf",
+"population": 7970,
+"kind": "gemeinde",
+"lon": 9.49075,
+"lat": 48.11174
+},
+{
+"ags": "08426035",
+"name": "Kleindorningen",
+"population": 2950,
+"kind": "gemeinde",
+"lon": 9.40929,
+"lat": 48.12119
+},
+{
+"ags": "08426036",
+"name": "Mittellauterau",
+"population": 2680,
+"kind": "gemeinde",
+"lon": 9.9904,
+"lat": 48.1767
+},
+{
+"ags": "08426037",
+"name": "Mittelehrweil",
+"population": 7450,
+"kind": "gemeinde",
+"lon": 9.60246,
+"lat": 48.12001
+},
+{
+"ags": "08426038",
+"name": "Pfaffbronn",
+"population": 11300,
+"kind": "stadt",
+"lon": 10.11589,
+"lat": 48.1001
+},
+{
+"ags": "08426039",
+"name": "Unterklingdorf",
+"population": 5650,
+"kind": "gemeinde",
+"lon": 9.56849,
+"lat": 48.1616
+},
+{
+"ags": "08426040",
+"name": "Vogelach",
+"population": 2240,
+"kind": "gemeinde",
+"lon": 10.05024,
+"lat": 48.05709
+},
+{
+"ags": "08426041",
+"name": "Mittelkirchtal",
+"population": 1170,
+"kind": "gemeinde",
+"lon": 9.90459,
+"lat": 48.24813
+},
+{
+"ags": "08426042",
+"name": "Eberheim",
+"population": 37770,
+"kind": "stadt",
+"lon": 9.93971,
+"lat": 48.18203
+},
+{
+"ags": "08426043",
+"name": "Kleinrotbach",
+"population": 1920,
+"kind": "gemeinde",
+"lon": 9.74126,
+"lat": 48.06348
+},
+{
+"ags": "08426044",
+"name": "Mittelklinghausen",
+"population": 2470,
+"kind": "gemeinde",
+"lon": 9.63374,
+"lat": 48.00819
+},
+{
+"ags": "08426045",
+"name": "Untermattdorf",
+"population": 2820,
+"kind": "gemeinde",
+"lon": 9.81371,
+"lat": 48.12924
+},
+{
+"ags": "08435001",
+"name": "Unterilsenhofen",
+"population": 8350,
+"kind": "gemeinde",
+"lon": 9.37076,
+"lat": 47.81791
+},
+{
+"ags": "08435002",
+"name": "Großdornstatt",
+"population": 2680,
+"kind": "gemeinde",
+"lon": 9.26924,
+"lat": 47.74814
+},
+{
+"ags": "08435003",
+"name": "Ulmenstetten",
+"population": 20240,
+"kind": "stadt",
+"lon": 9.3008,
+"lat": 47.83106
+},
+{
+"ags": "08435004",
+"name": "Hohenfelsbronn",
+"population": 4990,
+"kind": "gemeinde",
+"lon": 9.58727,
+"lat": 47.69363
+},
+{
+"ags": "08435005",
+"name": "Oberehrberg",
+"population": 12360,
+"kind": "stadt",
+"lon": 9.35313,
+"lat": 47.77349
+},
+{
+"ags": "08435006",
+"name": "Niederlauterdorf",
+"population": 5310,
+"kind": "gemeinde",
+"lon": 9.67007,
+"lat": 47.67484
+},
+{
+"ags": "08435007",
+"name": "Altbärenau",
+"population": 1940,
+"kind": "gemeinde",
+"lon": 9.42448,
+"lat": 47.7939
+},
+{
+"ags": "08435008",
+"name": "Schönach",
+"population": 720,
+"kind": "gemeinde",
+"lon": 9.71681,
+"lat": 47.66191
+},
+{
+"ags": "08435009",
+"name": "Hirschstatt",
+"population": 29700,
+"kind": "stadt",
+"lon": 9.46726,
+"lat": 47.73279
+},
+{
+"ags": "08435010",
+"name": "Niederriedingen",
+"population": 6850,
+"kind": "gemeinde",
+"lon": 9.62343,
+"lat": 47.63948
+},
+{
+"ags": "08435011",
+"name": "Mittelneuau",
+"population": 1850,
+"kind": "gemeinde",
+"lon": 9.56223,
+"lat": 47.62755
+},
+{
+"ags": "08435012",
+"name": "Eichach",
+"population": 4090,
+"kind": "gemeinde",
+"lon": 9.47639,
+"lat": 47.67747
+},
+{
+"ags": "08435013",
+"name": "Kaltloch",
+"population": 13970,
+"kind": "stadt",
+"lon": 9.11367,
+"lat": 47.82238
+},
+{
+"ags": "08435014",
+"name": "Erlental",
+"population": 1340,
+"kind": "gemeinde",
+"lon": 9.23382,
+"lat": 47.80942
+},
+{
+"ags": "08435015",
+"name": "Ulmental",
+"population": 46840,
+"kind": "stadt",
+"lon": 9.1782,
+"lat": 47.8103
+},
+{
+"ags": "08435016",
+"name": "Mühlfeld",
+"population": 4340,
+"kind": "gemeinde",
+"lon": 9.66976,
+"lat": 47.62947
+},
+{
+"ags": "08435017",
+"name": "Oberhagental",
+"population": 3880,
+"kind": "gemeinde",
+"lon": 9.53303,
+"lat": 47.7058
+},
+{
+"ags": "08435018",
+"name": "Dornloch",
+"population": 18470,
+"kind": "stadt",
+"lon": 9.40282,
+"lat": 47.73672
+},
+{
+"ags": "08435019",
+"name": "Hohendornhausen",
+"population": 6680,
+"kind": "gemeinde",
+"lon": 9.32612,
+"lat": 47.71265
+},
+{
+"ags": "08435020",
+"name": "Unterfischhausen",
+"population": 2120,
+"kind": "gemeinde",
+"lon": 9.39307,
+"lat": 47.68869
+},
+{
+"ags": "08436001",
+"name": "Kleinhallheim",
+"population": 13730,
+"kind": "stadt",
+"lon": 9.95184,
+"lat": 47.69386
+},
+{
+"ags": "08436002",
+"name": "Altnussberg",
+"population": 11460,
+"kind": "stadt",
+"lon": 9.58626,
+"lat": 47.98714
+},
+{
+"ags": "08436003",
+"name": "Altdornheim",
+"population": 1620,
+"kind": "gemeinde",
+"lon": 9.96341,
+"lat": 47.89826
+},
+{
+"ags": "08436004",
+"name": "Großholzfeld",
+"population": 1470,
+"kind": "gemeinde",
+"lon": 9.47862,
+"lat": 47.83738
+},
+{
+"ags": "08436005",
+"name": "Unterfelsdorf",
+"population": 5490,
+"kind": "gemeinde",
+"lon": 9.87151,
+"lat": 47.71462
+},
+{
+"ags": "08436006",
+"name": "Altwaldtal",
+"population": 700,
+"kind": "gemeinde",
+"lon": 9.78353,
+"lat": 47.85155
+},
+{
+"ags": "08436007",
+"name": "Kleinmoshausen",
+"population": 5700,
+"kind": "gemeinde",
+"lon": 9.97189,
+"lat": 47.81657
+},
+{
+"ags": "08436008",
+"name": "Mittellauterberg",
+"population": 7020,
+"kind": "gemeinde",
+"lon": 9.71379,
+"lat": 47.86019
+},
+{
+"ags": "08436009",
+"name": "Großneuingen",
+"population": 8590,
+"kind": "gemeinde",
+"lon": 9.90672,
+"lat": 47.90398
+},
+{
+"ags": "08436010",
+"name": "Althallwang",
+"population": 8440,
+"kind": "gemeinde",
+"lon": 9.64232,
+"lat": 47.74181
+},
+{
+"ags": "08436011",
+"name": "Unterteckwang",
+"population": 19730,
+"kind": "stadt",
+"lon": 9.5881,
+"lat": 47.78923
+},
+{
+"ags": "08436012",
+"name": "Unterdornheim",
+"population": 3980,
+"kind": "gemeinde",
+"lon": 9.69797,
+"lat": 47.92775
+},
+{
+"ags": "08436013",
+"name": "Buchfeld",
+"population": 20090,
+"kind": "stadt",
+"lon": 9.58002,
+"lat": 47.89346
+},
+{
+"ags": "08436014",
+"name": "Niederlauterweiler",
+"population": 9150,
+"kind": "gemeinde",
+"lon": 10.08409,
+"lat": 47.79862
+},
+{
+"ags": "08436015",
+"name": "Hohenkirchstatt",
+"population": 9130,
+"kind": "gemeinde",
+"lon": 9.78134,
+"lat": 47.7712
+},
+{
+"ags": "08436016",
+"name": "Vogelheim",
+"population": 4740,
+"kind": "gemeinde",
+"lon": 9.7497,
+"lat": 47.70172
+},
+{
+"ags": "08436017",
+"name": "Pfaffweil",
+"population": 13800,
+"kind": "stadt",
+"lon": 9.4233,
+"lat": 47.87231
+},
+{
+"ags": "08436018",
+"name": "Mittelrossheim",
+"population": 2670,
+"kind": "gemeinde",
+"lon": 10.08103,
+"lat": 47.68224
+},
+{
+"ags": "08436019",
+"name": "Hagenberg",
+"population": 11070,
+"kind": "stadt",
+"lon": 9.94261,
+"lat": 47.76102
+},
+{
+"ags": "08436020",
+"name": "Salzstatt",
+"population": 16130,
+"kind": "stadt",
+"lon": 9.94034,
+"lat": 47.84935
+},
+{
+"ags": "08436021",
+"name": "Hohenpfaffdorf",
+"population": 2900,
+"kind": "gemeinde",
+"lon": 9.58333,
+"lat": 47.94879
+},
+{
+"ags": "08436022",
+"name": "Hohenklingstetten",
+"population": 2210,
+"kind": "gemeinde",
+"lon": 9.5303,
+"lat": 47.93326
+},
+{
+"ags": "08436023",
+"name": "Hohenfischfeld",
+"population": 2660,
+"kind": "gemeinde",
+"lon": 9.61624,
+"lat": 47.83769
+},
+{
+"ags": "08436024",
+"name": "Mittelklingtal",
+"population": 5300,
+"kind": "gemeinde",
+"lon": 9.80286,
+"lat": 47.6869
+},
+{
+"ags": "08436025",
+"name": "Altpfaffweiler",
+"population": 7820,
+"kind": "gemeinde",
+"lon": 9.52707,
+"lat": 47.86286
+},
+{
+"ags": "08436026",
+"name": "Salzwang",
+"population": 12810,
+"kind": "stadt",
+"lon": 9.48677,
+"lat": 47.9291
+},
+{
+"ags": "08436027",
+"name": "Nussingen",
+"population": 34150,
+"kind": "stadt",
+"lon": 10.01493,
+"lat": 47.905
+},
+{
+"ags": "08436028",
+"name": "Riedingen",
+"population": 26290,
+"kind": "stadt",
+"lon": 10.09985,
+"lat": 47.72354
+},
+{
+"ags": "08436029",
+"name": "Hohenkirchach",
+"population": 7180,
+"kind": "gemeinde",
+"lon": 9.55981,
+"lat": 47.82404
+},
+{
+"ags": "08436030",
+"name": "Hohenbronnhofen",
+"population": 3800,
+"kind": "gemeinde",
+"lon": 10.01075,
+"lat": 47.75102
+},
+{
+"ags": "08436031",
+"name": "Moswang",
+"population": 1730,
+"kind": "gemeinde",
+"lon": 10.05818,
+"lat": 47.85366
+},
+{
+"ags": "08436032",
+"name": "Felsheim",
+"population": 12200,
+"kind": "stadt",
+"lon": 9.6312,
+"lat": 47.88537
+},
+{
+"ags": "08436033",
+"name": "Oberkreuzhausen",
+"population": 9090,
+"kind": "gemeinde",
+"lon": 9.63907,
+"lat": 47.79637
+},
+{
+"ags": "08436034",
+"name": "Eberhofen",
+"population": 4220,
+"kind": "gemeinde",
+"lon": 9.66641,
+"lat": 47.84469
+},
+{
+"ags": "08436035",
+"name": "Eberberg",
+"population": 4710,
+"kind": "gemeinde",
+"lon": 9.4696,
+"lat": 47.7851
+},
+{
+"ags": "08436036",
+"name": "Kirchdorf",
+"population": 4930,
+"kind": "gemeinde",
+"lon": 10.03933,
+"lat": 47.71497
+},
+{
+"ags": "08436037",
+"name": "Fischfeld",
+"population": 460,
+"kind": "gemeinde",
+"lon": 9.76404,
+"lat": 47.93326
+},
+{
+"ags": "08436038",
+"name": "Hohengoldweiler",
+"population": 5230,
+"kind": "gemeinde",
+"lon": 9.87108,
+"lat": 47.78542
+},
+{
+"ags": "08436039",
+"name": "Großeichweiler",
+"population": 7560,
+"kind": "gemeinde",
+"lon": 9.43745,
+"lat": 47.93202
+},
+{
+"ags": "08436040",
+"name": "Kleinschönach",
+"population": 4900,
+"kind": "gemeinde",
+"lon": 10.07426,
+"lat": 47.92861
+},
+{
+"ags": "08436041",
+"name": "Obereberheim",
+"population": 1990,
+"kind": "gemeinde",
+"lon": 9.94904,
+"lat": 47.95316
+},
+{
+"ags": "08436042",
+"name": "Hallstatt",
+"population": 5770,
+"kind": "gemeinde",
+"lon": 10.02573,
+"lat": 47.80274
+},
+{
+"ags": "08436043",
+"name": "Mittelrotheim",
+"population": 8760,
+"kind": "gemeinde",
+"lon": 9.70261,
+"lat": 47.78845
+},
+{
+"ags": "08436044",
+"name": "Langtal",
+"population": 31200,
+"kind": "stadt",
+"lon": 9.85225,
+"lat": 47.93199
+},
+{
+"ags": "08436045",
+"name": "Kleinbirkendorf",
+"population": 15300,
+"kind": "stadt",
+"lon": 9.86156,
+"lat": 47.84769
+},
+{
+"ags": "08436046",
+"name": "Untermattbronn",
+"population": 9770,
+"kind": "gemeinde",
+"lon": 9.50686,
+"lat": 47.76349
+},
+{
+"ags": "08436047",
+"name": "Mittelkaltheim",
+"population": 5250,
+"kind": "gemeinde",
+"lon": 9.5949,
+"lat": 47.7462
+},
+{
+"ags": "08436048",
+"name": "Altmattstatt",
+"population": 1520,
+"kind": "gemeinde",
+"lon": 9.53976,
+"lat": 47.76961
+},
+{
+"ags": "08436049",
+"name": "Oberilsenheim",
+"population": 3520,
+"kind": "gemeinde",
+"lon": 9.69297,
+"lat": 47.7214
+},
+{
+"ags": "08436050",
+"name": "Obereichberg",
+"population": 1480,
+"kind": "gemeinde",
+"lon": 9.73476,
+"lat": 47.63124
+},
+{
+"ags": "08436051",
+"name": "Ulmenfeld",
+"population": 5000,
+"kind": "gemeinde",
+"lon": 9.64944,
+"lat": 47.94475
+},
+{
+"ags": "08437001",
+"name": "Oberehrstatt",
+"population": 4580,
+"kind": "gemeinde",
+"lon": 9.26994,
+"lat": 48.18433
+},
+{
+"ags": "08437002",
+"name": "Niederhallstatt",
+"population": 2740,
+"kind": "gemeinde",
+"lon": 9.25194,
+"lat": 47.97418
+},
+{
+"ags": "08437003",
+"name": "Pfafffeld",
+"population": 119900,
+"kind": "stadt",
+"lon": 9.28647,
+"lat": 47.90604
+},
+{
+"ags": "08437004",
+"name": "Ilsenstetten",
+"population": 4630,
+"kind": "gemeinde",
+"lon": 9.19182,
+"lat": 47.93662
+},
+{
+"ags": "08437005",
+"name": "Fischweil",
+"population": 21390,
+"kind": "stadt",
+"lon": 9.23333,
+"lat": 47.89331
+},
+{
+"ags": "08437006",
+"name": "Großlindenstatt",
+"population": 1820,
+"kind": "gemeinde",
+"lon": 9.21305,
+"lat": 48.07644
+},
+{
+"ags": "08437007",
+"name": "Großlindenstetten",
+"population": 2770,
+"kind": "gemeinde",
+"lon": 9.41957,
+"lat": 48.0571
+},
+{
+"ags": "08437008",
+"name": "Hohenbronningen",
+"population": 18090,
+"kind": "stadt",
+"lon": 9.31275,
+"lat": 48.06638
+},
+{
+"ags": "08437009",
+"name": "Hohenulmenweil",
+"population": 1970,
+"kind": "gemeinde",
+"lon": 9.39593,
+"lat": 47.94641
+},
+{
+"ags": "08437010",
+"name": "Mittelkreuzdorf",
+"population": 2020,
+"kind": "gemeinde",
+"lon": 9.2148,
+"lat": 48.23805
+},
+{
+"ags": "08437011",
+"name": "Großhagenweil",
+"population": 5320,
+"kind": "gemeinde",
+"lon": 9.14519,
+"lat": 47.89097
+},
+{
+"ags": "08437012",
+"name": "Oberkaltwang",
+"population": 2790,
+"kind": "gemeinde",
+"lon": 9.51959,
+"lat": 48.02421
+},
+{
+"ags": "08437013",
+"name": "Kleinnussstetten",
+"population": 4240,
+"kind": "gemeinde",
+"lon": 9.26885,
+"lat": 48.0882
+},
+{
+"ags": "08437014",
+"name": "Niederkreuzweil",
+"population": 6500,
+"kind": "gemeinde",
+"lon": 9.09186,
+"lat": 48.13321
+},
+{
+"ags": "08437015",
+"name": "Hohennussberg",
+"population": 12860,
+"kind": "stadt",
+"lon": 9.3499,
+"lat": 47.93307
+},
+{
+"ags": "08437016",
+"name": "Halltal",
+"population": 6680,
+"kind": "gemeinde",
+"lon": 9.07476,
+"lat": 48.07042
+},
+{
+"ags": "08437017",
+"name": "Kleinklingdorf",
+"population": 7430,
+"kind": "gemeinde",
+"lon": 9.01581,
+"lat": 48.1265
+},
+{
+"ags": "08437018",
+"name": "Oberilsenbronn",
+"population": 19860,
+"kind": "stadt",
+"lon": 9.27985,
+"lat": 48.26559
+},
+{
+"ags": "08437019",
+"name": "Vogelbronn",
+"population": 21650,
+"kind": "stadt",
+"lon": 9.19949,
+"lat": 48.00826
+},
+{
+"ags": "08437020",
+"name": "Salzweiler",
+"population": 4010,
+"kind": "gemeinde",
+"lon": 8.99497,
+"lat": 48.0611
+},
+{
+"ags": "08437021",
+"name": "Altschönbronn",
+"population": 960,
+"kind": "gemeinde",
+"lon": 9.18775,
+"lat": 47.87315
+},
+{
+"ags": "08437022",
+"name": "Mühlhofen",
+"population": 2150,
+"kind": "gemeinde",
+"lon": 9.43957,
+"lat": 47.99591
+},
+{
+"ags": "08437023",
+"name": "Unterbirkenweil",
+"population": 15600,
+"kind": "stadt",
+"lon": 9.0824,
+"lat": 47.94155
+},
+{
+"ags": "08437024",
+"name": "Felswang",
+"population": 3560,
+"kind": "gemeinde",
+"lon": 9.30466,
+"lat": 47.97925
+},
+{
+"ags": "08437025",
+"name": "Kleinteckbach",
+"population": 2860,
+"kind": "gemeinde",
+"lon": 9.33034,
+"lat": 47.88318
+},
+{
+"ags": "08437026",
+"name": "Ilsenheim",
+"population": 3660,
+"kind": "gemeinde",
+"lon": 9.13385,
+"lat": 47.97823
+},
+{
+"ags": "08437027",
+"name": "Neudorf",
+"population": 25680,
+"kind": "stadt",
+"lon": 9.13845,
+"lat": 48.1088
+},
+{
+"ags": "08437028",
+"name": "Untersteinwang",
+"population": 5940,
+"kind": "gemeinde",
+"lon": 9.14966,
+"lat": 48.05349
+},
+{
+"ags": "08437029",
+"name": "Großzellach",
+"population": 3930,
+"kind": "gemeinde",
+"lon": 9.37625,
+"lat": 47.84995
+},
+{
+"ags": "08437030",
+"name": "Kleinbuchdorf",
+"population": 2890,
+"kind": "gemeinde",
+"lon": 9.1624,
+"lat": 48.23244
+},
+{
+"ags": "08437031",
+"name": "Kleinhallingen",
+"population": 1980,
+"kind": "gemeinde",
+"lon": 9.36377,
+"lat": 48.07019
+},
+{
+"ags": "08437032",
+"name": "Nussbronn",
+"population": 83070,
+"kind": "stadt",
+"lon": 9.31378,
+"lat": 48.23296
+},
+{
+"ags": "08437033",
+"name": "Mittelwiesendorf",
+"population": 5420,
+"kind": "gemeinde",
+"lon": 9.35795,
+"lat": 47.99997
+},
+{
+"ags": "08437034",
+"name": "Neuhofen",
+"population": 6500,
+"kind": "gemeinde",
+"lon": 9.36783,
+"lat": 47.88571
+},
+{
+"ags": "08437035",
+"name": "Niederkreuzach",
+"population": 4160,
+"kind": "gemeinde",
+"lon": 9.05333,
+"lat": 47.99641
+},
+{
+"ags": "08437036",
+"name": "Hohenlindenfeld",
+"population": 15600,
+"kind": "stadt",
+"lon": 9.26503,
+"lat": 48.23509
+},
+{
+"ags": "08437037",
+"name": "Niederlauterach",
+"population": 2160,
+"kind": "gemeinde",
+"lon": 9.20938,
+"lat": 48.14437
+},
+{
+"ags": "08437038",
+"name": "Lauterbronn",
+"population": 900,
+"kind": "gemeinde",
+"lon": 9.3961,
+"lat": 47.83768
+}
+]

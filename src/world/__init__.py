@@ -301,16 +301,28 @@ def render(
         value_col = ic["column"]
         header = ["Gemeindeschlüssel", "Gemeinde", value_col]
         extra = drift == "extra_column"
+        swapped = drift == "swapped_columns"
+        sep = "," if drift == "comma_separator" else ";"
         if extra:
             header = ["Gemeindeschlüssel", "Gemeinde", L["extra_column"], value_col]
+        if swapped:
+            header = ["Gemeindeschlüssel", value_col, "Gemeinde"]
         lines = [
             L["publisher"],
             f"Tabelle: {title} nach Gemeinden",
             f"Berichtszeitraum: {p.german()}",
             f"Einheit: {unit}",
             f"Gebietsstand: {p.end.strftime('%d.%m.%Y')}",
-            ";".join(header),
+            sep.join(header),
         ]
+
+        def put(cells: list[str]) -> None:
+            if swapped:
+                cells = [cells[0], cells[-1], *cells[1:-1]]
+            if sep == ",":
+                cells = [f'"{c}"' if "," in c or " " in c else c for c in cells]
+            lines.append(sep.join(cells))
+
         by_k: dict[str, list[str]] = {}
         for a in keys:
             by_k.setdefault(a[:5], []).append(a)
@@ -319,13 +331,13 @@ def render(
                 row = [a, names[a], show(values[a])]
                 if extra:
                     row.insert(2, fmt_de(float(r.integers(0, 50))))
-                lines.append(";".join(row))
+                put(row)
             if ic.get("kreis_rows"):
                 tot = None if any(values[a] is None for a in by_k[k]) else sum(values[a] or 0 for a in by_k[k])
                 row = [k, f"{kname.get(k, k)} insgesamt", show(tot)]
                 if extra:
                     row.insert(2, "–")
-                lines.append(";".join(row))
+                put(row)
         lines += [f"Quelle: {L['publisher']}", L["footnote"]]
         return ("\n".join(lines) + "\n").encode("utf-8")
 
@@ -353,13 +365,18 @@ def render(
     # html
     cols = ["Schlüssel", "Gemeinde", ic["column"]]
     extra = drift == "extra_column"
+    swapped = drift == "swapped_columns"
     if extra:
         cols = ["Schlüssel", "Gemeinde", L["extra_column"], ic["column"]]
+    if swapped:
+        cols = ["Schlüssel", ic["column"], "Gemeinde"]
     rows = []
     for a in keys:
         cells = [a, names[a], show(values[a])]
         if extra:
             cells.insert(2, fmt_de(float(r.integers(0, 40))))
+        if swapped:
+            cells = [a, show(values[a]), names[a]]
         rows.append("<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
     html = (
         f"<html><head><title>{title}</title></head><body><h1>{L['publisher']}</h1>"

@@ -4,7 +4,7 @@
     "prior_exposure": 6.0,
     "min_ratio": 1.35,
     "min_abs": 5,
-    "fdr": 0.1,
+    "fdr": 0.05,
     "per_release": 8,
     "kreis_min_ratio": 1.15
   },
