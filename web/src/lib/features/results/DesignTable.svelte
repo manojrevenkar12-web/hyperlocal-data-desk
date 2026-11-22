@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { num } from "$lib/format";
+  import { DESIGN, num } from "$lib/format";
   import type { DesignReport, Stat } from "$lib/types";
   let { designs, caption }: { designs: DesignReport[]; caption: string } = $props();
   const COLS: { k: string; label: string; d: number; scale?: number }[] = [
@@ -22,7 +22,7 @@
     <tbody>
       {#each designs as d}
         <tr class:desk={d.name === "desk"}>
-          <th scope="row"><span>{d.label}</span>{#if d.about}<small>{d.about}</small>{/if}</th>
+          <th scope="row"><span>{DESIGN[d.name]?.label ?? d.label}</span>{#if DESIGN[d.name]?.about}<small>{DESIGN[d.name]?.about}</small>{/if}</th>
           {#each COLS as c}<td>{f(d.stats[c.k], c)}{#if ci(d.stats[c.k], c)}<small>{ci(d.stats[c.k], c)}</small>{/if}</td>{/each}
         </tr>
       {/each}

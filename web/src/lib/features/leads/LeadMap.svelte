@@ -6,8 +6,9 @@
   import { num } from "$lib/format";
   import { quantileBreaks, RAMP, stepOf } from "$lib/scales";
 
-  let { values, leads, picks, selected, onselect }: {
+  let { values, leads, picks, selected, onselect, world }: {
     values: Record<string, number | null>; leads: string[]; picks: string[]; selected: string | null; onselect: (k: string) => void;
+    world: "dev" | "heldout";
   } = $props();
 
   let el: HTMLDivElement;
@@ -22,7 +23,7 @@
 
   onMount(async () => {
     try {
-      const [{ default: maplibre }, geo] = await Promise.all([import("maplibre-gl"), fetch("/data/gemeinden.geojson").then((r) => r.json())]);
+      const [{ default: maplibre }, geo] = await Promise.all([import("maplibre-gl"), fetch(`/data/gemeinden-${world}.geojson`).then((r) => r.json())]);
       for (const f of geo.features) {
         const a = f.properties.ags as string;
         f.properties.step = stepOf(values[a], breaks);

@@ -28,18 +28,14 @@ def _round(obj: object) -> object:
 def web_data(root: Path) -> str:
     out = root / "web" / "static" / "data"
     out.mkdir(parents=True, exist_ok=True)
+    # each world has its own simulated municipalities; the app draws the ones its report describes
+    for which in ("dev", "heldout"):
+        wms, _ = geography(load_config(which))
+        feats = [{"type": "Feature", "properties": {"ags": m.ags, "name": m.name, "kreis": m.kreis, "population": m.population},
+                  "geometry": _round(mapping(m.outline.simplify(0.0015, preserve_topology=True)))} for m in wms]
+        (out / f"gemeinden-{which}.geojson").write_text(
+            json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     ms, _ = geography(load_config("dev"))
-    feats = [
-        {
-            "type": "Feature",
-            "properties": {"ags": m.ags, "name": m.name, "kreis": m.kreis, "population": m.population},
-            "geometry": _round(mapping(m.outline.simplify(0.0015, preserve_topology=True))),
-        }
-        for m in ms
-    ]
-    (out / "gemeinden.geojson").write_text(
-        json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
-    )
     shutil.copy(root / "geo" / "bw_kreise.geojson", out / "kreise.geojson")
     for which in ("dev", "heldout"):
         src = root / "reports" / f"{which}.json"
@@ -51,4 +47,4 @@ def web_data(root: Path) -> str:
     ]
     (root / "data").mkdir(exist_ok=True)
     (root / "data" / "register.json").write_text(json.dumps(reg, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
-    return f"wrote {len(feats)} municipal outlines and the reports to {out}"
+    return f"wrote the municipal outlines of both worlds and the reports to {out}"

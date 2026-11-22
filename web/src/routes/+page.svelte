@@ -30,7 +30,7 @@
     </p>
   </header>
   <div class="board">
-    <LeadMap values={sc.values} leads={sc.leads.map((l) => l.key)} picks={sc.spreadsheet_leads.map((l) => l.key)} {selected} onselect={(k) => (selected = k)} />
+    {#key report.world}<LeadMap world={report.world} values={sc.values} leads={sc.leads.map((l) => l.key)} picks={sc.spreadsheet_leads.map((l) => l.key)} {selected} onselect={(k) => (selected = k)} />{/key}
     <section aria-labelledby="leads-h">
       <h2 id="leads-h">Recherchehinweise</h2>
       <LeadList leads={sc.leads} {selected} onselect={(k) => (selected = k)} />

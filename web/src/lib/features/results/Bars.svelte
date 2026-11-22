@@ -1,6 +1,6 @@
 <script lang="ts">
   // One measure per chart, one axis from zero, the desk in gold, the 95% interval as a whisker.
-  import { num } from "$lib/format";
+  import { DESIGN, num } from "$lib/format";
   import type { DesignReport } from "$lib/types";
   let { designs, metric, caption, digits = 1 }: { designs: DesignReport[]; metric: string; caption: string; digits?: number } = $props();
   const rows = $derived([...designs].sort((a, b) => b.stats[metric].value - a.stats[metric].value));
@@ -18,14 +18,14 @@
       {@const s = d.stats[metric]}
       <g class:desk={d.name === "desk"} class:on={hover === d.name} onmouseenter={() => (hover = d.name)} onmouseleave={() => (hover = null)} role="presentation">
         <rect class="hit" x="0" y={i * ROW} width={W} height={ROW} />
-        <text x={L - 10} y={i * ROW + 18} text-anchor="end" class="name">{d.label}</text>
+        <text x={L - 10} y={i * ROW + 18} text-anchor="end" class="name">{DESIGN[d.name]?.label ?? d.label}</text>
         <rect x={x(0)} y={i * ROW + 6} width={Math.max(1, x(s.value) - x(0))} height="16" rx="3" class="bar" />
         {#if s.lo !== s.hi}<line x1={x(s.lo)} x2={x(s.hi)} y1={i * ROW + 14} y2={i * ROW + 14} class="ci" />{/if}
         <text x={x(Math.max(s.hi, s.value)) + 8} y={i * ROW + 18} class="val">{num(s.value, digits)}</text>
       </g>
     {/each}
   </svg>
-  <p class="muted small">{#if hover}{@const s = designs.find((d) => d.name === hover)!.stats[metric]}{designs.find((d) => d.name === hover)!.label}: {num(s.value, digits)}, 95-%-Intervall {num(s.lo, digits)} bis {num(s.hi, digits)}{:else}Auf einen Balken zeigen für das Intervall über die Jahrgänge{/if}</p>
+  <p class="muted small">{#if hover}{@const s = designs.find((d) => d.name === hover)!.stats[metric]}{DESIGN[hover]?.label ?? hover}: {num(s.value, digits)}, 95-%-Intervall {num(s.lo, digits)} bis {num(s.hi, digits)}{:else}Auf einen Balken zeigen für das Intervall über die Jahrgänge{/if}</p>
 </figure>
 
 <style>

@@ -2,7 +2,7 @@
   import State from "$lib/components/State.svelte";
   import Bars from "$lib/features/results/Bars.svelte";
   import DesignTable from "$lib/features/results/DesignTable.svelte";
-  import { clock, num } from "$lib/format";
+  import { clock, DESIGN, GATE, num } from "$lib/format";
   import { report } from "$lib/report.svelte";
   const r = $derived(report.data);
   const main = $derived(r?.designs.filter((d) => !d.ablation) ?? []);
@@ -27,7 +27,7 @@
     <section class="gates">
       <h2>{r.gates.filter((g) => g.pass).length} von {r.gates.length} Schwellen erfüllt</h2>
       <p class="muted">Vor dem Lauf der zurückgehaltenen Welt festgelegt, in <code>config/gates.json</code>.</p>
-      <ul>{#each r.gates as g}<li class:fail={!g.pass}><span aria-hidden="true">{g.pass ? "✓" : "✕"}</span><span class="sr-only">{g.pass ? "erfüllt:" : "verfehlt:"}</span><span>{g.name}</span><span class="muted">{g.rule === "at least" ? "mind." : "höchstens"} {g.want}, erreicht {g.got}</span></li>{/each}</ul>
+      <ul>{#each r.gates as g, gi}<li class:fail={!g.pass}><span aria-hidden="true">{g.pass ? "✓" : "✕"}</span><span class="sr-only">{g.pass ? "erfüllt:" : "verfehlt:"}</span><span>{GATE[gi] ?? g.name}</span><span class="muted">{g.rule === "at least" ? "mind." : "höchstens"} {g.want}, erreicht {g.got}</span></li>{/each}</ul>
     </section>
   </div>
   <DesignTable designs={main} caption="Die Verfahren" />
@@ -36,7 +36,7 @@
     <table>
       <caption>Wahlabend</caption>
       <thead><tr><th scope="col">Verfahren</th><th scope="col">falsch ausgerufene Kreise je Abend</th><th scope="col">Ausrufen im Median um</th><th scope="col">Gemeinde-Minuten mit falschen Zahlen</th></tr></thead>
-      <tbody>{#each r.night as d}<tr class:desk={d.name === "desk"}><th scope="row">{d.label}</th><td>{num(d.stats.wrong_calls.value, 2)}</td><td>{clock(d.stats.median_call_minute.value)} Uhr</td><td>{num(d.stats.wrong_figures_minutes.value)}</td></tr>{/each}</tbody>
+      <tbody>{#each r.night as d}<tr class:desk={d.name === "desk"}><th scope="row">{DESIGN[d.name]?.label ?? d.label}</th><td>{num(d.stats.wrong_calls.value, 2)}</td><td>{clock(d.stats.median_call_minute.value)} Uhr</td><td>{num(d.stats.wrong_figures_minutes.value)}</td></tr>{/each}</tbody>
     </table>
   </div>
 {/if}
