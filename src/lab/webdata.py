@@ -31,10 +31,17 @@ def web_data(root: Path) -> str:
     # each world has its own simulated municipalities; the app draws the ones its report describes
     for which in ("dev", "heldout"):
         wms, _ = geography(load_config(which))
-        feats = [{"type": "Feature", "properties": {"ags": m.ags, "name": m.name, "kreis": m.kreis, "population": m.population},
-                  "geometry": _round(mapping(m.outline.simplify(0.0015, preserve_topology=True)))} for m in wms]
+        feats = [
+            {
+                "type": "Feature",
+                "properties": {"ags": m.ags, "name": m.name, "kreis": m.kreis, "population": m.population},
+                "geometry": _round(mapping(m.outline.simplify(0.0015, preserve_topology=True))),
+            }
+            for m in wms
+        ]
         (out / f"gemeinden-{which}.geojson").write_text(
-            json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+            json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
     ms, _ = geography(load_config("dev"))
     shutil.copy(root / "geo" / "bw_kreise.geojson", out / "kreise.geojson")
     for which in ("dev", "heldout"):
